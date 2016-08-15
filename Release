@@ -1,0 +1,8 @@
+Origin: Shade Zepheri
+Label: Shade’s repo
+Suite: stable
+Version: 1.0
+Codename: shaderepo
+Architectures: iphoneos-arm
+Components: main
+Description: Shade’s Cydia Repository

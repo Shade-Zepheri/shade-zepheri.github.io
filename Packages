@@ -1,0 +1,56 @@
+Package: com.shade.epsilon
+Version: 1.0
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /Debs/com.shade.epsilon.deb
+Size: 9980
+Installed-Size: 284
+MD5sum: 6395672895d810f9201377700327da0e
+Description: %hooks law for iOS 9
+Name: Epsilon
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.highergraphics
+Version: 1.0-1
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /Debs/com.shade.highergraphics_1.0-1_iphoneos-arm.deb
+Size: 3916
+Installed-Size: 120
+MD5sum: db52b01e0f1bc35d3259bc1fed28075c
+Description: Fork of HighGraphics by Poomsmart for 64-Bit
+Name: HigherGraphics
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.karma
+Version: 1.0-2+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /Debs/com.shade.karma_1.0-2+debug_iphoneos-arm.deb
+Size: 4602
+Installed-Size: 232
+MD5sum: 7e8aec5483e9b71355ff74d3cb5ee817
+Description: An awesome MobileSubstrate tweak!
+Name: Karma
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.ultra
+Version: 1.0-4+debug
+Section: Tweaks 
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /Debs/com.shade.ultra_1.0-4+debug_iphoneos-arm.deb
+Size: 6378
+Installed-Size: 248
+MD5sum: 8008450b398d63ae3246a9ad016f5073
+Description: An awesome MobileSubstrate tweak!
+Name: Ultra
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
