@@ -27,15 +27,15 @@ Name: HigherGraphics
 Author: Shade Zepheri <ziroalpha@gmail.com>
 
 Package: com.shade.karma
-Version: 1.0-2+debug
+Version: 1.0-3+debug
 Section: Tweaks
 Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: /Debs/com.shade.karma_1.0-2+debug_iphoneos-arm.deb
-Size: 6212
+Filename: /Debs/com.shade.karma_1.0-3+debug_iphoneos-arm.deb
+Size: 6156
 Installed-Size: 248
-MD5sum: a4f62b86373097ffc23a2b9e4c059aa1
+MD5sum: 1ce2eccc845e46f811874702b0be5d6b
 Description: LockScreen Test
 Name: Karma
 Author: Shade Zepheri <ziroalpha@gmail.com>
