@@ -6,10 +6,24 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Filename: /debs/com.shade.epsilon.deb
 Size: 9980
-Installed-Size: 284
 MD5sum: 6395672895d810f9201377700327da0e
 SHA1: a66053e6434f6fb26e7bb64fe72f97a63679e26a
 SHA256: 46b0b3a69d39cba57a461844bd0b3f6ea0c219f5faf4883aafe2133911a4787f
 Description: %hooks law for iOS 9
 Name: Epsilon
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.octane
+Version: 1.0
+Section: Widgets
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: com.matchstic.infostats2
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.octane.deb
+Size: 626678
+MD5sum: 1bdb35d4dc6f144b08cefdd127d2b7fc
+SHA1: 7bc10292a84b7eec27ccca7cb086ec5a85489414
+SHA256: cc63ea9a22512c486304ffd056b4276e99b94a99b14f339fb8f89ae590d911b3
+Description: Octane Full page widget. Requires either iWidgets or XenHTML. Kind of an open beta right now, the weather does not properly update, which is an issue on infostats 2's side.
+Name: Octane
 Author: Shade Zepheri <ziroalpha@gmail.com>
