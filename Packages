@@ -12,3 +12,18 @@ SHA256: 6ceb28107c38627fd4ddb16e85c85fe5a051c33c2bc40788dd49363176b0e4d4
 Description: Octane Full page widget. Requires either iWidgets or XenHTML. Kind of an open beta right now, the weather does not properly update, which is an issue on infostats 2's side.
 Name: Octane
 Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.hortus
+Version: 1.0
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.hortus.deb
+Size: 25318
+MD5sum: 0d79b7fe1db02964e921857a22e36490
+SHA1: 4e3bf4a6fa58f1aa3aff59bba35e4e1829f07f0c
+SHA256: 7d645372191f990b8a4a6342a5041424b8a4aa09d05130f5541a05faede1cdac
+Description: Hook's law for iOS 9
+Name: Hortus
+Author: Shade Zepheri <ziroalpha@gmail.com>
