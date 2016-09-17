@@ -1,15 +1,11 @@
-<div id="title">H6nry's Cydia repo</div>
-<div id="content">
-This is my Cydia repo.<br>
-Feel free to add it to your list! Maybe some awesome stuff waits for you here ;)<br><br>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://h6nry.github.io/repo/"><b>Open Cydia for me!</b></a><span id="ocy"></span><br><br>
-<hr>
-<h4>These are the packages on this repo</h4>
+<div id="title">Shade Zepheri's Cydia repo</div>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://shade-zepheri.github.io/"><b>Add Repo</b></a><span id="ocy"></span><br><br>
+
 <div id="samples" style="width:100%"></div>
 <script type="text/javascript">
 //Some fast iOS check.
 is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = ' Most probably, you will not be able to open Cydia.';
+if (!is_ios) document.getElementById('ocy').innerHTML = 'Or add http://shade-zepheri.github.io';
 
 //The functionality for the package list.
 function Apt_package() {
