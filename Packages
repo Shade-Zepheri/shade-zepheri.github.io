@@ -26,20 +26,6 @@ MD5sum: 9708a1cd70a6179efb5baaac376f6eaf
 SHA1: fe86d717eaa847a822f0fb33c8945e02f54f7c2f
 SHA256: 6020b362ab334a57b5a41c8df67d793ed86a3c63c262aa0845d3a9955d1db2ec
 Description: Hook's Law for iOS 9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
 Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.epsilon
-Version: 1.0
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.epsilon.deb
-Size: 9980
-MD5sum: 6395672895d810f9201377700327da0e
-SHA1: a66053e6434f6fb26e7bb64fe72f97a63679e26a
-SHA256: 46b0b3a69d39cba57a461844bd0b3f6ea0c219f5faf4883aafe2133911a4787f
-Description: First Attempt at Hook's Law for iOS 9
-Name: Epsilon
 Author: Shade Zepheri <ziroalpha@gmail.com>

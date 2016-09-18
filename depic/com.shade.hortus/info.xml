@@ -1,0 +1,38 @@
+<package>
+	<id>com.shade.hortus</id>
+	<name>Full Package</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Hook's Law for iOS 9</description>
+		<description>In Beta, Email me issues</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Preferences</description>
+			<image>hortus.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Reddit</name>
+			<url>https://www.reddit.com/u/ShadeZepheri</url>
+		</link>
+
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/ShadeZepheri</url>
+		</link>
+	</links>
+</package>
