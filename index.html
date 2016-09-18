@@ -1,11 +1,11 @@
 <div id="title">Shade Zepheri's Cydia repo</div>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://shade-zepheri.github.io/"><b>Add Repo</b></a><span id="ocy"></span><br><br>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://shade-zepheri.github.io/"><b>Add Repo</b></a><span id="ocy"></span><br><br>
 
 <div id="samples" style="width:100%"></div>
 <script type="text/javascript">
 //Some fast iOS check.
 is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = 'Or add http://shade-zepheri.github.io';
+if (!is_ios) document.getElementById('ocy').innerHTML = 'Or add https://shade-zepheri.github.io';
 
 //The functionality for the package list.
 function Apt_package() {
