@@ -12,7 +12,8 @@
 	</dependencies>
 	<descriptionlist>
 		<description>Octane Full Page Widget</description>
-		<description>Requires either iWidgets or XenHTML</br>Currently in a semi beta, weather does not properly update sometimes and is an issue on Infostats 2's side</description>
+		<description>Requires either iWidgets or XenHTML</description>
+		<description>Currently in a semi beta, weather does not properly update sometimes and is an issue on Infostats 2's side</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
