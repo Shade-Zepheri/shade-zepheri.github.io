@@ -21,10 +21,10 @@ Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Depends: com.matchstic.infostats2
 Architecture: iphoneos-arm
 Filename: /debs/com.shade.octane.101.deb
-Size: 626754
-MD5sum: c85e29ec6fdb819fd374f51114c3158d
-SHA1: 37b3fd46b28c27b165d99e843244355198ffcb23
-SHA256: 73273e87dcd64f44a98ee60724c9d30b3a52e1b395f80f3afea452eac3329b82
+Size: 625796
+MD5sum: e373078e7061a0554382dc6ebe0cdf5c
+SHA1: 0cdbaad7af30b055644d837139994712f7110b72
+SHA256: bc24425765c4372a1cc9d48242043c709c38de020ebf5c4b1e87657e36c7675d
 Description: Octane Full page widget. Requires either iWidgets or XenHTML. Kind of an open beta right now, the weather does not properly update, which is an issue on infostats 2's side.
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.octane
 Name: Octane
