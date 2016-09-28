@@ -2,5 +2,7 @@
 	<changes>
 		<version>1.0</version>
 		<change>Initial Release</change>
+		<version>1.0-41</version>
+		<change>Tried redoing prefs, gave up cuz nothing worked and current method decided to fix itself. Added app blacklisting and option to only enable/disable spring animations. Next is reset button, kinda need help on that</change>
 	</changes>
 </changelog>

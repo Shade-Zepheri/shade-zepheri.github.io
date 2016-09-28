@@ -45,3 +45,19 @@ Description: %hooks law for iOS 9
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
 Name: Hortus
 Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.hortus
+Version: 1.0-41+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.hortus_1.0-41+debug.deb
+Size: 27752
+MD5sum: 4fe0ac5f10ea401f630fd0b2b2a5ee75
+SHA1: 303ab0d3a1a71f70b6aa8c1a97f1cd3f0d43d738
+SHA256: fa771f077613def446836a206de5a07a8a57d8446fcbf2202f8dba09c9d72641
+Description: %hooks law for iOS 9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+Author: Shade Zepheri <ziroalpha@gmail.com>
