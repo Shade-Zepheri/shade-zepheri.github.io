@@ -68,11 +68,11 @@ Section: Tweaks
 Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.1.deb
-Size: 26276
-MD5sum: bea9ba0d6920bd589ddbd75504eeef37
-SHA1: 83273c82de63bfec9856910d590f9e525a1e755a
-SHA256: 92e82ec9faaf0135dc09001c1b9d261fc3bab38a23c921f39cd854a546cb7158
+Filename: /debs/com.shade.hortus_1.1-1.deb
+Size: 26264
+MD5sum: cac86818ac70c9d8aff99f50e39f1e91
+SHA1: 0fd1ac3964d578b4c76fe7ba4e64b5a98e62c004
+SHA256: 623bde6fae37b5ae3e0f05cd389367b949bf55da9d2a3f8a13d3948f72112cb2
 Description: %hooks law for iOS 9
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
 Name: Hortus
