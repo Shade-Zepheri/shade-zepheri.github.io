@@ -4,5 +4,7 @@
 		<change>Initial Release</change>
 		<version>1.0-41</version>
 		<change>Tried redoing prefs, gave up cuz nothing worked and current method decided to fix itself. Added app blacklisting and option to only enable/disable spring animations. Next is reset button, kinda need help on that</change>
+		<version>1.1</version>
+		<change>Added App Exemptions, On/Off for spring animations, and option to only enable in Spring Board</change>
 	</changes>
 </changelog>
