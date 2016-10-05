@@ -93,3 +93,18 @@ Description: Hook's Law for iOS 9
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
 Name: Hortus
 Author: Shade Zepheri
+
+Package: com.shade.stealmeme
+Version: 1.0
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.stealmeme_1.0_iphoneos-arm.deb
+Size: 6728
+MD5sum: 01c6c3904662c4d7be8387e2ed1d6eeb
+SHA1: 8c7fc5081ce03ccd3f3fc085e2de3c8c7caa1e9f
+SHA256: 73ece5119ed160ed663edbbb5949488622d2cef677db83f05e199c6a43bd6830
+Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
+Name: StealMeme
+Author: Shade Zepheri
