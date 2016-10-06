@@ -92,7 +92,23 @@ SHA256: fe02c68309693100423336405f787347e1045af398412b52eb3846f23835247e
 Description: Hook's Law for iOS 9
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
 Name: Hortus
-Author: Shade Zepheri
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.hortus
+Version: 1.2
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.hortus_1.2_iphoneos-arm.deb
+Size: 26030
+MD5sum: b94f5b412132a05995266900d19a85bd
+SHA1: b3f5995f15d8f1e836849c8e62172b3d7f82028d
+SHA256: d7bd915ee7288b7451a041f16a03616377fab05e7c3237fc3b658cb58383c2f9
+Description: Hook's Law for iOS 9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+Author: Shade Zepheri <ziroalpha@gmail.com>
 
 Package: com.shade.stealmeme
 Version: 1.0
@@ -107,4 +123,19 @@ SHA1: 8c7fc5081ce03ccd3f3fc085e2de3c8c7caa1e9f
 SHA256: 73ece5119ed160ed663edbbb5949488622d2cef677db83f05e199c6a43bd6830
 Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
 Name: StealMeme
-Author: Shade Zepheri
+Author: Shade Zepheri <ziroalpha@gmail.com>
+
+Package: com.shade.stealmeme
+Version: 1.1
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.stealmeme_1.1_iphoneos-arm.deb
+Size: 6876
+MD5sum: ab977c6fae28d83c4a7db22c5a441496
+SHA1: 8f40e5e44693c2118cd851b66ab27467a87f884d
+SHA256: 68122d495854f83218440c410fac7cc4f2a52387948eda684c6f1ba25a0ced6c
+Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
+Name: StealMeme
+Author: Shade Zepheri <ziroalpha@gmail.com>
