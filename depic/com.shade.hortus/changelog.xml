@@ -9,6 +9,6 @@
 		<version>1.1-1</version>
 		<change>Internal Changes (switched from float to double cuz y not)</change>
 		<version>1.2</version>
-		<change>Major Preference rewrite (doesnt require respring anymore yay!) but i did have to remove app blacklisting for now (sorry). Changes to sliders now for convinience and to prevent yall from bootlooping, up next is the reset prefs button (im getting there). And the infinite update loop should be fixed (i really hope)</change>
+		<change>Major Preference rewrite (doesnt require respring anymore yay!) but i did have to remove app blacklisting for now (sorry). Changes to sliders now for convinience and to prevent yall from bootlooping, up next is the reset prefs button (im getting there). And the infinite update loop should be fixed (i really hope). YOU CAN TAP THE VALUE NEXT TO SLIDER TO ENTER AN EXACT VALUE</change>
 	</changes>
 </changelog>
