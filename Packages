@@ -156,3 +156,4 @@ SHA256: 68122d495854f83218440c410fac7cc4f2a52387948eda684c6f1ba25a0ced6c
 Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
 Name: StealMeme
 Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 280
