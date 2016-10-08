@@ -1,7 +1,7 @@
 <package>
 	<id>com.shade.hortus</id>
 	<name>Full Package</name>
-	<version>1.2.1</version>
+	<version>1.2.1.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.4</miniOS>
@@ -24,7 +24,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Ill call this the Mixed bag update(see full changelog)</change>
+		<change>Hopefully Fixed Facebook and other apps crashing</change>
 	</changelog>
 	<links>
 		<link>
