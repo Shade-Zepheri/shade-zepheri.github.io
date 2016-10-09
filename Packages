@@ -144,6 +144,22 @@ Name: Hortus
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 288
 
+Package: com.shade.hortus
+Version: 1.3
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.hortus_1.3_iphoneos-arm.deb
+Size: 33082
+MD5sum: 397714b0608b8cc51133e88a59a7e4dd
+SHA1: 2138b84249d40dd483f9b7ecc25b5b51082c04d7
+SHA256: 21d09b227056fe47b3423aeb7d7a28c625a7194c35a2122fa1be3e726e338a1b
+Description: Hook's Law for iOS 9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 280
 
 Package: com.shade.stealmeme
 Version: 1.0
