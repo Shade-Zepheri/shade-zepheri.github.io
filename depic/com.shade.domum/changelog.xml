@@ -2,5 +2,7 @@
 	<changes>
 		<version>0.6</version>
 		<change>Initial Release</change>
+		<version>0.6.1</version>
+		<change>Fixed major flaw where button was created everytime device onlocked, now only created once</change>
 	</changes>
 </changelog>

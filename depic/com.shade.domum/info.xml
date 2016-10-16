@@ -1,7 +1,7 @@
 <package>
 	<id>com.shade.domum</id>
 	<name>Full Package</name>
-	<version>0.6</version>
+	<version>0.6.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.1</miniOS>
@@ -18,7 +18,7 @@
 	<screenshots>
 	</screenshots>
 	<changelog>
-		<change>Last Beta, Added Reset Prefs and BetterPSSliderTableCell</change>
+		<change>Emergency Bugfix, no new features yet</change>
 	</changelog>
 	<links>
 		<link>
