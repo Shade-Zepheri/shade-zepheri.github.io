@@ -191,3 +191,20 @@ Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Requ
 Name: StealMeme
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 280
+
+Package: com.shade.domum
+Version: 0.6
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.domum_0.6_iphoneos-arm.deb
+Size: 13828
+MD5sum: 68486a837c12b0fe0aa565b1621b7748
+SHA1: 9be951301c46e6ecdd084a5ab608532f9ea3af79
+SHA256: 4df344fa45c76ccb2477f9efc12a35d6b204cf9dc60245b0196836f05ca275e5
+Description: Onscreen Home Button
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
+Name: Domum
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 260

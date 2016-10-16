@@ -1,0 +1,40 @@
+<package>
+	<id>com.shade.domum</id>
+	<name>Full Package</name>
+	<version>0.6</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.1</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Onscreen Home button</description>
+		<description>In Alpha/Beta, Email me issues. WARNING PREFERENCES DO NOT WORK YET!!!</description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+		<change>Last Beta, Added Reset Prefs and BetterPSSliderTableCell</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Reddit</name>
+			<url>https://www.reddit.com/u/ShadeZepheri</url>
+		</link>
+
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/ShadeZepheri</url>
+		</link>
+
+		<link>
+			<name>Slack</name>
+			<url>https://goo.gl/forms/h0ZnRju1dtGkfGAN2</url>
+		</link>
+
+	</links>
+</package>
