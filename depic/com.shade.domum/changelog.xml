@@ -4,5 +4,7 @@
 		<change>Initial Release</change>
 		<version>0.6.1</version>
 		<change>Fixed major flaw where button was created everytime device onlocked, now only created once</change>
+		<version>0.6.1</version>
+		<change>Started Activator, overhaul of prefs, domum now hides during screenshot</change>
 	</changes>
 </changelog>
