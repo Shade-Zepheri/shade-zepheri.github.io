@@ -6,7 +6,7 @@
 		<change>Fixed major flaw where button was created everytime device onlocked, now only created once</change>
 		<version>0.7</version>
 		<change>Started Activator, overhaul of prefs, domum now hides during screenshot</change>
-		<version>0.7</version>
+		<version>0.8</version>
 		<change>Rewrote the whole tweak, so thats why there were no updates, Added option to hide on lockscreen, made button moveable and option to reset the position, added activator gestures to show, hide and toggle, Hides during Screenshot, Fixed and made settings prettier? Email me if you want any other features. Im not sure about the autohide or resize feature, but im working on it. ABOUT DONATIONS: I cannot accept donations as I am underage ¯\_(ツ)_/¯. </change>
 	</changes>
 </changelog>
