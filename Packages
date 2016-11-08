@@ -284,10 +284,10 @@ Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Depends: mobilesubstrate, preferenceloader, libactivator
 Architecture: iphoneos-arm
 Filename: /debs/com.shade.domum_0.9.5_iphoneos-arm.deb
-Size: 70134
-MD5sum: 84e98d4ca4ef54291361baf2f8c99823
-SHA1: 959f33261b951e8908cb3fd79b0a932464755e24
-SHA256: 5e4e3881546a2b4ec7fd4aab35c6c4add0bc9e804473d9b4f204cfe6adb0ba09
+Size: 70156
+MD5sum: 5271eb2bdfe06737515e4cf67c5a61e9
+SHA1: 4e3f01ea0492bef3220ba662837ec2e8340b0eac
+SHA256: 9ee4fcaac3901eef637db9b9859d2f62a33aea1460c9c584c5f833e61afe60b9
 Description: Onscreen Home Button
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
 Name: Domum
