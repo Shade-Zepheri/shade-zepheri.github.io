@@ -293,3 +293,20 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
 Name: Domum
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 368
+
+Package: com.shade.splyce
+Version: 0.5
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, libactivator, applist
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.splyce_0.5_iphoneos-arm.deb
+Size: 9760
+MD5sum: 3041da577411d6a20d2c4dd6a5ddd4a9
+SHA1: a53b7ddac83972b81ea4512479ca033dafdbaeec
+SHA256: 6c0e534c81422ad4880e0615fd5a1d41f0069574f7d3223a66af4c5b006fd89f
+Description: SmartClose for iOS9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
+Name: Splyce
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 160
