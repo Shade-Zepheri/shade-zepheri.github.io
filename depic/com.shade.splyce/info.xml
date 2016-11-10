@@ -1,7 +1,7 @@
 <package>
 	<id>com.shade.domum</id>
 	<name>Full Package</name>
-	<version>0.5</version>
+	<version>0.6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -11,14 +11,13 @@
 		<package>mobilesubstrate</package>
 		<package>preferenceloader</package>
 		<package>activator</package>
-		<package>applist</package>
 	</dependencies>
 	<descriptionlist>
 		<description>SmartClose for iOS 9</description>
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<changelog>
-		<change>First Beta</change>
+		<change>Add App killing feature, RIP app exemptions</change>
 	</changelog>
 	<links>
 		<link>
