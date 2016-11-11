@@ -4,5 +4,7 @@
 		<change>Initial Release</change>
 		<version>0.6</version>
 		<change>Add ability to kill all apps. Since the method straight up kills all apps, impossible to add app exemptions</change>
+		<version>0.7</version>
+		<change>Removed Ability to kill apps as it is no longer needed. Fixed a typo which may have broken app freezing</change>
 	</changes>
 </changelog>
