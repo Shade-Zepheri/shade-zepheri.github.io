@@ -12,7 +12,9 @@
 		<change>Sorry for lack of Updates, was on retreat. Made double tap open app switcher and added boundaries so you cant drag the button offscreen</change>
 		<version>0.9</version>
 		<change>Made double tap faster. Started theme support. To make a theme, create a folder in /Library/Application Support/Domum/ called YOURTHEMENAME.bundle In that make your png 52x52 and call it "home.png".</change>
-		<version>0.9</version>
+		<version>0.9.5</version>
 		<change>Fixed crashes, fixed theme support (caused by faulty loading of themes, changed how loaded). Add Resizing options but it is a slider in the settings, not a pinch. If you still want a pinch to resize email me. Next up is saving the position after respring and activator optional (finally)</change>
+		<version>0.9.9</version>
+		<change>Removed Theme support as it caused too many issues and there wasnt enough community support. Last Beta SUBMIT CRASHES ASAP</change>
 	</changes>
 </changelog>

@@ -1,7 +1,7 @@
 <package>
 	<id>com.shade.domum</id>
 	<name>Full Package</name>
-	<version>0.9.5</version>
+	<version>0.9.9</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.1</miniOS>
@@ -10,7 +10,7 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<package>preferenceloader</package>
-		<package>Activator (going to be optional soon)</package>
+		<package>Activator (going to be optional?)</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Onscreen Home button</description>
@@ -23,7 +23,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Crashes hopefully, resize IN SETTINGS PANE READ FULL CHANGELOG</change>
+		<change>Removed Themes</change>
 	</changelog>
 	<links>
 		<link>
