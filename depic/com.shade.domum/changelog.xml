@@ -16,7 +16,9 @@
 		<change>Fixed crashes, fixed theme support (caused by faulty loading of themes, changed how loaded). Add Resizing options but it is a slider in the settings, not a pinch. If you still want a pinch to resize email me. Next up is saving the position after respring and activator optional (finally)</change>
 		<version>0.9.9</version>
 		<change>Removed Theme support as it caused too many issues and there wasnt enough community support. Last Beta SUBMIT CRASHES ASAP</change>
-		<version>0.9.9</version>
+		<version>0.9.9.5</version>
 		<change>Removed activator dependency finally. Last beta, but am gonna rewrite eventually</change>
+		<version>0.9.9.6</version>
+		<change>Made switcher gesture more reliable by increasing time to double tap</change>
 	</changes>
 </changelog>

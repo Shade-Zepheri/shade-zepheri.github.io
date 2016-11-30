@@ -1,7 +1,7 @@
 <package>
 	<id>com.shade.domum</id>
 	<name>Full Package</name>
-	<version>0.9.9.5</version>
+	<version>0.9.9.6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.1</miniOS>
@@ -22,7 +22,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Removed activator dependency</change>
+		<change>Made swithcer gesture more reliable</change>
 	</changelog>
 	<links>
 		<link>
