@@ -20,5 +20,7 @@
 		<change>Removed activator dependency finally. Last beta, but am gonna rewrite eventually</change>
 		<version>0.9.9.6</version>
 		<change>Made switcher gesture more reliable by increasing time to double tap</change>
+		<version>0.9.9.9</version>
+		<change>Tinted Prefs, rewrote tweak as original looks like it was written by 5 year old. Trade off is that I had to make the single tap recognizer slower to make double tap more reliable. OFFCIALLY LAST BETA EMAIL ISSUES ASAP, O yeah I may redo depicitions as this looks like crap</change>
 	</changes>
 </changelog>
