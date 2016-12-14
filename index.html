@@ -1,136 +1,119 @@
-<div id="title">Shade Zepheri's Cydia repo</div>
-<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://shade-zepheri.github.io/"><b>Add Repo</b></a><span id="ocy"></span><br><br>
+<html>
+	<head>
+		<title>Cydia Repo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<div id="samples" style="width:100%"></div>
-<script type="text/javascript">
-//Some fast iOS check.
-is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
-if (!is_ios) document.getElementById('ocy').innerHTML = 'Or add https://shade-zepheri.github.io';
+		<link rel="icon" href="CydiaIcon.png">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	</head>
+	<body>
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white" role="navigation">
+					<div class="nav-wrapper container">
+						<a id="logo-container" href="#" class="brand-logo">Zepheri</a>
+						<ul class="right hide-on-med-and-down">
+							<li class="active"><a href="">Home</a></li>
+							<li><a class="dropdown-button" href="" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<ul id='dropdown1' class='dropdown-content'>
+							  <li><a href="src/tweaks.html">Tweaks</a></li>
+							  <li><a href="src/widgets.html">Widgets</a></li>
+							  <li class="divider"></li>
+							  <li><a href="src/community.html">Communtiy Projects</a></li>
+							</ul>
+						</ul>
 
-//The functionality for the package list.
-function Apt_package() {
-	this.Package;
-	this.Version;
-	this.Section;
-	this.Installed_Size;
-	this.Description;
-	this.Name;
-	this.Author;
-	this.Filename;
-	this.Depiction;
-} //Constructor for Apt_package object.
+						<ul id="nav-mobile" class="side-nav">
+							<li><a href="#">Navbar Link</a></li>
+						</ul>
+						<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="parallax-container">
+		    <div class="parallax">
+					<img src="src/images/forest.jpg" style="display:block;">
+				</div>
+		  </div>
 
-function parsePackage(string) { //TODO: Make sure no key is undefined
-	var a_package = new Apt_package();
-	var lines = string.split('\n');
+		  <div class="container">
+		  	<div class="section">
 
-	var c;
-	for (c = 0; c < lines.length; ++c) {
-		var line = lines[c];
-		if (line.search(':') == -1) continue;
+					<div class="row">
+		        <div class="col s12 center">
+		          <h3><i class="mdi-content-send brown-text"></i></h3>
+		          <h2 class="light">Shade's Cydia Repo</h4>
+							<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://shade-zepheri.github.io/" class="waves-effect waves-green btn-flat">Add Repo</a>
+		        </div>
+		      </div>
 
-		var components = line.split(':'); //Quick and dirty.
-		var key = components.shift();
-		var value = components.join(':').trim();
+		  		<div class="row">
 
-		switch (key) {
-			case 'Package':
-				a_package.Package = value;
-				break;
-			case 'Version':
-				a_package.Version = value;
-				break;
-			case 'Section':
-				a_package.Section = value;
-				break;
-			case 'Installed-Size':
-				a_package.Installed_Size = value;
-				break;
-			case 'Description':
-				a_package.Description = value;
-				break;
-			case 'Name':
-				a_package.Name = value;
-				break;
-			case 'Author':
-				a_package.Author = value;
-				break;
-			case 'Filename':
-				a_package.Filename = value;
-				break;
-			case 'Depiction':
-				a_package.Depiction = value;
-				break;
-			default:
-				break; //Unknown key.
-		}
-	}
+		  			<div class="col s12 m4">
+		  				<div class="icon-block">
+								<h2 class="center brown-text"><i class="material-icons">code</i></h2>
+		            <h5 class="center">Tweaks</h5>
 
-	if (a_package.Package == undefined) return undefined;
+		            <p class="light">Providing the highest quality tweaks. From community requests to updating outdated tweaks.</p>
+		  				</div>
+		  			</div>
 
-	return a_package;
-}
+		  			<div class="col s12 m4">
+		  				<div class="icon-block">
+								<h2 class="center brown-text"><i class="material-icons">brush</i></h2>
+		            <h5 class="center">Themes</h5>
 
-function parsePackages(parse) {
-	var depictions = {};
-	while (parse.indexOf('\r') >= 0) parse = parse.replace('\r', ''); //Remove all carriage returns, which should not be there, anyways.
+		            <p class="light">Lorem ipsum dolor sit amet yeah yeah I don't know why this is a section but it looks cool so why not.</p>
+		  				</div>
+		  			</div>
 
-	var packages = parse.split('\n\n');
+		  			<div class="col s12 m4">
+		  				<div class="icon-block">
+								<h2 class="center brown-text"><i class="material-icons">http</i></h2>
+		            <h5 class="center">Widgets</h5>
 
-	for (var c = 0; c < packages.length; ++c) {
-		var a_package = parsePackage(packages[c]);
+		            <p class="light">Not a major aspect of my projects but I have developed and released a few widgets.</p>
+		  				</div>
+		  			</div>
 
-		if (a_package == undefined) continue;
+		  		</div>
+		  	</div>
+		  </div>
 
-		var pid = a_package.Package;
+		  <div class="parallax-container">
+		    <div class="parallax">
+					<img src="src/images/mountain.jpg" style="display:block;">
+				</div>
+		  </div>
+		</main>
 
-		if (depictions[pid] && (parseFloat(a_package.Version) >= parseFloat(depictions[pid].Version))) { //Only keep the latest version.
-			depictions[pid] = a_package;
-		} else if (depictions[pid] == undefined) { //Package not added yet, add.
-			depictions[pid] = a_package;
-		}
-	}
+		<footer class="page-footer white">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col l6 s12">
+	          <h5 class="black-text">About</h5>
+	          <p class="grey-text ">Just a Highschooler trying to make an impact on the community</p>
 
-    return depictions;
-}
 
-var xhr;
-if (window.XMLHttpRequest) {
-    xhr = new XMLHttpRequest();
-} else if (window.ActiveXObject) {
-    xhr = new ActiveXObject('Microsoft.XMLHTTP');
-}
+	        </div>
+	        <div class="col l3 s12 offset-l3">
+	          <h5 class="black-text">Connect</h5>
+	          <ul>
+	            <li><a class="black-text" href="https://www.reddit.com/user/ShadeZepheri/">Reddit</a></li>
+	            <li><a class="black-text" href="mailto:ziroalpha@gmail.com">Email</a></li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+	  </footer>
 
-xhr.onreadystatechange = function() {
-	if (!(xhr.readyState == 4)) return;
-
-	var depictionArray = parsePackages(xhr.responseText);
-	if (!depictionArray) return;
-
-	for (key in depictionArray) {
-		var pack = depictionArray[key];
-
-		//The following code is very messy. You have been warned.
-		document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
-			'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
-			pack.Name + ' (' + pack.Version + ')</a><br>' +
-			'<div id="u_' + pack.Package + '" style="display:none;">' +
-			'&nbsp;&nbsp;' + pack.Description + '<br>' +
-			(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://h6nry.github.io/repo/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
-			'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
-			'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>' +
-			'</div>';
-	}
-};
-
-xhr.open("GET","Packages");
-xhr.send();
-</script>
-</div>
-
-<!-- include this where you want the standard design template from here... -->
-<script type="text/javascript" src="../template.js"></script>
-<noscript>
-As this website uses JavaScript to generate a semi-dynamically created page, you need to activate JavaScript!
-</noscript>
-<!-- ...until here! -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>
