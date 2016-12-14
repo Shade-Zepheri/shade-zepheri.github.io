@@ -3,8 +3,9 @@
 
     $(".dropdown-button").dropdown();
     $('.parallax').parallax();
+    $(".button-collapse").sideNav();
 
-  }); 
+  });
 })(jQuery);
 
 function getParameterByName(name, url) {
