@@ -81,7 +81,7 @@
                   $("#changelog").html($(xml).find('package>changelog>change').text());
                   var ver = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),$(xml).find('package>compatibility>firmware>maxiOS').text(), function(message,isBad){
                     alert(message);
-                  })
+                  });
 
   								$(xml).find('package').each(function(){
   									$(this).find("version").each(function(){
