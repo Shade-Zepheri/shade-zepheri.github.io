@@ -1,239 +1,100 @@
-<html lang="en">
-<head>
-  <title>Depic</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.querystring.js"></script>
-  <script type="text/javascript" src="js/data-loader-engine.js"></script>
-  <script type="text/javascript" src="js/ios_version_check.js"></script>  <style>
-	@media (max-width: 767px) {
-		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
-	}
-	.jumbotron-bg {
-		background: green
-	}
-  </style>
+<html>
+  <head>
+    <title>Depic</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body>
+
+    <main>
+      <div class="container">
+        <div class="section">
+
+          <div class="row">
+            <div class="col s12 m8">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <p id="compatibilityCheck">Your iOS version is supported!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m8">
+              <ul class="collapsible popout" data-collapsible="expandable">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
+                  <div class="collapsible-body"><p id="description">Onscreen home button</p></div>
+                  <div class="collapsible-body"><p>In Beta, Email me issues</p></div>
+                  <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><span class="new badge" id="badge" data-badge-caption="">0.9.9.9</span><i class="material-icons">code</i>In This Version</div>
+                  <div class="collapsible-body"><p id="changelog">Rewrote tweak and Nicer prefs</p></div>
+                  <div class="collapsible-body"><a id="changelogLink" href="">Full Changelog</a></div>
+                </li>
+                <li id="dependencies">
+                  <div class="collapsible-header"><i class="material-icons">extension</i>Dependencies</div>
+                  <div class="collapsible-body"><p>mobilesubstrate</p></div>
+                  <div class="collapsible-body"><p>preferenceloader</p></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">link</i>Links</div>
+                  <div class="collapsible-body"><a href="https://twitter.com/ShadeZepheri">Twitter</a></div>
+                  <div class="collapsible-body"><a href="https://www.reddit.com/user/ShadeZepheri/">Reddit</a></div>
+                  <div class="collapsible-body"><a href="https://shadebetatweaks.herokuapp.com/">Slack</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.min.js"></script>
+  <script src="src/script.js"></script>
   <script type="text/javascript">
-
-	bundleid = $.QueryString['p'];
-    var contentBlocks = 	{
-    	"#packageName" :
-			{"type":"text","source":"package>name"}
-		,"#packageHeader" :
-			{"type":"custom"
-				,"source":"package>name"
-				,"render":function(element,source){
-					if (navigator.userAgent.search(/Cydia/) != -1) {
-						$(element).hide();
-					}
-				}
-			}
-		,"#packageVersion" :
-			{"type":"text","source":"package>version"}
-		,"#compatibilityCheck" :
-			{"type":"custom"
-				,"source":"package>compatibility>firmware"
-				,"render":function(element,source){
-					var res = ios_version_check(
-						$(source).find("miniOS").text(),
-						$(source).find("maxiOS").text(),
-						$(source).find("otherVersions").text(),
-						function(message,isBad) {
-							$(element).html(message)
-							.addClass( (isBad?'alert-danger':'alert-success'));
-						}
-					);
-					if(res==0) {$(element).hide()}
-				}
-			}
-        ,"#descriptionList"	:
-			{"type":"list"
-				,"source" :"package>descriptionlist>description"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
-			}
-        ,"#screenshotsLink"	:
-			{"type":"custom"
-				,"source" :"package>screenshots>screenshot"
-				,"render":function(element, source){
-					$("#screenshotsLink").remove();
-					if ($(source).size() == 0) {
-						return
-					}
-					// create screenshots link
-					$("#descriptionList").append(
-						$("<li class='list-group-item'>").append(
-							$("<a>")
-								.attr("href","screenshots.html?p="+bundleid)
-								.text("Screenshots")
-						)
-					);
-				}
-			}
-		,"#versionBadge" : {"type":"text","source":"package>version"}
-        ,"#changesList"	:
-			{"type":"list"
-				,"source" :"package>changelog>change"
-				,"reverseRender"    : true
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#changesList").hide()}
-			}
-		,"#changelogLink" :
-			{"type":"link"
-				,"text":"Full Changelog"
-				,"url":"changelog.html"
-				,"params":[
-					['p',bundleid]
-				]
-			}
-		,"#dependencyList" :
-			{"type":"list"
-				,"source" :"package>dependencies>package"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"emptyListCallback":function(e){$("#dependenciesContainer").remove()}
-			}
-		,"#externalLinksList" :
-			{"type":"custom"
-				,"source" :"package>links>link"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-				,"render":function(element,source){
-					if ($(source).size()==0){
-						$('#externalLinksContainer').remove()
-					}
-
-					$.each(source, function(index,data){
-						var p = $("<li class='list-group-item'>");
-						$(p).append(
-							$("<a>")
-							.attr("href",$(data).find('url').text())
-							.text($(data).find('name').text())
-						);
-						$(element).append(p);
-					});
-				}
-			}
-	}
-    $( document ).ready(function() {
+      $(document).ready(function() {
+        var name = getParameterByName('p');
         $.ajax({
-            type    : "GET",
-            dataType: "xml",
-            url     : (bundleid+"/info.xml"),
-            success : function(xml){
-				document.title = $(xml).find("package>name").text();
-            	data_loader_engine(contentBlocks,xml)
+  		         type: "GET",
+  		         url: (name+"/info.xml"),
+  		         cache: false,
+  		         dataType: "xml",
+  		         success: function(xml) {
+                  $("#changelog").html($(xml).find('package>changelog>change').text());
 
-            },
-			cache   : false,
-            error: function() {
-                $("#packageError").show();
-				$("#packageInformation").hide();
-            }
-        }); //ajax
+  								$(xml).find('package').each(function(){
+  									$(this).find("version").each(function(){
+  										var version = $(this).text();
+  										$('#badge').html(version);
+  									});
 
-    }); // ready
+                    $(this).find("dependencies").each(function(){
+                      $(this).find("package").each(function(){
+                        var dependName = $(this).text();
+                        $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
+                      });
+                    });
+
+                    $(this).find("descriptionlist").each(function(){
+                      $(this).find("description").each(function(){
+                        var description = $(this).text();
+                        $('#description').html(description);
+                      });
+                    });
+
+  								});
+  		         }
+  		     });
+
+      });
   </script>
-</head>
-<body>
-<br />
-
-<div id="packageInformation">
-
-	<div id="packageHeader" class="container">
-		<div class="jumbotron">
-			<h1 id="packageName"></h1>
-			<p>Made by ShadeZepheri</p>
-		</div>
-	</div>
-
-	<div class="container">
-	  <div id="compatibilityCheck" class="alert"></div>
-	</div>
-
-	<div class="container">
-    <h5>DESCRIPTION</h5>
-    <ul id="descriptionList" class="list-group">
-      <li id="screenshotsLink" />
-    </ul>
-	</div>
-
-	<div class="container">
-    <h5>IN THIS VERSION <span id="versionBadge" class="badge" /></h5>
-    <ul id="changesList" class="list-group">
-      <li id="changelogLink" class="list-group-item" />
-    </ul>
-	</div>
-	<div class="container" id="dependenciesContainer">
-    <h5>DEPENDENCIES</h5>
-    <ul id="dependencyList" class="list-group">
-    </ul>
-	</div>
-
-	<div class="container" id="externalLinksContainer">
-    <h5>LINKS</h5>
-    <ul id="externalLinksList" class="list-group">
-    </ul>
-	</div>
-
-</div>
-<div id="packageError" style="display:none">
-	<div class="container">
-	  <div class="alert alert-danger">
-		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
-	  </div>
-	</div>
-</div>
-
-<script type="text/javascript">
-    var repoContents = 	{
-		"#repoFooterLinks" :
-			{"type":"custom"
-				,"source":"repo>footerlinks>link"
-				,"render":function(element,source) {
-					$.each(source, function(index,data) {
-						var p = $("<li class='list-group-item'>");
-						var a = $("<a class='btn btn-link'>");
-						a.attr("href",$(data).find('url').text());
-						if ($(data).find('iconclass')) {
-							var i =  $("<span>")
-							i.attr("class",$(data).find('iconclass').text());
-							console.log(i);
-							$(a).append(i);
-						}
-						$(a).append(' '+$(data).find('name').text());
-						$(p).append(a)
-						$(element).append(p);
-					}); //each
-				} //render
-			}
-	}
-    $( document ).ready(function() {
-        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-            success : function(xml){
-				data_loader_engine(repoContents,xml);
-				if (navigator.userAgent.search(/Cydia/) != -1) {
-					$("a").each(function() {
-						console.log($(this).text());
-						$(this).attr("target","_blank");
-					});
-				}
-			},
-            error: function() {$("#contactInfo").hide()}
-        }); //ajax
-
-
-    }); // ready
-</script>
-
-<div id="contactInfo">
-	<div class="container">
-		<h5>CONTACT</h5>
-		<ul class="list-group" id="repoFooterLinks">
-		</ul>
-	</div>
-</div>
-
-
-</body>
+  </body>
 </html>

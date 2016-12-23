@@ -1,5 +1,5 @@
 <package>
-	<version>0.8</version>
+	<version>0.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -8,12 +8,13 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<package>preferenceloader</package>
-		<package>activator</package>
+		<package>applist</package>
+		<package>RocketBootstrap</package>
 	</dependencies>
 	<descriptionlist>
-		<description>SmartClose for iOS 9</description>
+		<description>ReachApp for iOS 9</description>
 	</descriptionlist>
 	<changelog>
-		<change>Added App Exemptions</change>
+		<change>Initial Release</change>
 	</changelog>
 </package>
