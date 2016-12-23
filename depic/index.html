@@ -18,7 +18,7 @@
             <div class="col s12 m8">
               <div class="card blue-grey darken-1">
                 <div class="card-content white-text">
-                  <p id="compatibilityCheck">Your iOS version is supported!</p>
+                  <p id="compatibilityCheck">Your iOS version is supported! (Doesnt Work Yet)</p>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@
               $("#badge").html($(xml).find('package>version').text());
   						$("#description").html($(xml).find('package>descriptionlist>description').text());
 
-              $(this).find("dependencies>package").each(function(){
+              $(xml).find("dependencies>package").each(function(){
                 var dependName = $(this).text();
                 $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
               });
