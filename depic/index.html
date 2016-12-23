@@ -81,18 +81,16 @@
                  var version = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),$(xml).find('package>compatibility>firmware>maxiOS').text(),function(message,isBad){
                    $("#compatibilityCheck").html(message);
                  });
-                  $("#changelog").html($(xml).find('package>changelog>change').text());
-                  $("#badge").html($(xml).find('package>version').text());
-  								$("#description").html($(xml).find('package>descriptionlist>description').text());
+                $("#changelog").html($(xml).find('package>changelog>change').text());
+                $("#badge").html($(xml).find('package>version').text());
+    						$("#description").html($(xml).find('package>descriptionlist>description').text());
 
-                  $(this).find("dependencies").each(function(){
-                    $(this).find("package").each(function(){
-                      var dependName = $(this).text();
-                      $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
-                    });
+                $(this).find("dependencies").each(function(){
+                  $(this).find("package").each(function(){
+                    var dependName = $(this).text();
+                    $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
                   });
-
-  								});
+                });
   		         }
   		     });
 
