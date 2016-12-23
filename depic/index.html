@@ -60,6 +60,17 @@
   <script src="../js/materialize.min.js"></script>
   <script src="src/script.js"></script>
   <script type="text/javascript">
+  function getParameterByName(name, url) {
+      if (!url) {
+        url = window.location.href;
+      }
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
       $(document).ready(function() {
         var name = getParameterByName('p');
         $.ajax({
