@@ -8,7 +8,8 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<package>preferenceloader</package>
-		<package>activator</package>
+		<package>Activator</package>
+		<package>AppList</package>
 	</dependencies>
 	<descriptionlist>
 		<description>SmartClose for iOS 9</description>

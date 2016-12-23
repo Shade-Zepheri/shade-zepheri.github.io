@@ -78,6 +78,9 @@
   		         cache: false,
   		         dataType: "xml",
   		         success: function(xml) {
+                 var version = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),$(xml).find('package>compatibility>firmware>maxiOS').text(),function(message,isBad){
+                   $("#compatibilityCheck").html(message);
+                 });
                   $("#changelog").html($(xml).find('package>changelog>change').text());
                   $("#badge").html($(xml).find('package>version').text());
   								$("#description").html($(xml).find('package>descriptionlist>description').text());
