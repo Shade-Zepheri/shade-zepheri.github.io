@@ -79,29 +79,15 @@
   		         dataType: "xml",
   		         success: function(xml) {
                   $("#changelog").html($(xml).find('package>changelog>change').text());
-                  var ver = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),$(xml).find('package>compatibility>firmware>maxiOS').text(), function(message,isBad){
-                    alert(message);
+                  $("#badge").html($(xml).find('package>version').text());
+  								$("#description").html($(xml).find('package>descriptionlist>description').text());
+
+                  $(this).find("dependencies").each(function(){
+                    $(this).find("package").each(function(){
+                      var dependName = $(this).text();
+                      $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
+                    });
                   });
-
-  								$(xml).find('package').each(function(){
-  									$(this).find("version").each(function(){
-  										var version = $(this).text();
-  										$('#badge').html(version);
-  									});
-
-                    $(this).find("dependencies").each(function(){
-                      $(this).find("package").each(function(){
-                        var dependName = $(this).text();
-                        $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
-                      });
-                    });
-
-                    $(this).find("descriptionlist").each(function(){
-                      $(this).find("description").each(function(){
-                        var description = $(this).text();
-                        $('#description').html(description);
-                      });
-                    });
 
   								});
   		         }
