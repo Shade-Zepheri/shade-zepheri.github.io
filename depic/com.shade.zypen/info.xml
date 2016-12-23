@@ -1,5 +1,5 @@
 <package>
-	<version>0.0.1</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -15,6 +15,6 @@
 		<description>ReachApp for iOS 9</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Initial Release, EXTREMELY UNSTABLE, MAINLY RELEASED TO SEE ALL THE BUGS, REPEAT VERY UNSTABLE</change>
 	</changelog>
 </package>
