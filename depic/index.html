@@ -57,6 +57,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../js/materialize.min.js"></script>
   <script src="src/script.js"></script>
+  <script src="src/ios_version_check.js"></script>
   <script type="text/javascript">
   function getParameterByName(name, url) {
       if (!url) {
@@ -78,6 +79,9 @@
   		         dataType: "xml",
   		         success: function(xml) {
                   $("#changelog").html($(xml).find('package>changelog>change').text());
+                  var ver = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),$(xml).find('package>compatibility>firmware>maxiOS').text(), function(message,isBad){
+                    alert(message);
+                  })
 
   								$(xml).find('package').each(function(){
   									$(this).find("version").each(function(){
