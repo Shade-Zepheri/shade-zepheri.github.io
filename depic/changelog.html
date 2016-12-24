@@ -44,8 +44,12 @@
            dataType: "xml",
            success: function(xml) {
              $(xml).find('changelog>changes').each(function() {
-               var version = $(xml).find('version').text();
-               var change = $(xml).find('change').text();
+               $(xml).find('version').each(function() {
+                 var version = $(this).text();
+               });
+               $(xml).find('version').each(function() {
+                 var change = $(this).text();
+               });
                $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'+change+'</p></div></li>');
              });
            }
