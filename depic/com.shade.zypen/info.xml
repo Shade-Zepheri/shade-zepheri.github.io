@@ -13,8 +13,9 @@
 	</dependencies>
 	<descriptionlist>
 		<description>ReachApp for iOS 9 EXTREMELY UNSTABLE</description>
+		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release, MAINLY RELEASED TO SEE ALL THE BUGS</change>
+		<change>Initial Release</change>
 	</changelog>
 </package>

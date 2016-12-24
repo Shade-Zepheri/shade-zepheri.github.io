@@ -29,8 +29,6 @@
               <ul class="collapsible popout" data-collapsible="expandable">
                 <li>
                   <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
-                  <div class="collapsible-body"><p id="description">Onscreen home button</p></div>
-                  <div class="collapsible-body"><p>In Beta, Email me issues</p></div>
                   <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
                 </li>
                 <li>
@@ -80,7 +78,10 @@
 		         success: function(xml) {
               $("#changelog").html($(xml).find('package>changelog>change').text());
               $("#badge").html($(xml).find('package>version').text());
-  						$("#description").html($(xml).find('package>descriptionlist>description').text());
+              $(xml).find('package>descriptionlist>description').each(function() {
+                var description = $(this).text();
+                $("#dependencies").append('<div class="collapsible-body"><p>'+description+'</p></div>');
+              });
 
               $(xml).find("dependencies>package").each(function(){
                 var dependName = $(this).text();

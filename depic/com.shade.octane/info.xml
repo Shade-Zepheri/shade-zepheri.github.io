@@ -24,15 +24,4 @@
 	<changelog>
 		<change>Initial release</change>
 	</changelog>
-	<links>
-		<link>
-			<name>Reddit</name>
-			<url>https://www.reddit.com/u/ShadeZepheri</url>
-		</link>
-
-		<link>
-			<name>Twitter</name>
-			<url>https://twitter.com/ShadeZepheri</url>
-		</link>
-	</links>
 </package>

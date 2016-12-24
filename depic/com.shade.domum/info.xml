@@ -24,20 +24,4 @@
 	<changelog>
 		<change>Rewrote Tweak and Nicer Prefs</change>
 	</changelog>
-	<links>
-		<link>
-			<name>Reddit</name>
-			<url>https://www.reddit.com/u/ShadeZepheri</url>
-		</link>
-
-		<link>
-			<name>Twitter</name>
-			<url>https://twitter.com/ShadeZepheri</url>
-		</link>
-
-		<link>
-			<name>Slack</name>
-			<url>https://shadebetatweaks.herokuapp.com/</url>
-		</link>
-	</links>
 </package>
