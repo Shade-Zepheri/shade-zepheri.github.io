@@ -46,10 +46,10 @@
              $(xml).find('changelog>changes').each(function() {
                var version;
                var change;
-               $(xml).find('version').each(function() {
+               $(this).find('version').each(function() {
                  version = $(this).text();
                });
-               $(xml).find('change').each(function() {
+               $(this).find('change').each(function() {
                  change = $(this).text();
                });
                $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'+change+'</p></div></li>');
