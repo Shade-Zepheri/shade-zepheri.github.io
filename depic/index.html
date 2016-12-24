@@ -79,7 +79,8 @@
               $("#changelog").html($(xml).find('package>changelog>change').text());
               $("#badge").html($(xml).find('package>version').text());
 
-              $('#screenshotLink').attr('href', 'screenshots.html?='+name'');
+              var screenshotLink = 'screenshots.html?p='
+              $('#screenshotLink').attr("href", screenshotLink + name);
 
               $(xml).find('package>descriptionlist>description').each(function() {
                 var description = $(this).text();
