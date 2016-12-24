@@ -1,6 +1,7 @@
 (function($){
   $(function(){
     $('.collapsible').collapsible();
+    $('.materialboxed').materialbox();
   });
 })(jQuery);
 

@@ -13,8 +13,14 @@
 	</dependencies>
 	<descriptionlist>
 		<description>ReachApp for iOS 9 EXTREMELY UNSTABLE</description>
-		<description>In Beta, Email me issues.</description>
+		<description>In Alpha/Pre Beta, Email me issues.</description>
 	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Split Apps</description>
+			<image>zypen.png</image>
+		</screenshot>
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
