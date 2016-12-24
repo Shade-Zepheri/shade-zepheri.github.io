@@ -27,7 +27,7 @@
           <div class="row">
             <div class="col s12 m8">
               <ul class="collapsible popout" data-collapsible="expandable">
-                <li>
+                <li id="description">
                   <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
                   <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
                 </li>
@@ -80,7 +80,7 @@
               $("#badge").html($(xml).find('package>version').text());
               $(xml).find('package>descriptionlist>description').each(function() {
                 var description = $(this).text();
-                $("#dependencies").append('<div class="collapsible-body"><p>'+description+'</p></div>');
+                $("#description").append('<div class="collapsible-body"><p>'+description+'</p></div>');
               });
 
               $(xml).find("dependencies>package").each(function(){
