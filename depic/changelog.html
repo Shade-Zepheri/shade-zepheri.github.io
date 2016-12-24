@@ -1,115 +1,72 @@
-<html lang="en">
-<head>
-  <title>Changelog</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<html>
+  <head>
+    <title>Changelog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-  <script type="text/javascript" src="js/jquery.querystring.js"></script>
-  <script type="text/javascript" src="js/data-loader-engine.js"></script>
-  <script type="text/javascript" src="js/ios_version_check.js"></script>
-  <style>
-	@media (max-width: 767px) {
-		body{background:#efeff4!important;margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
-	}
-  </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m8">
+            <ul id="mainList" class="collapsible popout" data-collapsible="expandable">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">build</i>Description</div>
+                <div class="collapsible-body"><p>Rewrote the whole tweak, so thats why there were no updates, Added option to hide on lockscreen, made button moveable and option to reset the position, added activator gestures to show, hide and toggle, Hides during Screenshot, Fixed and made settings prettier? Email me if you want any other features. Im not sure about the autohide or resize feature, but im working on it. ABOUT DONATIONS: I cannot accept donations as I am underage ¯\_(ツ)_/¯.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">build</i>In This Version</div>
+                <div class="collapsible-body"><p>Rewrote tweak and Nicer prefs</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">build</i>Dependencies</div>
+                <div class="collapsible-body"><p>Rewrote tweak and Nicer prefs</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="material-icons">build</i>Links</div>
+                <div class="collapsible-body"><p>Rewrote tweak and Nicer prefs</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.min.js"></script>
+  <script src="src/script.js"></script>
   <script type="text/javascript">
-
-	bundleid = $.QueryString['p'];
-    var contentBlocks = 	{
-        "#changeLogList" :
-			{"type":"articles"
-				,"source"			:"changelog"
-				,"titleSource" 		:"version"
-				,"paragraphSource"	:"change"
-				,"titleElement"	    : "<h5>"
-				,"paragraphContainer": "<ul class='list-group'>"
-				,"paragraphElement"	: "<li class='list-group-item'>"
-			}
-	}
-    $( document ).ready(function() {
-        $.ajax({
-            type    : "GET",
-            dataType: "xml",
-            url     : (bundleid+"/changelog.xml"),
-            success : function(xml){
-            	data_loader_engine(contentBlocks,xml)
-            },
-			cache   : false,
-            error: function() {
-                $("#packageError").show();
-				$("#packageInformation").hide();
-            }
-        }); //ajax
-
-    }); // ready
+    function getParameterByName(name, url) {
+        if (!url) {
+          url = window.location.href;
+        }
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+    $(document).ready(function() {
+      var name = getParameterByName('p');
+      $.ajax({
+           type: "GET",
+           url: (name+"/changelog.xml"),
+           cache: false,
+           dataType: "xml",
+           success: function(xml) {
+             $(xml).find('changelog>changes').each(function() {
+               var version = $(xml).find('version').text();
+               var change = $(xml).find('change').text();
+               $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'change'</p></div></li>')
+             });
+           }
+         });
+      });
   </script>
-</head>
-<body>
-<br />
-
-<div id="packageInformation">
-	<div class="container" id="changeLogList">
-	</div>
-</div>
-<div id="packageError" style="display:none">
-	<div class="container">
-	  <div class="alert alert-danger">
-		<strong>Oh snap!</strong> The package you are tying to view is not hosted on this repository.
-	  </div>
-	</div>
-</div>
-<!-- REPO FOOTER ----------------------------------------------------------- -->
-<script type="text/javascript">
-    var repoContents = 	{
-		"#repoFooterLinks" :
-			{"type":"custom"
-				,"source":"repo>footerlinks>link"
-				,"render":function(element,source) {
-					$.each(source, function(index,data) {
-						var p = $("<li class='list-group-item'>");
-						var a = $("<a class='btn btn-link'>");
-						a.attr("href",$(data).find('url').text());
-						if ($(data).find('iconclass')) {
-							var i =  $("<span>")
-							i.attr("class",$(data).find('iconclass').text());
-							console.log(i);
-							$(a).append(i);
-						}
-						$(a).append(' '+$(data).find('name').text());
-						$(p).append(a)
-						$(element).append(p);
-					}); //each
-				} //render
-			}
-	}
-    $( document ).ready(function() {
-        $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-            success : function(xml){
-				data_loader_engine(repoContents,xml);
-				if (navigator.userAgent.search(/Cydia/) != -1) {
-					$("a").each(function() {
-						console.log($(this).text());
-						$(this).attr("target","_blank");
-					});
-				}
-			},
-            error: function() {$("#contactInfo").hide()}
-        }); //ajax
-
-
-    }); // ready
-</script>
-
-<div id="contactInfo">
-	<div class="container">
-		<h5>CONTACT</h5>
-		<ul class="list-group" id="repoFooterLinks">
-		</ul>
-	</div>
-</div>
-<!-- REPO FOOTER ENDS ------------------------------------------------------ -->
-
-</body>
+  </body>
 </html>
