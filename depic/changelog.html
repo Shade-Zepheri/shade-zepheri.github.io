@@ -46,7 +46,7 @@
              $(xml).find('changelog>changes').each(function() {
                var version = $(xml).find('version').text();
                var change = $(xml).find('change').text();
-               $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'change'</p></div></li>');
+               $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'+change+'</p></div></li>');
              });
            }
          });
