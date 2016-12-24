@@ -127,32 +127,11 @@
 		         cache: false,
 		         dataType: "xml",
 		         success: function(xml) {
-								$(xml).find('package').each(function(){
-									$(this).find("name").each(function(){
-										var tweakName = $(this).text();
-										$('#tweakName').html(tweakName);
-									});
-
-									$(this).find("url").each(function(){
-										var gitURL = $(this).text();
-										$('#sourceCode').attr('href',gitURL);
-									});
-
-									$(this).find("about").each(function(){
-										var about = $(this).text();
-										$('#about').html(about);
-									});
-
-									$(this).find("features").each(function(){
-										var featText = $(this).text();
-										$('#features').html(featText);
-									});
-
-									$(this).find("compatibility").each(function(){
-										var compText = $(this).text();
-										$('#compatibility').html(compText);
-									});
-								});
+							 $("#tweakName").html($(xml).find('package>name').text());
+							 $("#about").html($(xml).find('package>about').text());
+							 $("#features").html($(xml).find('package>features').text());
+							 $("#compatibility").html($(xml).find('package>compatibility').text());
+							 $("#sourceCode").attr('href', $(xml).find('package>url').text());
 		         }
 		     });
 		});
