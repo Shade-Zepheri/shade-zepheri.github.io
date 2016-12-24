@@ -82,6 +82,9 @@
               var screenshotLink = 'screenshots.html?p='
               $('#screenshotLink').attr("href", screenshotLink + name);
 
+              var changelogLink = 'changelog.html?p='
+              $('#changelogLink').attr("href", changelogLink + name);
+
               $(xml).find('package>descriptionlist>description').each(function() {
                 var description = $(this).text();
                 $("#description").append('<div class="collapsible-body"><p>'+description+'</p></div>');
