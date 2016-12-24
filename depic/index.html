@@ -78,6 +78,9 @@
 		         success: function(xml) {
               $("#changelog").html($(xml).find('package>changelog>change').text());
               $("#badge").html($(xml).find('package>version').text());
+
+              $('#screenshotLink').attr('href', 'screenshots.html?='name'');
+
               $(xml).find('package>descriptionlist>description').each(function() {
                 var description = $(this).text();
                 $("#description").append('<div class="collapsible-body"><p>'+description+'</p></div>');
