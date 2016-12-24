@@ -40,7 +40,7 @@
            cache: false,
            dataType: "xml",
            success: function(xml) {
-            $(".row").append('<img src="'+name+'/screenshots'+$(xml).find('package>screenshots>screenshot>image').text()+'" data-caption="'+$(xml).find('package>screenshots>screenshot>description').text()+'" width="300px" class="materialboxed" />')
+            $(".row").append('<img src="'+name+'/screenshots/'+$(xml).find('package>screenshots>screenshot>image').text()+'" data-caption="'+$(xml).find('package>screenshots>screenshot>description').text()+'" width="300px" class="materialboxed" />')
            }
 		     });
       });
