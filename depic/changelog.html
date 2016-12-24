@@ -49,7 +49,7 @@
                $(xml).find('version').each(function() {
                  version = $(this).text();
                });
-               $(xml).find('version').each(function() {
+               $(xml).find('change').each(function() {
                  change = $(this).text();
                });
                $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'+change+'</p></div></li>');
