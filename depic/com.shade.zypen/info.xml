@@ -1,5 +1,5 @@
 <package>
-	<version>0.1</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -13,7 +13,7 @@
 	</dependencies>
 	<descriptionlist>
 		<description>ReachApp for iOS 9 EXTREMELY UNSTABLE</description>
-		<description>In Alpha/Pre Beta, Email me issues.</description>
+		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed Resizing</change>
 	</changelog>
 </package>

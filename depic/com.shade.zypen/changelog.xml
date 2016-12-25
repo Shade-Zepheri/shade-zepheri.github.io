@@ -3,4 +3,8 @@
 		<version>0.1</version>
 		<change>Initial Release. Pretty Unstable and probably shouldnt have released it but I want to know the extent of the bugs and compatiblity with the apps.</change>
 	</changes>
+	<changes>
+		<version>0.2</version>
+		<change>Fixed 99% of all resizing Issues. And as a small christmas present/easter egg, double tap the grabber when you have an app open in the reachability view :).</change>
+	</changes>
 </changelog>
