@@ -7,4 +7,8 @@
 		<version>0.2</version>
 		<change>Fixed 99% of all resizing Issues. And as a small christmas present/easter egg, double tap the grabber when you have an app open in the reachability view :)</change>
 	</changes>
+	<changes>
+		<version>0.2</version>
+		<change>Icons are now Properly aligned and sized in the App Selector views</change>
+	</changes>
 </changelog>
