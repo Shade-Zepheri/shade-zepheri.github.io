@@ -15,4 +15,8 @@
 		<version>0.3</version>
 		<change>Fully Fixed App Selectors. Now Show app labels, updated/beta dots and badges</change>
 	</changes>
+	<changes>
+		<version>0.4</version>
+		<change>Fixed Black screen bug. But the bug still happens when running apps inside windows</change>
+	</changes>
 </changelog>

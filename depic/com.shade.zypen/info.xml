@@ -1,5 +1,5 @@
 <package>
-	<version>0.3</version>
+	<version>0.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fully Fixed App Selectors</change>
+		<change>Fixed Black Screen</change>
 	</changelog>
 </package>
