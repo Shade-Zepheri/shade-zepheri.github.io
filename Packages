@@ -514,3 +514,20 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
 Name: Zypen
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 872
+
+Package: com.shade.zypen
+Version: 0.5
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.zypen_0.5_iphoneos-arm.deb
+Size: 431420
+MD5sum: 3412747ab7700253d8a61f3f33fb4fd0
+SHA1: f721d0f8c7062f682bdad9012f07556dcca3ff50
+SHA256: 1b0215a16b93e9c5c94757e899fafb3be11f4a448e610de6db472bbc84a02561
+Description: ReachApp for iOS 9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
+Name: Zypen
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1860

@@ -19,4 +19,8 @@
 		<version>0.4</version>
 		<change>Fixed Black screen bug. But the bug still happens when running apps inside windows</change>
 	</changes>
+	<changes>
+		<version>0.5</version>
+		<change>Now adds Aura and Empoleon from Multiplexer. Black screen still happens with empoleon and the vpn bug are still left to fix</change>
+	</changes>
 </changelog>

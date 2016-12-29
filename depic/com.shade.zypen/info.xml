@@ -1,5 +1,5 @@
 <package>
-	<version>0.4</version>
+	<version>0.5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Black Screen</change>
+		<change>First Beta with Aura and Empoleon from Multiplexer</change>
 	</changelog>
 </package>
