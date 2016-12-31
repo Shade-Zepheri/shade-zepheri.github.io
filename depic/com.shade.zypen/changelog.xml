@@ -23,4 +23,8 @@
 		<version>0.5</version>
 		<change>Now adds Aura and Empoleon from Multiplexer. Black screen still happens with empoleon and the vpn bug are still left to fix</change>
 	</changes>
+	<changes>
+		<version>0.5.4</version>
+		<change>Readded windows themes from Multiplexer and adds optional Activator Gestures</change>
+	</changes>
 </changelog>

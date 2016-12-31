@@ -1,5 +1,5 @@
 <package>
-	<version>0.5</version>
+	<version>0.5.4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -12,7 +12,7 @@
 		<package>RocketBootstrap</package>
 	</dependencies>
 	<descriptionlist>
-		<description>ReachApp for iOS 9</description>
+		<description>1/2 of Multiplexer for iOS 9 and 10</description>
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<screenshots>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>First Beta with Aura and Empoleon from Multiplexer</change>
+		<change>Added Themes and Activator Gestures</change>
 	</changelog>
 </package>
