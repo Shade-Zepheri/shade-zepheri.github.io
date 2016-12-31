@@ -548,3 +548,19 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
 Name: Zypen
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 2132
+
+Package: com.shade.enigma
+Version: 0.1-1+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.enigma_0.1-1+debug_iphoneos-arm.deb
+Size: 4366
+MD5sum: bebe08c865f5c53e6c9ed14c65fa67b9
+SHA1: 479c3dc614409528f9e6bea8d8e08311d8fbf9dc
+SHA256: b8ee5ab603f3ad84de680858ca0a4ff303ee71047c32c1e17332d7ef239b7093
+Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
+Name: Enigma
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 136
