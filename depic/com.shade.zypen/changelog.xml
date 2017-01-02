@@ -27,4 +27,8 @@
 		<version>0.5.4</version>
 		<change>Readded windows themes from Multiplexer and adds optional Activator Gestures</change>
 	</changes>
+	<changes>
+		<version>0.6</version>
+		<change>Fixed 9.1 compatibility. Still need to fix black screen bugs</change>
+	</changes>
 </changelog>

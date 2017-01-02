@@ -1,5 +1,5 @@
 <package>
-	<version>0.5.4</version>
+	<version>0.6</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Added Themes and Activator Gestures</change>
+		<change>Fixed 9.1 Compatibility</change>
 	</changelog>
 </package>
