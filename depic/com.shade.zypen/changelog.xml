@@ -31,4 +31,8 @@
 		<version>0.6</version>
 		<change>Fixed 9.1 compatibility. Still need to fix black screen bugs</change>
 	</changes>
+	<changes>
+		<version>0.6.2</version>
+		<change>Fixed Black Screen bug with windows on home screem. Fixed Hash sum when downloading. Colored prefs to make them a little prettier</change>
+	</changes>
 </changelog>
