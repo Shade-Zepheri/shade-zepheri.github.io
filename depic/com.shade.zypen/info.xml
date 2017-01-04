@@ -1,5 +1,5 @@
 <package>
-	<version>0.6.2</version>
+	<version>0.6.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Bug Fixes + Prettier Prefs</change>
+		<change>More bug Fixes</change>
 	</changelog>
 </package>

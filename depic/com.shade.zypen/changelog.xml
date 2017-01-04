@@ -35,4 +35,8 @@
 		<version>0.6.2</version>
 		<change>Fixed Black Screen bug with windows on home screem. Fixed Hash sum when downloading. Colored prefs to make them a little prettier</change>
 	</changes>
+	<changes>
+		<version>0.6.3</version>
+		<change>Fixed startup crash due to typo</change>
+	</changes>
 </changelog>
