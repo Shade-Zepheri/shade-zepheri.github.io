@@ -39,4 +39,8 @@
 		<version>0.6.3</version>
 		<change>Fixed startup crash due to typo</change>
 	</changes>
+	<changes>
+		<version>0.7</version>
+		<change>Fixed not being able to launch apps from HS when running app in window. I say the tweak is pretty stable, but I need more reports to see if all the bugs have been fixed</change>
+	</changes>
 </changelog>

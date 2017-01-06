@@ -600,6 +600,23 @@ Name: Zypen
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 2148
 
+Package: com.shade.zypen
+Version: 0.7
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.zypen_0.7_iphoneos-arm.deb
+Size: 463970
+MD5sum: e795685fc6fdb64d9269491d1fddaf46
+SHA1: 0e8b4a7fc1d8446377e08b3e1d662e356ad62cca
+SHA256: a42ed219296cda6ea3303bf5432bdfc4ca2fe3fa96b74d9480a6312c24565878
+Description: 1/2 of Multiplexer
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
+Name: Zypen
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2164
+
 Package: com.shade.enigma
 Version: 0.1-2+debug
 Section: Tweaks
@@ -615,3 +632,20 @@ Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont k
 Name: Enigma
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 136
+
+Package: com.shade.enigma
+Version: 0.2
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.enigma_0.2_iphoneos-arm.deb
+Size: 3196
+MD5sum: bc876717b923c3326d055ef67bbf1442
+SHA1: 3788be4b5bda94b052620f43064b7028d2745b64
+SHA256: c18391f78d046b05be9892aa88b3481988a74847ef586ccb99bb94b8d6313eb4
+Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.enigma
+Name: Enigma
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 76
