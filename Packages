@@ -430,6 +430,23 @@ Name: Splyce
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 160
 
+Package: com.shade.splyce
+Version: 0.9
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.splyce_0.9_iphoneos-arm.deb
+Size: 9452
+MD5sum: 5b7e61d4d09362c694c2c2328233932b
+SHA1: 61fdb49a7efa56ef5c723cb8013dc8af1f763b66
+SHA256: f18f7c79bd66a896b1b7e415908f422dcfbcaf827c621824db4ac135ef9a835a
+Description: SmartClose for iOS9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
+Name: Splyce
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 160
+
 Package: com.shade.zypen
 Version: 0.1
 Section: Tweaks

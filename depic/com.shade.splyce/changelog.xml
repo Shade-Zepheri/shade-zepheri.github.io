@@ -11,4 +11,12 @@
 		<version>0.7</version>
 		<change>Removed Ability to kill apps as it is no longer needed. Fixed a typo which may have broken app freezing</change>
 	</changes>
+	<changes>
+		<version>0.8</version>
+		<change>Re added the ability to add app exemptions</change>
+	</changes>
+	<changes>
+		<version>0.9</version>
+		<change>Made the code nicer (Was already clean and compact, but found way to make it even more compact from Zypen)</change>
+	</changes>
 </changelog>

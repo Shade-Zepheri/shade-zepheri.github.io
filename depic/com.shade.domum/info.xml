@@ -6,8 +6,8 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>preferenceloader</package>
+		<package>MobileSubstrate</package>
+		<package>PreferenceLoader</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Onscreen Home button</description>
