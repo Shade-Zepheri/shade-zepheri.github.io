@@ -1,5 +1,5 @@
 <package>
-	<version>0.7</version>
+	<version>0.7.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Not being able to launch apps with window on hs</change>
+		<change>Fixed startup crash and Asphaleia 3 support</change>
 	</changelog>
 </package>

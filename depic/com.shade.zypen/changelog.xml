@@ -43,4 +43,8 @@
 		<version>0.7</version>
 		<change>Fixed not being able to launch apps from HS when running app in window. I say the tweak is pretty stable, but I need more reports to see if all the bugs have been fixed</change>
 	</changes>
+	<changes>
+		<version>0.7.2</version>
+		<change>Fixed crashes caused by a typo and Asphaleia</change>
+	</changes>
 </changelog>
