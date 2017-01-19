@@ -47,4 +47,8 @@
 		<version>0.7.2</version>
 		<change>Fixed crashes caused by a typo and Asphaleia</change>
 	</changes>
+	<changes>
+		<version>0.7.9</version>
+		<change>Fixed THE startup crash, fixed audio issues? Fixed VPN bug, may have fixed 10.X crash but not sure. Unfortunately in order to fix the startup crash, I had to kill ios 8 support (if people used zypen on ios 8 sorry)</change>
+	</changes>
 </changelog>

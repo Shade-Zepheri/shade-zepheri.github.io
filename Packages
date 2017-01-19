@@ -651,6 +651,23 @@ Name: Zypen
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 2148
 
+Package: com.shade.zypen
+Version: 0.7.9
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.zypen_0.7.9_iphoneos-arm.deb
+Size: 468276
+MD5sum: c6dc5cdadf4808023f03e1d470c75c9c
+SHA1: b24111657f90d35fa457bfe8e642f71d4330cab5
+SHA256: c3ff93cc199906d1529bf50a14937bcebfa83fded8150d19b77cdaf47453c7ae
+Description: 1/2 of Multiplexer
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
+Name: Zypen
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2164
+
 Package: com.shade.enigma
 Version: 0.1-2+debug
 Section: Tweaks
@@ -683,3 +700,23 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.enigma
 Name: Enigma
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 76
+
+Package: libstatusbar9
+Version: 0.6
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Provides: libstatusbar
+Replaces: libstatusbar
+Conflicts: libstatusbar
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/libstatusbar9_0.6_iphoneos-arm.deb
+Size: 46218
+MD5sum: 10373989e42f8c485490a8ca880aac30
+SHA1: c60953396c8e7223a78f4217915e07de56639c88
+SHA256: 1dfbb9dec1fceef78b90cfcceda8d218a6295992c41f9d71e8c5fb2ddbe04111
+Description: Improved libstatusbar
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
+Name: libstatusbar (Shade Zepheri)
+Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 240
