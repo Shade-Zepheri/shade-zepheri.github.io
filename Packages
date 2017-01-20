@@ -720,3 +720,23 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
 Name: libstatusbar (Shade Zepheri)
 Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 240
+
+Package: libstatusbar9
+Version: 0.6.5
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Provides: libstatusbar
+Replaces: libstatusbar
+Conflicts: libstatusbar
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/libstatusbar9_0.6.5_iphoneos-arm.deb
+Size: 30180
+MD5sum: 869a296f82d46738d099d27d1791c384
+SHA1: 70c056aa413a7892998fb56bcb7781bf275e74e3
+SHA256: 253469d9e45b4f6255fd85d73a30d15559fa86fc5dd692aa37023302f4668bc3
+Description: Improved libstatusbar
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
+Name: libstatusbar (Shade Zepheri)
+Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 176
