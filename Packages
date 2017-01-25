@@ -668,6 +668,23 @@ Name: Zypen
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 2164
 
+Package: com.shade.zypen
+Version: 0.8
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.zypen_0.8_iphoneos-arm.deb
+Size: 468904
+MD5sum: bbbc8148aa310f374b9129e3fe7bf672
+SHA1: af0f91d8aa3d126f15d93af2df7301b05aff1faa
+SHA256: 3fa4347720b0630b119441c91bc23b7f63a4cffa6a14819777d7817c0ffa47f6
+Description: 1/2 of Multiplexer
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
+Name: Zypen
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2164
+
 Package: com.shade.enigma
 Version: 0.1-2+debug
 Section: Tweaks

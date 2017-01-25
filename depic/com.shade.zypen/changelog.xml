@@ -51,4 +51,8 @@
 		<version>0.7.9</version>
 		<change>Fixed THE startup crash, fixed audio issues? Fixed VPN bug, may have fixed 10.X crash but not sure. Unfortunately in order to fix the startup crash, I had to kill ios 8 support (if people used zypen on ios 8 sorry)</change>
 	</changes>
+	<changes>
+		<version>0.8</version>
+		<change>Sorry for lack of updates, was busy updating all of Multiplexer for Elijah Frederickson (95% done). Fixed assertiond hook (not sure of implications but should fix backgronding issues) and made the Daemon actually work. Still working on launch crashes</change>
+	</changes>
 </changelog>
