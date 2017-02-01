@@ -1,5 +1,5 @@
 <package>
-	<version>0.8</version>
+	<version>0.9</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Minor Bugfixes</change>
+		<change>Fixed Startup crash?</change>
 	</changelog>
 </package>

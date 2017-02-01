@@ -55,4 +55,8 @@
 		<version>0.8</version>
 		<change>Sorry for lack of updates, was busy updating all of Multiplexer for Elijah Frederickson (95% done). Fixed assertiond hook (not sure of implications but should fix backgronding issues) and made the Daemon actually work. Still working on launch crashes</change>
 	</changes>
+		<changes>
+		<version>0.9</version>
+		<change>I THINK I FIXED THE STARTUP CRASH!!! That and a better iOS 10 compatibility.</change>
+	</changes>
 </changelog>
