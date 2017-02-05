@@ -33,4 +33,8 @@
 		<version>0.9.9.9</version>
 		<change>Tinted Prefs, rewrote tweak as original looks like it was written by 5 year old. Trade off is that I had to make the single tap recognizer slower to make double tap more reliable. OFFCIALLY LAST BETA EMAIL ISSUES ASAP, O yeah I may redo depicitions as this looks like crap</change>
 	</changes>
+	</changes>
+		<version>0.10</version>
+		<change>Rewrote the tweak as it desperately needed a rewrite. Fixed it on iOS 10</change>
+	</changes>
 </changelog>

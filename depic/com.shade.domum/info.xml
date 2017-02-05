@@ -1,5 +1,5 @@
 <package>
-	<version>0.9.9.9</version>
+	<version>0.10</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.1</miniOS>
@@ -20,6 +20,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Rewrote Tweak and Nicer Prefs</change>
+		<change>iOS 10 fixes</change>
 	</changelog>
 </package>

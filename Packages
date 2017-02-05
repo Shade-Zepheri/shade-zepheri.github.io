@@ -362,6 +362,23 @@ Name: Domum
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 400
 
+Package: com.shade.domum
+Version: 0.10
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.domum_0.10_iphoneos-arm.deb
+Size: 73150
+MD5sum: b40b1beb1ef04e89650b104a45de706b
+SHA1: b5dd4392f7d9b3036d9889c37a522058fc0f6bca
+SHA256: d965c5867c8bec8a946e1921461477a94b074e1ee9ac60c8c03e54c886605f45
+Description: Onscreen Home Button
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
+Name: Domum
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 400
+
 Package: com.shade.splyce
 Version: 0.5
 Section: Tweaks
