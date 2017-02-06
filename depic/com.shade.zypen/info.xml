@@ -1,5 +1,5 @@
 <package>
-	<version>0.9</version>
+	<version>0.9.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Startup crash?</change>
+		<change>Fixed home button crash</change>
 	</changelog>
 </package>
