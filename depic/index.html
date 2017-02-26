@@ -83,14 +83,6 @@
                     $("#changelog").html($(xml).find('package>changelog>change').text());
                     $("#badge").html($(xml).find('package>version').text());
 
-                    var version = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),
-                        $(xml).find('package>compatibility>firmware>maxiOS').text(),
-                        $(xml).find('package>compatibility>firmware>otherVersions').text(),
-                        function(message, isBad) {
-                            $("#compatibilityCheck").html(message);
-                        }
-                    );
-
                     var screenshotLink = 'screenshots.html?p='
                     $('#screenshotLink').attr("href", screenshotLink + name);
 
