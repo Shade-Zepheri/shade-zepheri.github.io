@@ -1,102 +1,115 @@
 <html>
-  <head>
+
+<head>
     <title>Depic</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
 
     <main>
-      <div class="container">
-        <div class="section">
+        <div class="container">
+            <div class="section">
 
-          <div class="row">
-            <div class="col s12 m8">
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                  <p id="compatibilityCheck">Your iOS version is supported! (Doesnt Work Yet)</p>
+                <div class="row">
+                    <div class="col s12 m8">
+                        <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                                <p id="compatibilityCheck">Your iOS version is supported! (This Banner doesnt work yet)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col s12 m8">
-              <ul class="collapsible popout" data-collapsible="expandable">
-                <li id="description">
-                  <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
-                  <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><span class="new badge" id="badge" data-badge-caption="">0.9.9.9</span><i class="material-icons">code</i>In This Version</div>
-                  <div class="collapsible-body"><p id="changelog">Rewrote tweak and Nicer prefs</p></div>
-                  <div class="collapsible-body"><a id="changelogLink" href="">Full Changelog</a></div>
-                </li>
-                <li id="dependencies">
-                  <div class="collapsible-header"><i class="material-icons">extension</i>Dependencies</div>
-                </li>
-                <li>
-                  <div class="collapsible-header"><i class="material-icons">link</i>Links</div>
-                  <div class="collapsible-body"><a href="https://twitter.com/ShadeZepheri">Twitter</a></div>
-                  <div class="collapsible-body"><a href="https://www.reddit.com/user/ShadeZepheri/">Reddit</a></div>
-                  <div class="collapsible-body"><a href="https://shadebetatweaks.herokuapp.com/">Slack</a></div>
-                </li>
-              </ul>
-            </div>
-          </div>
+                <div class="row">
+                    <div class="col s12 m8">
+                        <ul class="collapsible popout" data-collapsible="expandable">
+                            <li id="description">
+                                <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
+                                <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><span class="new badge" id="badge" data-badge-caption="">0.9.10</span><i class="material-icons">code</i>In This Version</div>
+                                <div class="collapsible-body">
+                                    <p id="changelog">Rewrote tweak and Nicer prefs</p>
+                                </div>
+                                <div class="collapsible-body"><a id="changelogLink" href="">Full Changelog</a></div>
+                            </li>
+                            <li id="dependencies">
+                                <div class="collapsible-header"><i class="material-icons">extension</i>Dependencies</div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons">link</i>Links</div>
+                                <div class="collapsible-body"><a href="https://twitter.com/ShadeZepheri">Twitter</a></div>
+                                <div class="collapsible-body"><a href="https://www.reddit.com/user/ShadeZepheri/">Reddit</a></div>
+                                <div class="collapsible-body"><a href="https://shadebetatweaks.herokuapp.com/">Slack</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
+            </div>
         </div>
-      </div>
     </main>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.min.js"></script>
-  <script src="src/script.js"></script>
-  <script src="src/ios_version_check.js"></script>
-  <script type="text/javascript">
-    function getParameterByName(name, url) {
-        if (!url) {
-          url = window.location.href;
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="src/script.js"></script>
+    <script src="src/ios_version_check.js"></script>
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-    $(document).ready(function() {
-      var name = getParameterByName('p');
-      $.ajax({
-		         type: "GET",
-		         url: (name+"/info.xml"),
-		         cache: false,
-		         dataType: "xml",
-		         success: function(xml) {
-              $("#changelog").html($(xml).find('package>changelog>change').text());
-              $("#badge").html($(xml).find('package>version').text());
+        $(document).ready(function() {
+            var name = getParameterByName('p');
+            $.ajax({
+                type: "GET",
+                url: (name + "/info.xml"),
+                cache: false,
+                dataType: "xml",
+                success: function(xml) {
+                    $("#changelog").html($(xml).find('package>changelog>change').text());
+                    $("#badge").html($(xml).find('package>version').text());
 
-              var screenshotLink = 'screenshots.html?p='
-              $('#screenshotLink').attr("href", screenshotLink + name);
+                    var version = ios_version_check($(xml).find('package>compatibility>firmware>miniOS').text(),
+                        $(xml).find('package>compatibility>firmware>maxiOS').text(),
+                        $(xml).find('package>compatibility>firmware>otherVersions').text(),
+                        function(message, isBad) {
+                            $("#compatibilityCheck").html(message);
+                        }
+                    );
 
-              var changelogLink = 'changelog.html?p='
-              $('#changelogLink').attr("href", changelogLink + name);
+                    var screenshotLink = 'screenshots.html?p='
+                    $('#screenshotLink').attr("href", screenshotLink + name);
 
-              $(xml).find('package>descriptionlist>description').each(function() {
-                var description = $(this).text();
-                $("#description").append('<div class="collapsible-body"><p>'+description+'</p></div>');
-              });
+                    var changelogLink = 'changelog.html?p='
+                    $('#changelogLink').attr("href", changelogLink + name);
 
-              $(xml).find("dependencies>package").each(function(){
-                var dependName = $(this).text();
-                $("#dependencies").append('<div class="collapsible-body"><p>'+dependName+'</p></div>');
-              });
-		         }
-		     });
-      });
-  </script>
-  </body>
+                    $(xml).find('package>descriptionlist>description').each(function() {
+                        var description = $(this).text();
+                        $("#description").append('<div class="collapsible-body"><p>' + description + '</p></div>');
+                    });
+
+                    $(xml).find("dependencies>package").each(function() {
+                        var dependName = $(this).text();
+                        $("#dependencies").append('<div class="collapsible-body"><p>' + dependName + '</p></div>');
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>

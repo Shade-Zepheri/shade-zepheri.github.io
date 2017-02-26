@@ -808,3 +808,57 @@ Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
 Name: libstatusbar (Shade Zepheri)
 Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 176
+
+Package: com.shade.asphaleiaX
+Version: 1.0.0-86+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.asphaleiaX_1.0.0-86+debug_iphoneos-arm.deb
+Size: 442190
+MD5sum: 537a9e694ed45621aa9d4bd6f1fe0ba4
+SHA1: 5646ebc477ed6be9440bd1f048159e9ab4cf1da5
+SHA256: 0d9ba975c2cee1f105939d523ff5afbb4b4d3384987c492e5a66045a0d691506
+Description: customizable locking system for apps & more
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
+Name: Asphaleia X (iOS 10)
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2308
+
+Package: com.shade.abaculus
+Version: 0.1-189+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.abaculus_0.1-189+debug_iphoneos-arm.deb
+Size: 77462
+MD5sum: e056c3bf038aeae5458d8144062ebb99
+SHA1: 033e39665e6e8a8d837614dffeeff3eac0b9a014
+SHA256: 16bb10b8730ffef40db2389a597224a1ad7b86cbd392309e03fa7d627bf21c1d
+Description: An elegant App Launcher
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
+Name: Abaculus
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 412
+
+Package: com.shade.multiplexer
+Version: 0.1
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.abaculus_0.1-189+debug_iphoneos-arm.deb
+Size: 1053264
+MD5sum: 218c2db9c838277a2caa2867b082dfe9
+SHA1: e4a6557ccecb8b8efbc1348ca0cda417b0cd0d6e
+SHA256: 8a7216e7e8d1b24044c14d8f0ef6f91ac5929653fade7f72f6667770625f90bd
+Description: All sorts of multitasking
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
+Name: Multiplexer
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 5224
