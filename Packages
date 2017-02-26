@@ -852,7 +852,7 @@ Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstra
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.1-189+debug_iphoneos-arm.deb
+Filename: /debs/com.shade.multiplexer_0.1_iphoneos-arm.deb
 Size: 1053264
 MD5sum: 218c2db9c838277a2caa2867b082dfe9
 SHA1: e4a6557ccecb8b8efbc1348ca0cda417b0cd0d6e
