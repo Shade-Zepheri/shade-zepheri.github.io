@@ -844,6 +844,23 @@ Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 412
 
+Package: com.shade.abaculus
+Version: 0.1-209+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.abaculus_0.1-209+debug_iphoneos-arm.deb
+Size: 77272
+MD5sum: 809afa3a7d65621e1dbe3bdcc4496ae9
+SHA1: c7e5fb1a5beecacea4995aa080dd4dea57b18675
+SHA256: 10c6632951b10e3a101c599070df44ebacb33ec3dc8da9820315d65f7520b7f8
+Description: An elegant App Launcher
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
+Name: Abaculus
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 412
+
 Package: com.shade.multiplexer
 Version: 0.1
 Section: Tweaks

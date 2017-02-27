@@ -1,6 +1,10 @@
 <changelog>
 	<changes>
-		<version>0.1</version>
+		<version>0.1-189+debug</version>
 		<change>Initial Release.</change>
+	</changes>
+	<changes>
+		<version>0.1-209+debug</version>
+		<change>Fixed crashes and prettier prefs. But yall please choose exactly 5 or 7 apps to avoid any issues</change>
 	</changes>
 </changelog>
