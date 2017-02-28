@@ -7,4 +7,8 @@
 		<version>0.1-209+debug</version>
 		<change>Fixed crashes and prettier prefs. But yall please choose exactly 5 or 7 apps to avoid any issues</change>
 	</changes>
+	<changes>
+		<version>0.1-225+debug</version>
+		<change>Nicer prefs. Changed LastApp to be in the middle of the view and fixed duplicates appearing. Keyboard disables the gesture</change>
+	</changes>
 </changelog>
