@@ -1,5 +1,5 @@
 <package>
-	<version>1.0.0-100+debug</version>
+	<version>1.0.0-106+debug</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -23,6 +23,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Revamped App Chooser + Passcode only</change>
+		<change>Fully implemented app protection levels</change>
 	</changelog>
 </package>

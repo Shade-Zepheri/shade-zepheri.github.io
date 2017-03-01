@@ -11,4 +11,8 @@
 		<version>0.1-225+debug</version>
 		<change>Nicer prefs. Changed LastApp to be in the middle of the view and fixed duplicates appearing. Keyboard disables the gesture</change>
 	</changes>
+	<changes>
+		<version>0.1-231+debug</version>
+		<change>Added option for keyboard disables. Fixed view getting stuck onscreen and not dimissing</change>
+	</changes>
 </changelog>

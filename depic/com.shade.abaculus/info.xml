@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-225+debug</version>
+	<version>0.1-231+debug</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Duplicate apps and changed last app position</change>
+		<change>Fixed Menu view getting stuck</change>
 	</changelog>
 </package>

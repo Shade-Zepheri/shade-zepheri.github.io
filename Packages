@@ -845,6 +845,24 @@ Name: Asphaleia X (iOS 10)
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 2312
 
+Package: com.shade.asphaleiaX
+Version: 1.0.0-106+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.asphaleiaX_1.0.0-106+debug_iphoneos-arm.deb
+Size: 439258
+MD5sum: 2b0d7b069e94d93ab55eb78cfe7adc74
+SHA1: 2e2c92b25124cdc84da0e40335c93d55fc0eb938
+SHA256: 14205b339af4dc5c9e8b06bf87719ea85bc2edaa5259bc71c3102fb6a30b6b05
+Description: customizable locking system for apps & more
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
+Name: Asphaleia X (iOS 10)
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2312
+
 Package: com.shade.abaculus
 Version: 0.1-189+debug
 Section: Tweaks
@@ -890,6 +908,23 @@ Size: 77602
 MD5sum: e4da1ddcf5dde864195e33cd84fc2343
 SHA1: 1918f1637c35d1c1ce04cd6ef19d7aaa5e4842a1
 SHA256: 78e8b31e397479bddc2e8ce1a019048db010d84277690695b61d3d09a1e7b21d
+Description: An elegant App Launcher
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
+Name: Abaculus
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 416
+
+Package: com.shade.abaculus
+Version: 0.1-231+debug
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.abaculus_0.1-231+debug_iphoneos-arm.deb
+Size: 78038
+MD5sum: ac7037e24b9bf6b6312a77a6000bde78
+SHA1: b0bdd99322a31a93e37ea75891caf809c7d33ee6
+SHA256: f94fe0e42a01464b60ad9480aa25bc342dba03fea12e87808e1c2e72a00e571c
 Description: An elegant App Launcher
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
 Name: Abaculus
