@@ -1,0 +1,7 @@
+<package>
+	<name>Vitality</name>
+	<url>https://github.com/Shade-Zepheri/Vitality</url>
+	<about>An afternoon side project released to the public. Allows animated wallpapers on the homescreen with minimal battery drain.</about>
+	<features>Choose animated wallpapaers. Either use the default bear gif or add your own to /Library/Application Support/Vitality/Wallpapers/YOURFOLDERNAME.bundle/wallpaper.gif.</features>
+	<compatibility>??-10.2</compatibility>
+</package>
