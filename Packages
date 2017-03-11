@@ -464,6 +464,23 @@ Name: Splyce
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 160
 
+Package: com.shade.splyce
+Version: 0.9-5
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.splyce_0.9-5_iphoneos-arm.deb
+Size: 9506
+MD5sum: 9b341b05870ecc7fdab941e87559fe18
+SHA1: 394111e56acc199046f96f8ed65431de38553644
+SHA256: 17edbde5aee60c7bfd57ac0c3a30778cda78c8ff459bfb2473a8a5f93922ab0f
+Description: SmartClose for iOS9
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
+Name: Splyce
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 160
+
 Package: com.shade.zypen
 Version: 0.1
 Section: Tweaks
@@ -931,6 +948,23 @@ Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 416
 
+Package: com.shade.abaculus
+Version: 0.2
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.abaculus_0.2_iphoneos-arm.deb
+Size: 58400
+MD5sum: 0627f3997ffd08a1e55bf845e8fdb733
+SHA1: 2536b0fc1db8e9249f3ea3eb3267d33d4a97e687
+SHA256: 16cf3e9fa4d01e8ddfacba696dfe61b3c1fcfa20369446145ddc393cfce49e16
+Description: An elegant App Launcher
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
+Name: Abaculus
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 336
+
 Package: com.shade.multiplexer
 Version: 0.1
 Section: Tweaks
@@ -949,3 +983,39 @@ Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiple
 Name: Multiplexer
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 5224
+
+Package: com.shade.multiplexer
+Version: 0.2
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.multiplexer_0.2_iphoneos-arm.deb
+Size: 1059642
+MD5sum: 136b027e567b9dee44f8cbea8641aa7b
+SHA1: b530829d47f810966a4dd5bf49296c578236942c
+SHA256: c5bbb1edb12dbd9372d8a2eab8a9d6b31c93a3da1f32d798a9cd5bc4392d1990
+Description: All sorts of multitasking
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
+Name: Multiplexer
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 5260
+
+Package: com.shade.vitality
+Version: 0.2
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.vitality_0.2_iphoneos-arm.deb
+Size: 6831492
+MD5sum: 9c326a6185a17bda2430f8b7cd674f07
+SHA1: 7e7fcfc7a0ad77f7337d06c0d6fc478c75e57bdf
+SHA256: b4f5003f604cd2cb4178a1d1972eaf39b09c2f732fd99c571af96fc71de48c20
+Description: Animated Wallpapers
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
+Name: Vitality
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 7036

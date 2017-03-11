@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-231+debug</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Menu view getting stuck</change>
+		<change>Fixed Prefs</change>
 	</changelog>
 </package>
