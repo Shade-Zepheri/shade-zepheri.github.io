@@ -1,28 +1,27 @@
 <package>
-	<version>1.1</version>
+	<version>0.1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>10.0</miniOS>
+			<miniOS>8.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>MobileSubstrate</package>
 		<package>PreferenceLoader</package>
 		<package>AppList</package>
-		<package>FlipSwitch</package>
-		<package>RocketBootstrap</package>
+		<package>Cephei</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Customizable App Locking</description>
+		<description>An Elegant app drawer</description>
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Settings</description>
-			<image>settings.png</image>
+			<description>Drawer View</description>
+			<image>view.png</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Control panel + localizations</change>
+		<change>Inital Release</change>
 	</changelog>
 </package>
