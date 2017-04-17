@@ -1,0 +1,19 @@
+<package>
+	<version>0.1-2+debug</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>MobileSubstrate</package>
+		<package>MultiplexerCore</package>
+	</dependencies>
+	<descriptionlist>
+		<description>QuickAccess for Multiplexer</description>
+		<description>In Beta, Email me issues.</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+</package>
