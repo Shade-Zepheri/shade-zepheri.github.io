@@ -3,4 +3,8 @@
 		<version>0.1-12+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-21+debug</version>
+		<change>Fixed QRC crash.</change>
+	</changes>
 </changelog>

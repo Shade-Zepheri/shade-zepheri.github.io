@@ -3,4 +3,8 @@
 		<version>0.1-51+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-71+debug</version>
+		<change>Hopefully fixed startup crash. Fixed GestureSupport Landscape (therefore fixing some iPad layout issues)</change>
+	</changes>
 </changelog>

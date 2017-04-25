@@ -1055,6 +1055,23 @@ Section: Tweaks
 Version: 0.1-12+debug
 Installed-Size: 368
 
+Package: com.shade.aura
+Name: Aura
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.aura_0.1-21+debug_iphoneos-arm.deb
+Size: 70894
+MD5sum: 564e9527b2aff66f40926b21cbcb6f0c
+SHA1: 54e58d94b0b4c02457d856428ec1cd0a4889ab45
+SHA256: 4ecfd5f414ce9410198eea357c8f86ea0ca9140f094f534f380d25cbf8b3ca46
+Description: Customizable backgrounding for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-21+debug
+Installed-Size: 368
+
 Package: com.shade.empoleon
 Name: Empoleon
 Depends: mobilesubstrate, com.shade.multiplexercore
@@ -1147,7 +1164,7 @@ Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
 Architecture: iphoneos-arm
 Filename: /debs/com.shade.multiplexercore_0.1-51+debug_iphoneos-arm.deb
-Size: 52704
+Size: 896882
 MD5sum: 835f0008a7345771cead7ce78c9fa2c3
 SHA1: c3d325bdf4900b7dbab527b2f56c969f7b3522cd
 SHA256: c48452d1c22cde48c3d561bb201a8aa2e8ea3e8002a2e3b5b1a4b0b94fbbfea5
@@ -1158,4 +1175,23 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-51+debug
 Installed-Size: 4240
+
+Package: com.shade.multiplexercore
+Name: Multiplexer Core
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.multiplexercore_0.1-71+debug_iphoneos-arm.deb
+Size: 841862
+MD5sum: ad8861d954d9a6dd91dcd347ad7b9cee
+SHA1: 55b002c0165bb0f04a5a1e3c45fa2e8e610c75a6
+SHA256: 3f12bc6527a8934aa238b5b52fccc5f59e3848d470e8640d792219dea8e00311
+Description: Main Library for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-71+debug
+Installed-Size: 3700
 

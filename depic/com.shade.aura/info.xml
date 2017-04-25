@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-12+debug</version>
+	<version>0.1-21+debug</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -14,6 +14,6 @@
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed QRC crash.</change>
 	</changelog>
 </package>
