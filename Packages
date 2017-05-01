@@ -1121,7 +1121,7 @@ Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-18+debug
-Installed-Size: 631
+Installed-Size: 632
 
 Package: com.shade.missioncontrol
 Name: MissionControl
