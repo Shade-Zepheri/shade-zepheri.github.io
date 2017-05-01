@@ -7,4 +7,8 @@
 		<version>0.1-71+debug</version>
 		<change>Hopefully fixed startup crash. Fixed GestureSupport Landscape (therefore fixing some iPad layout issues)</change>
 	</changes>
+	<changes>
+		<version>0.1-93+debug</version>
+		<change>Internal optimizations (Better snapshot generation?)</change>
+	</changes>
 </changelog>

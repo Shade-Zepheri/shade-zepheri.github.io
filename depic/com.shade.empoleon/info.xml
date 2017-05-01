@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-2+debug</version>
+	<version>0.1-18+debug</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -14,6 +14,6 @@
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed Windows not rotating with device</change>
 	</changelog>
 </package>

@@ -7,4 +7,8 @@
 		<version>0.1-21+debug</version>
 		<change>Fixed QRC crash.</change>
 	</changes>
+	<changes>
+		<version>0.1-29+debug</version>
+		<change>Hopefully fixed all QRC crashes (Just waiting on Ma jun to push updates)</change>
+	</changes>
 </changelog>

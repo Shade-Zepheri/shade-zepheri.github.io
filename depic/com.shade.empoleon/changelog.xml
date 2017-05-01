@@ -3,4 +3,8 @@
 		<version>0.1-2+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-18+debug</version>
+		<change>Fixed windows not rotating with along with device orientation</change>
+	</changes>
 </changelog>
