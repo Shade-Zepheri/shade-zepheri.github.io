@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-2+debug</version>
+	<version>0.1-11+debug</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -15,6 +15,6 @@
 		<description>In Beta, Email me issues.</description>
 	</descriptionlist>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Hopefully fixed lag</change>
 	</changelog>
 </package>

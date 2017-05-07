@@ -11,4 +11,8 @@
 		<version>0.1-29+debug</version>
 		<change>Hopefully fixed all QRC crashes (Just waiting on Ma jun to push updates)</change>
 	</changes>
+	<changes>
+		<version>0.1-32+debug</version>
+		<change>Fixed StatusBar icons not showing up</change>
+	</changes>
 </changelog>

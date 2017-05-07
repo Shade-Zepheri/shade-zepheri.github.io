@@ -1089,6 +1089,23 @@ Section: Tweaks
 Version: 0.1-29+debug
 Installed-Size: 368
 
+Package: com.shade.aura
+Name: Aura
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.aura_0.1-32+debug_iphoneos-arm.deb
+Size: 70786
+MD5sum: 1f3edb39494c4e402a61f953fd86691a
+SHA1: 52eea80699979282235a33f9a70248a06cca4e01
+SHA256: 216336e53d7409160a96d8214e0f09c50dcdf5c519d0a28a74feaca1f36eaf53
+Description: Customizable backgrounding for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-32+debug
+Installed-Size: 368
+
 Package: com.shade.empoleon
 Name: Empoleon
 Depends: mobilesubstrate, com.shade.multiplexercore
@@ -1139,6 +1156,23 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-2+debug
 Installed-Size: 856
+
+Package: com.shade.missioncontrol
+Name: MissionControl
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.missioncontrol_0.1-11+debug_iphoneos-arm.deb
+Size: 133020
+MD5sum: 39935686950f8eddaf16f95b86d17337
+SHA1: 92bc137859cb29dfcc40805751c19d4ece248d1b
+SHA256: 117492ee9fda33e3e0017d438068d8fbfecd97f6dcf2807ce818fc4988ffcd5b
+Description: MissionControl for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-11+debug
+Installed-Size: 604
 
 Package: com.shade.quickaccess
 Name: QuickAccess
@@ -1227,6 +1261,25 @@ Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-71+debug
+Installed-Size: 3700
+
+Package: com.shade.multiplexercore
+Name: Multiplexer Core
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.multiplexercore_0.1-93+debug_iphoneos-arm.deb
+Size: 842228
+MD5sum: b0a0a638361ae6b011846927bce6bd0d
+SHA1: c4de3961fd319a6ec7b04a8f81668f696813ac42
+SHA256: 595ac85158121ab2be9cd82c396252d70ca7390b2ef6b79cd4b21ca58edc3b4c
+Description: Main Library for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-110+debug
 Installed-Size: 3700
 
 Package: com.shade.multiplexercore

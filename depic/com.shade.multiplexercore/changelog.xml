@@ -11,4 +11,8 @@
 		<version>0.1-93+debug</version>
 		<change>Internal optimizations (Better snapshot generation?)</change>
 	</changes>
+	<changes>
+		<version>0.1-110+debug</version>
+		<change>Changes to snapshot generation to hopefully improve missioncontrol performance. Fixed 9.0 crash when using empoleon/swipeover/missioncontrol.</change>
+	</changes>
 </changelog>

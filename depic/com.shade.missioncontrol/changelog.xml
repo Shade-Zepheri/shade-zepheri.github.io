@@ -3,4 +3,8 @@
 		<version>0.1-2+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-11+debug</version>
+		<change>Fixed lag hopefully.</change>
+	</changes>
 </changelog>
