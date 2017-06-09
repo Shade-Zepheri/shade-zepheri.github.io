@@ -1301,3 +1301,20 @@ Section: Tweaks
 Version: 0.1-110+debug
 Installed-Size: 3700
 
+Package: com.shade.nougat
+Name: Nougat
+Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.nougat_0.1-297+debug_iphoneos-arm.deb
+Size: 67988
+MD5sum: 4d6d55a0d7c0834ad980958a4731e041
+SHA1: 056d8ee53f818e573531b3f4f610ed3c6f068ce5
+SHA256: ce84d0697740a0b7e876e7c5325d09caeb40d676553e6bec42138bc1704241ab
+Description: Android NC for iOS
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-297+debug
+Installed-Size: 556
+
