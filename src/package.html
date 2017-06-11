@@ -122,7 +122,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var name = getParameterByName('p');
-            document.title = name;
+            document.title = capitalizeFirstLetter(name);
 
             $.ajax({
                 type: "GET",
@@ -138,6 +138,10 @@
                 }
             });
         });
+
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
     </script>
 </body>
 
