@@ -72,6 +72,7 @@
             if (!results[2]) return '';
             return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
+
         $(document).ready(function() {
             var name = getParameterByName('p');
             $.ajax({

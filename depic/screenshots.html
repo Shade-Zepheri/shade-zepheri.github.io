@@ -1,50 +1,61 @@
 <html>
-  <head>
+
+<head>
     <title>ScreenShot</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
     <main>
-      <div class="container">
-        <div class="section">
-          <div class="row">
-          </div>
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                </div>
+            </div>
         </div>
-      </div>
     </main>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.min.js"></script>
-  <script src="src/script.js"></script>
-  <script type="text/javascript">
-    function getParameterByName(name, url) {
-        if (!url) {
-          url = window.location.href;
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="src/script.js"></script>
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-    $(document).ready(function() {
-      var name = getParameterByName('p');
-      $.ajax({
-           type: "GET",
-           url: (name+"/info.xml"),
-           cache: false,
-           dataType: "xml",
-           success: function(xml) {
-            $(".row").append('<img src="'+name+'/screenshots/'+$(xml).find('package>screenshots>screenshot>image').text()+'" data-caption="'+$(xml).find('package>screenshots>screenshot>description').text()+'" width="300px" class="materialboxed" />')
-            $('.materialboxed').materialbox();
-           }
-		     });
-      });
-  </script>
-  </body>
+
+        $(document).ready(function() {
+            var name = getParameterByName('p');
+
+            $.ajax({
+                type: "GET",
+                url: (name + "/info.xml"),
+                cache: false,
+                dataType: "xml",
+                success: function(xml) {
+                    $(xml).find("package>screenshots>screenshot").each(function() {
+                        var imageURL = $(this).find("image").text();
+                        var description = $(this).find("description").text();
+                        $(".row").append('<img src="' + name + '/screenshots/' + imageURL + '" data-caption="' + description + '" width="300px" class="materialboxed" />')
+                    });
+
+                    $('.materialboxed').materialbox();
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>
