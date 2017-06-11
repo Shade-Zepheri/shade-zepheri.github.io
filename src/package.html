@@ -122,6 +122,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var name = getParameterByName('p');
+            document.title = name;
 
             $.ajax({
                 type: "GET",
