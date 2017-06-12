@@ -1,5 +1,5 @@
 <package>
-	<version>0.2</version>
+	<version>0.3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -22,6 +22,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Prefs</change>
+		<change>Added the Ability to Change Background color and have that controlled by noctis</change>
 	</changelog>
 </package>

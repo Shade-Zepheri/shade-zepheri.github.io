@@ -1,5 +1,5 @@
 <package>
-	<version>1.1</version>
+	<version>1.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
@@ -11,10 +11,11 @@
 		<package>AppList</package>
 		<package>FlipSwitch</package>
 		<package>RocketBootstrap</package>
+		<package>Cephei</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Customizable App Locking</description>
-		<description>In Beta, Email me issues.</description>
+		<description>In Beta, Email me issues. Please contact me if you're interested in translating.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -23,6 +24,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Control panel + localizations</change>
+		<change>Too Many, check full changelog.</change>
 	</changelog>
 </package>

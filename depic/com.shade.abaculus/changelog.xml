@@ -19,4 +19,8 @@
 		<version>0.2</version>
 		<change>Fixed Twitter cell in prefs</change>
 	</changes>
+	<changes>
+		<version>0.3</version>
+		<change>Added the ability to choose between a black and white background. Added the ability to control background color based on noctis state.</change>
+	</changes>
 </changelog>
