@@ -7,4 +7,8 @@
 		<version>0.1-11+debug</version>
 		<change>Fixed lag hopefully.</change>
 	</changes>
+	<changes>
+		<version>0.1-35+debug</version>
+		<change>Fixed orientation on iPads. Fixed killall freezing SB. Now uses new localization system. Internal changes</change>
+	</changes>
 </changelog>

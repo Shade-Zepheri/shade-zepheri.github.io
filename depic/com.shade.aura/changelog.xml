@@ -15,4 +15,8 @@
 		<version>0.1-32+debug</version>
 		<change>Fixed StatusBar icons not showing up</change>
 	</changes>
+	<changes>
+		<version>0.1-38+debug</version>
+		<change>Use new localization systemup. Internal changes</change>
+	</changes>
 </changelog>

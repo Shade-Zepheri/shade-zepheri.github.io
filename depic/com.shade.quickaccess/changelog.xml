@@ -3,4 +3,8 @@
 		<version>0.1-2+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-47+debug</version>
+		<change>Fixed Orientation on iPads and using new localization system. Internal changes</change>
+	</changes>
 </changelog>

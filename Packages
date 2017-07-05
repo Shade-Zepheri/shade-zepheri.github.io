@@ -1141,6 +1141,23 @@ Section: Tweaks
 Version: 0.1-32+debug
 Installed-Size: 368
 
+Package: com.shade.aura
+Name: Aura
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.aura_0.1-38+debug_iphoneos-arm.deb
+Size: 70872
+MD5sum: ded0b86203329606904fe55d6380aa6b
+SHA1: 4d435bf7804e37a8bdf1a4a0addd2852ee4bc586
+SHA256: 60f867e256b857a5aaadbed9b48507988288678da5f63ef0672c19d7a0a769d2
+Description: Customizable backgrounding for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-38+debug
+Installed-Size: 368
+
 Package: com.shade.empoleon
 Name: Empoleon
 Depends: mobilesubstrate, com.shade.multiplexercore
@@ -1174,6 +1191,23 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-18+debug
 Installed-Size: 632
+
+Package: com.shade.empoleon
+Name: Empoleon
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.empoleon_0.1-35+debug_iphoneos-arm.deb
+Size: 138300
+MD5sum: b2a32509b16ac15dbbde3f6140a6d7d0
+SHA1: caed550b556b9c6f5f1ed140474dc28017f94613
+SHA256: 5d86d75d8cdb4f4dd4d007c90fc17d3ec8de5ee1759a55e7e4d01cd2e14772b5
+Description: Empoleon for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-35+debug
+Installed-Size: 668
 
 Package: com.shade.missioncontrol
 Name: MissionControl
@@ -1209,6 +1243,23 @@ Section: Tweaks
 Version: 0.1-11+debug
 Installed-Size: 604
 
+Package: com.shade.missioncontrol
+Name: MissionControl
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.missioncontrol_0.1-35+debug_iphoneos-arm.deb
+Size: 130926
+MD5sum: 7f88a1f7da2b82848715f5ee3cd55edb
+SHA1: 18cc0303ee13434d063aef42fafa395ac50dec17
+SHA256: 1433e970d828b3ffe919adfaf1eae6ff82dcb42ebb4ce21d6e809a9ad9eb70dc
+Description: MissionControl for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-35+debug
+Installed-Size: 584
+
 Package: com.shade.quickaccess
 Name: QuickAccess
 Depends: mobilesubstrate, com.shade.multiplexercore
@@ -1225,6 +1276,23 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-2+debug
 Installed-Size: 260
+
+Package: com.shade.quickaccess
+Name: QuickAccess
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.quickaccess_0.1-47+debug_iphoneos-arm.deb
+Size: 23890
+MD5sum: 8eaf4f7afb5ca58196614140b020a77e
+SHA1: a77fa41abc03caae9ee41892e197a7c14989e172
+SHA256: 8c1f1cd384966e3699fa31c033644cb38a7fefcacdbce7ec053aa1e78dc00970
+Description: QuickAccess for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-47+debug
+Installed-Size: 180
 
 Package: com.shade.reachapp
 Name: ReachApp
@@ -1243,6 +1311,23 @@ Section: Tweaks
 Version: 0.1-9+debug
 Installed-Size: 296
 
+Package: com.shade.reachapp
+Name: ReachApp
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.reachapp_0.1-42+debug_iphoneos-arm.deb
+Size: 52622
+MD5sum: 3006a199d9e9708a59da2b61aad7f66e
+SHA1: dfa6087c3249d42e09d5b8484bb6d124ccc5a308
+SHA256: fece2977464740921693b543b87a53bd2a9a3824adb46537824629fc4efb6dde
+Description: ReachApp for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-42+debug
+Installed-Size: 296
+
 Package: com.shade.swipeover
 Name: SwipeOver
 Depends: mobilesubstrate, com.shade.multiplexercore
@@ -1259,6 +1344,23 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-2+debug
 Installed-Size: 352
+
+Package: com.shade.swipeover
+Name: SwipeOver
+Depends: mobilesubstrate, com.shade.multiplexercore
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.swipeover_0.1-58+debug_iphoneos-arm.deb
+Size: 47662
+MD5sum: e71fdc40a2159b6c45d2f44bf4eaa7ed
+SHA1: 683b78a3885f5f3cbb89203a4b9aebb64cd97be2
+SHA256: d6f91f54f67cb031e724cc3b86a9afb4ddee1e4e20b0e697648518f53d1b60b6
+Description: SwipeOver for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1-58+debug
+Installed-Size: 244
 
 Package: com.shade.multiplexercore
 Name: Multiplexer Core
@@ -1335,6 +1437,25 @@ Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
 Version: 0.1-110+debug
 Installed-Size: 3700
+
+Package: com.shade.multiplexercore
+Name: Multiplexer Core
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.multiplexercore_0.2_iphoneos-arm.deb
+Size: 704664
+MD5sum: 266cccae0246f90439fed732b1d7ed50
+SHA1: bddbc3b79ae33ea14340bff3c2275aaf5a343a04
+SHA256: 7c2e40b426447e1160a165b4f346417e41ac59df94acf2736a8911150723cc81
+Description: Main Library for Multiplexer.
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.2
+Installed-Size: 2904
 
 Package: com.shade.nougat
 Name: Nougat

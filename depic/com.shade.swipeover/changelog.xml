@@ -3,4 +3,8 @@
 		<version>0.1-2+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-58+debug</version>
+		<change>Most improved update from Multiplexer suite. Fixed slide out and in animations. Internal changes to the timing functions. Fixed weird behaviors on iPads. Generally really stable now. Major internal changes.</change>
+	</changes>
 </changelog>

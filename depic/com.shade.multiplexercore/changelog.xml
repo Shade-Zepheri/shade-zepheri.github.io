@@ -15,4 +15,8 @@
 		<version>0.1-110+debug</version>
 		<change>Changes to snapshot generation to hopefully improve missioncontrol performance. Fixed 9.0 crash when using empoleon/swipeover/missioncontrol.</change>
 	</changes>
+	<changes>
+		<version>0.2</version>
+		<change>Better snapshotting for MC/Empoleon/SwipeOver. Better CC disabler (should improve empoleon swipe gesture reliability). Improved gesture support. New hosting method (should reduce number of black out windows). Major internal reformatting. Improved localization method (including prefs).</change>
+	</changes>
 </changelog>

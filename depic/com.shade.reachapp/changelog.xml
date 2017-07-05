@@ -3,4 +3,8 @@
 		<version>0.1-9+debug</version>
 		<change>Initial Release.</change>
 	</changes>
+	<changes>
+		<version>0.1-42+debug</version>
+		<change>New Localization system and internal changes.</change>
+	</changes>
 </changelog>

@@ -1,5 +1,5 @@
 <package>
-	<version>0.1-110+debug</version>
+	<version>0.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -14,8 +14,9 @@
 	<descriptionlist>
 		<description>Core library for all of Multiplexer</description>
 		<description>In Beta, Email me issues.</description>
+		<description>If you're interested in Localizing Multiplexer, please email me.</description>
 	</descriptionlist>
 	<changelog>
-		<change>Performance Improvements and Crash Fixes</change>
+		<change>Read full changelog</change>
 	</changelog>
 </package>

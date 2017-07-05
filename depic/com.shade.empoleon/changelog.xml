@@ -7,4 +7,8 @@
 		<version>0.1-18+debug</version>
 		<change>Fixed windows not rotating with along with device orientation</change>
 	</changes>
+	<changes>
+		<version>0.1-35+debug</version>
+		<change>Now dismisses CC on invoke gesture to avoid problems. Added 3D touch shortcut to all apps to launch them in Empoleon windows. Now Uses new localization system. Internal changes</change>
+	</changes>
 </changelog>
