@@ -1574,7 +1574,7 @@ Description: Main Library for Multiplexer.
 Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
 Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
+Section: Development
 Version: 1.0.0~rc1
 Installed-Size: 2792
 
