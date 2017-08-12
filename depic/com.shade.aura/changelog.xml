@@ -19,4 +19,8 @@
 		<version>0.1-38+debug</version>
 		<change>Use new localization systemup. Internal changes</change>
 	</changes>
+	<changes>
+		<version>1.0.0~rc1</version>
+		<change>Fixed WhatsApp crashing? Internal Changes for Release Candidates.</change>
+	</changes>
 </changelog>

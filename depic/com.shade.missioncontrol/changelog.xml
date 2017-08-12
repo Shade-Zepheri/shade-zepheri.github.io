@@ -11,4 +11,8 @@
 		<version>0.1-35+debug</version>
 		<change>Fixed orientation on iPads. Fixed killall freezing SB. Now uses new localization system. Internal changes</change>
 	</changes>
+	<changes>
+		<version>1.0.0~rc1</version>
+		<change>Fixed MC behavior inside apps. Fixed SlideOut gesture and upside down support. Internal Changes for release candidate.</change>
+	</changes>
 </changelog>

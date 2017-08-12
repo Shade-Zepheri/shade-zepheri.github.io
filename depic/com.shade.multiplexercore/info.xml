@@ -1,5 +1,5 @@
 <package>
-	<version>0.2</version>
+	<version>1.0.0~rc1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>

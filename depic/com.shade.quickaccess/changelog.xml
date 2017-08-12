@@ -7,4 +7,8 @@
 		<version>0.1-47+debug</version>
 		<change>Fixed Orientation on iPads and using new localization system. Internal changes</change>
 	</changes>
+	<changes>
+		<version>1.0.0~rc1</version>
+		<change>Nothing much changed. Mainly optimized for release candidate.</change>
+	</changes>
 </changelog>

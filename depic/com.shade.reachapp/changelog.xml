@@ -7,4 +7,8 @@
 		<version>0.1-42+debug</version>
 		<change>New Localization system and internal changes.</change>
 	</changes>
+	<changes>
+		<version>1.0.0~rc1</version>
+		<change>Nothing much changed. Just fixed a crash and internal changes. Optimized for release candidate.</change>
+	</changes>
 </changelog>
