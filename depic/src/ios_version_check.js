@@ -14,7 +14,7 @@ function checkIOSVersion(minIOS, maxIOS) {
         .replace('undefined', '3_2').replace('_', '.').replace('_', '')
     ) || false;
 
-    if (iOS > maxIOS) {
+    if (iOS > maxIOS && maxIOS != null) {
         return VERSION_CHECK_UNCONFIRMED.replace("%s", iOS);
     } else if (iOS < minIOS) {
         return VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minIOS);
