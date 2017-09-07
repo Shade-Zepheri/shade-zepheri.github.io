@@ -18,7 +18,7 @@ function checkIOSVersion(minIOS, maxIOS) {
         return VERSION_CHECK_UNCONFIRMED.replace("%s", iOS);
     } else if (iOS < minIOS) {
         return VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minIOS);
-    } else if (iOS >= minIOS && maxIOS >= iOS) {
+    } else {
         return VERSION_CHECK_SUPPORTED;
     }
 }
