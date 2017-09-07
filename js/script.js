@@ -1,16 +1,19 @@
-(function($){
-  $(function(){
+(function($) {
+    $(function() {
 
-    $(".dropdown-button").dropdown();
-    $('.parallax').parallax();
-    $(".button-collapse").sideNav();
+        $(".dropdown-button").dropdown();
+        $('.parallax').parallax();
+        $(".button-collapse").sideNav({
+            menuWidth: 200,
+            draggable: true,
+        });
 
-  });
+    });
 })(jQuery);
 
 function getParameterByName(name, url) {
     if (!url) {
-      url = window.location.href;
+        url = window.location.href;
     }
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
