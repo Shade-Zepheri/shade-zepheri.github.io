@@ -1,62 +1,54 @@
 <html>
-  <head>
+
+<head>
     <title>Changelog</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  </head>
-  <body>
+    <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="src/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
     <div class="container">
-      <div class="section">
-        <div class="row">
-          <div class="col s12 m8">
-            <ul id="mainList" class="collapsible popout" data-collapsible="expandable">
-            </ul>
-          </div>
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m8">
+                    <ul id="mainList" class="collapsible popout" data-collapsible="expandable">
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="../js/materialize.min.js"></script>
-  <script src="src/script.js"></script>
-  <script type="text/javascript">
-    function getParameterByName(name, url) {
-        if (!url) {
-          url = window.location.href;
-        }
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-    $(document).ready(function() {
-      var name = getParameterByName('p');
-      $.ajax({
-           type: "GET",
-           url: (name+"/changelog.xml"),
-           cache: false,
-           dataType: "xml",
-           success: function(xml) {
-             $(xml).find('changelog>changes').each(function() {
-               var version;
-               var change;
-               $(this).find('version').each(function() {
-                 version = $(this).text();
-               });
-               $(this).find('change').each(function() {
-                 change = $(this).text();
-               });
-               $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>'+version+'</div><div class="collapsible-body"><p>'+change+'</p></div></li>');
-             });
-           }
-         });
-      });
-  </script>
-  </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <script src="src/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var name = getParameterByName('p');
+            $.ajax({
+                type: "GET",
+                url: (name + "/changelog.xml"),
+                cache: false,
+                dataType: "xml",
+                success: function(xml) {
+                    $(xml).find('changelog>changes').each(function() {
+                        var version;
+                        var change;
+                        $(this).find('version').each(function() {
+                            version = $(this).text();
+                        });
+                        $(this).find('change').each(function() {
+                            change = $(this).text();
+                        });
+                        $('#mainList').append('<li><div class="collapsible-header"><i class="material-icons">build</i>' + version + '</div><div class="collapsible-body"><p>' + change + '</p></div></li>');
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>
