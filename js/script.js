@@ -4,7 +4,7 @@
         $(".dropdown-button").dropdown();
         $('.parallax').parallax();
         $(".button-collapse").sideNav({
-            menuWidth: 200,
+            menuWidth: 250,
             draggable: true,
         });
 
