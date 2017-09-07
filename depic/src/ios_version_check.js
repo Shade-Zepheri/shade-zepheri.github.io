@@ -3,10 +3,11 @@ I saw some parts of this code on the internet. I forgot where. If it's yours
 let me know and I'll credit you.
 
 */
+const NOT_IOS_DEVICE = "Not an iOS device, can't check version.";
 
-const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
-const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
-const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x2190;";
+const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#128522;";
+const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#128533;";
+const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#128533;";
 
 function checkIOSVersion(minIOS, maxIOS) {
     var iOS = parseFloat(
@@ -14,8 +15,11 @@ function checkIOSVersion(minIOS, maxIOS) {
         .replace('undefined', '3_2').replace('_', '.').replace('_', '')
     ) || false;
 
+    if (!iOS) {
+        return NOT_IOS_DEVICE;
+    }
+
     if (maxIOS && iOS > maxIOS) {
-        alert("Version newer than supported");
         return VERSION_CHECK_UNCONFIRMED.replace("%s", iOS);
     } else if (iOS < minIOS) {
         return VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minIOS);
