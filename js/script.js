@@ -1,7 +1,9 @@
 (function($) {
     $(function() {
 
-        $(".dropdown-button").dropdown();
+        $(".dropdown-button").dropdown({
+            hover: true,
+        });
         $('.parallax').parallax();
         $(".button-collapse").sideNav({
             menuWidth: 250,
