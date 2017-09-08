@@ -17,7 +17,7 @@
 
                 <div class="row">
                     <div class="col s12 m8">
-                        <div class="card blue-grey darken-1">
+                        <div class="card light-green lighten-1" id="banner">
                             <div class="card-content white-text">
                                 <p id="compatibilityCheck">Unable to determine version compatibility</p>
                             </div>
@@ -33,7 +33,7 @@
                                 <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
                             </li>
                             <li>
-                                <div class="collapsible-header"><i class="material-icons">code</i>In this version<span class="new badge" id="badge" data-badge-caption="">0.9.10</span></div>
+                                <div class="collapsible-header"><i class="material-icons">code</i>In this version<span class="new badge light-green lighten-1" id="badge" data-badge-caption="">0.9.10</span></div>
                                 <div class="collapsible-body">
                                     <p id="changelog">Rewrote tweak and Nicer prefs</p>
                                 </div>
@@ -72,16 +72,14 @@
                     var minOS = $(xml).find('package>compatibility>firmware>miniOS').text();
                     var maxOS = $(xml).find('package>compatibility>firmware>maxiOS').text();
                     var banner = checkIOSVersion(minOS, maxOS);
-                    $('#compatibilityCheck').text(banner);
+                    $("#compatibilityCheck").text(banner);
 
                     $("#changelog").html($(xml).find('package>changelog>change').text());
                     $("#badge").html($(xml).find('package>version').text());
 
-                    var screenshotLink = 'screenshots.html?p='
-                    $('#screenshotLink').attr("href", screenshotLink + name);
+                    $("#screenshotLink").attr('href', 'screenshots.html?p=' + name);
 
-                    var changelogLink = 'changelog.html?p='
-                    $('#changelogLink').attr("href", changelogLink + name);
+                    $("#changelogLink").attr('href', 'changelog.html?p=' + name);
 
                     $(xml).find('package>descriptionlist>description').each(function() {
                         var description = $(this).text();

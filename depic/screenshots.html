@@ -33,7 +33,7 @@
                 cache: false,
                 dataType: "xml",
                 success: function(xml) {
-                    $(xml).find("package>screenshots>screenshot").each(function() {
+                    $(xml).find('package>screenshots>screenshot').each(function() {
                         var imageURL = $(this).find("image").text();
                         var description = $(this).find("description").text();
                         $(".row").append('<img src="' + name + '/screenshots/' + imageURL + '" data-caption="' + description + '" width="300px" class="materialboxed" />')
