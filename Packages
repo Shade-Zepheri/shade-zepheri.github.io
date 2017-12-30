@@ -826,6 +826,24 @@ Name: libstatusbar (Shade Zepheri)
 Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 176
 
+Package: com.a3tweaks.asphaleia3
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Architecture: iphoneos-arm
+Filename: /debs/com.a3tweaks.asphaleia3_1.0.0_iphoneos-arm.deb
+Size: 329940
+MD5sum: 6c7bbc7bdcd1511a8e1d992e6266ae77
+SHA1: 38cad84141fa65f670910b20d101f97aa50fc6d2
+SHA256: e871ef45447d4649a9e264c6bf20a9ac3996717547e724439fdb6dfecdac2d40
+Description: customizable locking system for apps & more
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.a3tweaks.asphaleia3
+Name: Asphaleia 3 (iOS 9)
+Author: A3tweaks <asphaleia@a3tweaks.com>
+Installed-Size: 1588
+
 Package: com.shade.asphaleiaX
 Version: 1.0.0-86+debug
 Section: Tweaks
