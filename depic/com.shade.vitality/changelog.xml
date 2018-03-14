@@ -3,4 +3,8 @@
 		<version>0.2</version>
 		<change>Initial Release</change>
 	</changes>
+	<changes>
+		<version>0.3</version>
+		<change>Fixed not showing on the HS sometimes. Fixed gifs not playing at full speed. No longer needs respring to apply changes. Made the prefs page prettier. Major internal changes (rewrote the whole thing).</change>
+	</changes>
 </changelog>
