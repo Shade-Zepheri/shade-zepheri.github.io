@@ -13,6 +13,7 @@
 	<descriptionlist>
 		<description>Animated Wallpapers</description>
 		<description>In Beta, Email me issues.</description>
+		<description>How to use: You take your gif file and place it in "/var/mobile/Library/Vitality/YOURBUNDLE.bundle/wallpaper.gif", renaming the gif to "wallpaper.gif"</description>
 	</descriptionlist>
 	<changelog>
 		<change>See Changelog</change>
