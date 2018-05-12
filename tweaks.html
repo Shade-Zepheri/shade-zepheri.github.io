@@ -1,53 +1,55 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <title>Tweaks</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="icon" href="../CydiaIcon.png">
+    <link rel="icon" href="CydiaIcon.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 </head>
 
 <body>
     <div class="navbar-fixed">
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="" class="brand-logo">Zepheri</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="" class="brand-logo">Zepheri</a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="../index.html">Home</a></li>
-                    <li class="active"><a class="dropdown-button" href="" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a class="dropdown-trigger" href="" data-target="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
         <ul id='dropdown1' class='dropdown-content'>
             <li><a href="">Tweaks</a></li>
-            <li><a href="widgets.html">Widgets</a></li>
+            <li><a href="widgets">Widgets</a></li>
             <li class="divider"></li>
-            <li><a href="community.html">Community Projects</a></li>
+            <li><a href="community">Community Projects</a></li>
         </ul>
     </div>
 
-    <main>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="../index.html"><i class="material-icons">home</i>Home</a></li>
-            <li><a href=""><i class="material-icons">code</i>Tweaks</a></li>
-            <li><a href="widgets.html"><i class="material-icons">http</i>Widgets</a></li>
-            <li><a href="community.html"><i class="material-icons">people</i>Community Projects</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a href="../contact.html"><i class="material-icons">account_circle</i>Contact</a></li>
-        </ul>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/"><i class="material-icons">home</i>Home</a></li>
+        <li><a href=""><i class="material-icons">code</i>Tweaks</a></li>
+        <li><a href="widgets"><i class="material-icons">http</i>Widgets</a></li>
+        <li><a href="community"><i class="material-icons">people</i>Community Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="contact"><i class="material-icons">account_circle</i>Contact</a></li>
+    </ul>
 
+    <main>
         <div class="parallax-container">
             <div class="parallax">
-                <img src="images/waterfall.jpg">
+                <img src="src/images/waterfall.jpg">
             </div>
         </div>
 
@@ -65,14 +67,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/hortus.jpg">
+                                <img src="src/images/hortus.jpg">
                                 <span class="card-title">Hortus</span>
                             </div>
                             <div class="card-content">
                                 <p>The legacy tweak, %hooks law, updated to iOS 9.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=hortus">More Info</a>
+                                <a href="package?p=hortus">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -80,14 +82,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/steal.jpg">
+                                <img src="src/images/steal.jpg">
                                 <span class="card-title">Steal Meme</span>
                             </div>
                             <div class="card-content">
                                 <p>From the Reddit request to replace 'Save Image' with 'Steal Meme'.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=stealmeme">More Info</a>
+                                <a href="package?p=stealmeme">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -95,14 +97,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/domum.jpg">
+                                <img src="src/images/domum.jpg">
                                 <span class="card-title">Domum</span>
                             </div>
                             <div class="card-content">
                                 <p>From the Reddit request to have a virtual home button present everywhere.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html">More Info</a>
+                                <a href="package">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -114,14 +116,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/splyce.jpg">
+                                <img src="src/images/splyce.jpg">
                                 <span class="card-title">Splyce</span>
                             </div>
                             <div class="card-content">
                                 <p>Ryan Petrich's legendary tweak SmartClose updated to iOS 9.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=splyce">More Info</a>
+                                <a href="package?p=splyce">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -129,14 +131,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/vertical.jpg">
+                                <img src="src/images/vertical.jpg">
                                 <span class="card-title">Zypen</span>
                             </div>
                             <div class="card-content">
                                 <p>1/2 of Multiplexer for iOS 9 and 10.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=zypen">More Info</a>
+                                <a href="package?p=zypen">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -144,14 +146,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/abaculus.jpg">
+                                <img src="src/images/abaculus.jpg">
                                 <span class="card-title">Abaculus</span>
                             </div>
                             <div class="card-content">
                                 <p>An Elegant app launcher. Meant to help fill the void of free tweaks.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=abaculus">More Info</a>
+                                <a href="package?p=abaculus">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -163,14 +165,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/vitality.jpg">
+                                <img src="src/images/vitality.jpg">
                                 <span class="card-title">Vitality</span>
                             </div>
                             <div class="card-content">
                                 <p>Allow animated wallpapers on iOS with minimal battery drain.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=vitality">More Info</a>
+                                <a href="package?p=vitality">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -178,14 +180,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/oreo.jpg">
+                                <img src="src/images/oreo.jpg">
                                 <span class="card-title">Oreo</span>
                             </div>
                             <div class="card-content">
                                 <p>An Elegant app drawer, companion to Abaculus.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=oreo">More Info</a>
+                                <a href="package?p=oreo">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -193,14 +195,14 @@
                     <div class="col s12 m4">
                         <div class="card medium">
                             <div class="card-image">
-                                <img src="images/nougat.jpg">
+                                <img src="src/images/nougat.jpg">
                                 <span class="card-title">Nougat</span>
                             </div>
                             <div class="card-content">
                                 <p>The Android Notification drawer for iOS.</p>
                             </div>
                             <div class="card-action">
-                                <a href="package.html?p=nougat">More Info</a>
+                                <a href="package?p=nougat">More Info</a>
                             </div>
                         </div>
                     </div>
@@ -212,7 +214,7 @@
 
         <div class="parallax-container">
             <div class="parallax">
-                <img src="images/thor-smaller.png">
+                <img src="src/images/thor-smaller.png">
             </div>
         </div>
     </main>
@@ -237,9 +239,8 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>

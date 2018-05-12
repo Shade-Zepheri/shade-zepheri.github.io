@@ -1,50 +1,52 @@
 <html>
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <title>Contact</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="icon" href="CydiaIcon.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
 </head>
 
 <body>
     <div class="navbar-fixed">
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
-                <a id="logo-container" href="" class="brand-logo">Zepheri</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="" class="brand-logo">Zepheri</a>
+                <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="dropdown-button" href="#" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li class="active"><a href="#">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a class="dropdown-trigger" href="" data-target="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="active"><a href="">Contact</a></li>
                 </ul>
             </div>
         </nav>
+
         <ul id='dropdown1' class='dropdown-content'>
-            <li><a href="src/tweaks.html">Tweaks</a></li>
-            <li><a href="src/widgets.html">Widgets</a></li>
+            <li><a href="tweaks">Tweaks</a></li>
+            <li><a href="widgets">Widgets</a></li>
             <li class="divider"></li>
-            <li><a href="src/community.html">Community Projects</a></li>
+            <li><a href="community">Community Projects</a></li>
         </ul>
     </div>
 
-    <main>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
-            <li><a href="src/tweaks.html"><i class="material-icons">code</i>Tweaks</a></li>
-            <li><a href="src/widgets.html"><i class="material-icons">http</i>Widgets</a></li>
-            <li><a href="src/community.html"><i class="material-icons">people</i>Community Projects</a></li>
-            <li>
-                <div class="divider"></div>
-            </li>
-            <li><a href=""><i class="material-icons">account_circle</i>Contact</a></li>
-        </ul>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="tweaks"><i class="material-icons">code</i>Tweaks</a></li>
+        <li><a href="widgets"><i class="material-icons">http</i>Widgets</a></li>
+        <li><a href="community"><i class="material-icons">people</i>Community Projects</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href=""><i class="material-icons">account_circle</i>Contact</a></li>
+    </ul>
 
+    <main>
         <div class="parallax-container">
             <div class="parallax">
                 <img src="src/images/waterfall.jpg">
@@ -125,9 +127,8 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>
