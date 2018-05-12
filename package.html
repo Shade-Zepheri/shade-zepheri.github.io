@@ -133,17 +133,14 @@
             var name = getParameterByName('p');
             document.title = capitalizeFirstLetter(name);
 
-            var request = new XMLHttpRequest();
-            request.open("GET", "src/xmls/" + name + ".json", false);
-            request.send(null);
-
-            var jsonData = JSON.parse(request.responseText);
-
-            $("#tweakName").html(jsonData.name);
-            $("#about").html(jsonData.about);
-            $("#features").html(jsonData.features);
-            $("#compatibility").html(jsonData.compatibility);
-            $("#sourceCode").attr("href", jsonData.url);
+            var URL = "src/xmls/" + name + ".json";
+            $.getJSON(URL, function(data) {
+                $("#tweakName").html(data.name);
+                $("#about").html(data.about);
+                $("#features").html(data.features);
+                $("#compatibility").html(data.compatibility);
+                $("#sourceCode").attr("href", data.url);
+            })
         });
 
         function capitalizeFirstLetter(string) {
