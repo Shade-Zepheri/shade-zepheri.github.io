@@ -1,17 +1,6 @@
-(function($) {
-    $(function() {
-
-        $(".dropdown-button").dropdown({
-            hover: true,
-        });
-        $('.parallax').parallax();
-        $(".button-collapse").sideNav({
-            menuWidth: 250,
-            draggable: true,
-        });
-
-    });
-})(jQuery);
+document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();
+});
 
 function getParameterByName(name, url) {
     if (!url) {
