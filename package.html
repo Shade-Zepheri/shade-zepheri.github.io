@@ -134,7 +134,7 @@
             document.title = capitalizeFirstLetter(name);
 
             var request = new XMLHttpRequest();
-            request.open("GET", "src/xmls" + name + ".json");
+            request.open("GET", "src/xmls/" + name + ".json", true);
             request.send(null);
 
             var jsonData = JSON.parse(request.responseText);
