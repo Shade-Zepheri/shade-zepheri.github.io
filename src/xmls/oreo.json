@@ -1,0 +1,7 @@
+{
+    "name": "Oreo",
+    "url": "https://github.com/Shade-Zepheri/Oreo",
+    "about": "As a companion to Abaculus, Oreo strives to be an elegant app drawer that can provide a free alternative to all the paid AppDrawers.",
+    "features": "On the Homescreen, slide up from the middle 1/3 of the screen to invoke the view. Either select an app from the list or press the homebutton to dismiss the view.",
+    "compatibility": "8.0-10.2"
+}

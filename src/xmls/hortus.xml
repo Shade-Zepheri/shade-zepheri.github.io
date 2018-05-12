@@ -1,7 +1,0 @@
-<package>
-	<name>Hortus</name>
-	<url>https://github.com/Shade-Zepheri/Hortus</url>
-	<about>Originally developed by Xuzz, Hortus makes animations on iOS more springy and bouncy.</about>
-	<features>Makes animations in iOS more bouncy and faster. Configure bouncyness and speed multiplier in settings.</features>
-	<compatibility>Tested on iOS 9.0. Should be compatible down to iOS 8.0.</compatibility>
-</package>

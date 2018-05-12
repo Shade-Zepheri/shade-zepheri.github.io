@@ -1,7 +1,0 @@
-<package>
-	<name>Steal Meme</name>
-	<url>https://github.com/Shade-Zepheri/StealMeme</url>
-	<about>Inspired by a Reddit request to replace 'Save Image' text with 'Steal Meme'. Its a silly, practically useless.</about>
-	<features>Replaces instances of 'Save Image' with 'Steal Meme'.</features>
-	<compatibility>Tested on iOS 9.0. Should be compatible down to iOS 8.0.</compatibility>
-</package>

@@ -1,0 +1,7 @@
+{
+    "name": "Abaculus",
+    "url": "https://github.com/Shade-Zepheri/Abaculus",
+    "about": "In the lack of free app launchers, Abaculus aims to provide a free option for an favorites app launcher.",
+    "features": "Slide in from the right edge to reveal a side menu of user defined apps. In the same gesture, swipe over an app and release to launch the app.",
+    "compatibility": "9.0-10.2"
+}

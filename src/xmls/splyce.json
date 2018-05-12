@@ -1,0 +1,7 @@
+{
+    "name": "Splyce",
+    "url": "https://github.com/Shade-Zepheri/Splyce",
+    "about": "Originally developed by Ryan Petrich, the purpose is to send apps into a deep freeze when activated.",
+    "features": "Upon the defined Activator gesture, all open apps are put into a deep freeze, but not killed.",
+    "compatibility": "Tested on iOS 9.0. Use original SmartClose for lower iOS versions."
+}

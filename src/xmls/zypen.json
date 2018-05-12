@@ -1,0 +1,7 @@
+{
+    "name": "Zypen",
+    "url": "https://github.com/Shade-Zepheri/Zypen",
+    "about": "Originally meant to update ReachApp to iOS 9, after serveral weeks it turned into half of the tweak Multiplexer for iOS 9 and 10.",
+    "features": "A plethora of Multitasking features. Change how apps background, Run apps inside of resizeable windows and Run an app in the reachability view.",
+    "compatibility": "9.0-10.2"
+}

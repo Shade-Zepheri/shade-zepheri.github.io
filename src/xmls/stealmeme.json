@@ -1,0 +1,7 @@
+{
+    "name": "Steal Meme",
+    "url": "https://github.com/Shade-Zepheri/StealMeme",
+    "about": "Inspired by a Reddit request to replace 'Save Image' text with 'Steal Meme'. Its a silly, practically useless.",
+    "features": "Replaces instances of 'Save Image' with 'Steal Meme'.",
+    "compatibility": "8.0-10.2"
+}
