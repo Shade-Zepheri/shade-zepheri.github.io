@@ -1,13 +1,1 @@
-document.addEventListener("DOMContentLoaded", function() {
-    M.AutoInit();
-});
-
-function getParameterByName(name) {
-    let params = new URLSearchParams(location.search.slice(1));
-
-    if (params.has("p")) {
-        return params.get("p");
-    }
-
-    return "";
-}
+function getParameterByName(e){let t=new URLSearchParams(location.search.slice(1));return t.has(e)?t.get(e):""}document.addEventListener("DOMContentLoaded",function(){M.AutoInit()});
