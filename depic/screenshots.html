@@ -28,7 +28,7 @@
     <script type="text/javascript" src="src/script.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            var name = getParameterByName('p');
+            var name = getUrlParams('p');
 
             $.ajax({
                 type: "GET",

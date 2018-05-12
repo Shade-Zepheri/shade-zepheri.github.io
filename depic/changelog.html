@@ -18,7 +18,7 @@
         <div class="section">
             <div class="row">
                 <div class="col s12 m8">
-                    <ul id="mainList" class="collapsible popout" data-collapsible="expandable">
+                    <ul id="mainList" class="collapsible popout">
                     </ul>
                 </div>
             </div>
@@ -30,7 +30,7 @@
     <script type="text/javascript" src="src/script.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            var name = getParameterByName('p');
+            var name = getUrlParams('p');
             $.ajax({
                 type: "GET",
                 url: (name + "/changelog.xml"),

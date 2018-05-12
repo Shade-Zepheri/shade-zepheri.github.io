@@ -30,7 +30,7 @@
 
                 <div class="row">
                     <div class="col s12 m8">
-                        <ul class="collapsible popout" data-collapsible="expandable">
+                        <ul class="collapsible popout">
                             <li id="description">
                                 <div class="collapsible-header"><i class="material-icons">description</i>Description</div>
                                 <div class="collapsible-body"><a id="screenshotLink" href="">Screenshots</a></div>
@@ -64,7 +64,7 @@
     <script type="text/javascript" src="src/script.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            var name = getParameterByName('p');
+            var name = getUrlParams('p');
 
             $.ajax({
                 type: "GET",
@@ -80,9 +80,9 @@
                     $("#changelog").html($(xml).find('package>changelog>change').text());
                     $("#badge").html($(xml).find('package>version').text());
 
-                    $("#screenshotLink").attr('href', 'screenshots.html?p=' + name);
+                    $("#screenshotLink").attr('href', 'screenshots?p=' + name);
 
-                    $("#changelogLink").attr('href', 'changelog.html?p=' + name);
+                    $("#changelogLink").attr('href', 'changelog?p=' + name);
 
                     $(xml).find('package>descriptionlist>description').each(function() {
                         var description = $(this).text();
