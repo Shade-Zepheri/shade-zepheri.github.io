@@ -1,0 +1,7 @@
+{
+    "name": "Nougat",
+    "url": "https://github.com/Shade-Zepheri/Nougat",
+    "about": "Requests to bring Android features to iOS have always been vocal in the Jailbreak community. This project aims to be as accurate as possible to the original NC in Android.",
+    "features": "Adds the Android notification drawer to iOS. The drawer is added on in conjunction with the default iOS Notification center. The swipe down gesture is split up into 1/3rds. The left 1/3 brings down the default NC while the middle 1/3rd brings down the Quick Toggles and the right 1/3 is a shortcut to the Main Toggle Page. You can toggle flipswitches, adjust brightness and quickly go to settings from the drawer.",
+    "compatibility": "8.0-10.2"
+}

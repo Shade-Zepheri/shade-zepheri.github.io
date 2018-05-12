@@ -133,19 +133,17 @@
             var name = getParameterByName('p');
             document.title = capitalizeFirstLetter(name);
 
-            $.ajax({
-                type: "GET",
-                url: ("src/xmls/" + name + ".xml"),
-                cache: false,
-                dataType: "xml",
-                success: function(xml) {
-                    $("#tweakName").html($(xml).find('package>name').text());
-                    $("#about").html($(xml).find('package>about').text());
-                    $("#features").html($(xml).find('package>features').text());
-                    $("#compatibility").html($(xml).find('package>compatibility').text());
-                    $("#sourceCode").attr('href', $(xml).find('package>url').text());
-                }
-            });
+            var request = new XMLHttpRequest();
+            request.open("GET", "src/xmls" + name + ".json");
+            request.send(null);
+
+            var jsonData = JSON.parse(request.responseText);
+
+            $("#tweakName").html(jsonData.name);
+            $("#about").html(jsonData.about);
+            $("#features").html(jsonData.features);
+            $("#compatibility").html(jsonData.compatibility);
+            $("#sourceCode").attr("href", jsonData.url);
         });
 
         function capitalizeFirstLetter(string) {
