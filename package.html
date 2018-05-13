@@ -133,7 +133,7 @@
             var name = getParameterByName('p');
             document.title = capitalizeFirstLetter(name);
 
-            var URL = "src/xmls/" + name + ".json";
+            var URL = "src/jsons/" + name + ".json";
             $.getJSON(URL, function(data) {
                 $("#tweakName").html(data.name);
                 $("#about").html(data.about);

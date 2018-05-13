@@ -1,0 +1,7 @@
+{
+    "name": "Shush",
+    "url": "https://github.com/Shade-Zepheri/Shush",
+    "about": "Inspired by the Android P feature 'Shush', this tweak brings that plus locking when face down.",
+    "features": "When the device is face down, DND is enabled and the device is locked.",
+    "compatibility": "10.2-11.2"
+}
