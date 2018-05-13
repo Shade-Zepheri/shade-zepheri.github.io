@@ -1,0 +1,21 @@
+{
+    "version": "1.3",
+    "compatibility": {
+        "miniOS": "8.4"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "Cephei"
+    ],
+    "description": [
+        "Hook's Law for iOS 9.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "Settings",
+        "image": "hortus.png"
+    }],
+    "changelog": "Last Beta. Added reset prefs and BetterPSSliderTableCell."
+}

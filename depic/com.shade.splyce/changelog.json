@@ -1,0 +1,27 @@
+{
+    "changes": [{
+            "version": "0.5",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.6",
+            "change": "Add ability to kill all apps. Since the method straight up kills all apps, impossible to add app exemptions."
+        },
+        {
+            "version": "0.7",
+            "change": "Removed Ability to kill apps as it is no longer needed. Fixed a typo which may have broken app freezing."
+        },
+        {
+            "version": "0.8",
+            "change": "Readded the ability to add app exemptions."
+        },
+        {
+            "version": "0.9",
+            "change": "Made the code nicer (Was already clean and compact, but found way to make it even more compact from Zypen)."
+        },
+        {
+            "version": "0.9-5",
+            "change": "Fixed tweak not working sometimes."
+        }
+    ]
+}

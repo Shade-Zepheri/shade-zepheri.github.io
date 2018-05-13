@@ -1,0 +1,27 @@
+{
+    "changes": [{
+            "version": "0.1-51+debug",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.1-71+debug",
+            "change": "Hopefully fixed startup crash. Fixed GestureSupport Landscape (therefore fixing some iPad layout issues)."
+        },
+        {
+            "version": "0.1-93+debug",
+            "change": "Internal optimizations (Better snapshot generation?)."
+        },
+        {
+            "version": "0.1-110+debug",
+            "change": "Changes to snapshot generation to hopefully improve MissionControl performance. Fixed 9.0 crash when using Empoleon/SwipeOver/MissionControl."
+        },
+        {
+            "version": "0.2",
+            "change": "Better snapshotting for MC/Empoleon/SwipeOver. Better CC disabler (should improve empoleon swipe gesture reliability). Improved gesture support. New hosting method (should reduce number of black out windows). Major internal reformatting. Improved localization method (including prefs)."
+        },
+        {
+            "version": "1.0.0~rc1",
+            "change": "Added macOS styled theme. Optimized Image assets (should reduce size significantly). Fixed GestureSupport. Fixed ReachApp crash. Bunch of internal optimizations for release candidate."
+        }
+    ]
+}

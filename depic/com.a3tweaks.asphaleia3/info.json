@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "compatibility": {
+        "miniOS": "9.0",
+		"maxiOS": "10.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "Flipswitch",
+		"RocketBootstrap"
+    ],
+    "description": [
+        "A device security tweak for iOS.",
+        "From evilgoldfish's repo."
+    ],
+    "changelog": "Initial rerelease."
+}

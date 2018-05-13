@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0~rc1",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "MultiplexerCore",
+        "Empoleon"
+    ],
+    "description": [
+        "MissionControl for Multiplexer.",
+        "In Beta, Email me issues."
+    ],
+    "changelog": "Fixed behavior inside apps."
+}

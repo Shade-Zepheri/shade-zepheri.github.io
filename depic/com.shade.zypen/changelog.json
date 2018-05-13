@@ -1,0 +1,67 @@
+{
+    "changes": [{
+            "version": "0.1",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.2",
+            "change": "Fixed 99% of all resizing issues. And as a small christmas present/easter egg, double tap the grabber when you have an app open in the reachability view :)."
+        },
+        {
+            "version": "0.2.5",
+            "change": "Icons are now properly aligned and sized in the app selector views."
+        },
+        {
+            "version": "0.3",
+            "change": "Fully fixed app selectors. Now show app labels, updated/beta dots and badges."
+        },
+        {
+            "version": "0.4",
+            "change": "Fixed black screen bug. But the bug still happens when running apps inside windows."
+        },
+        {
+            "version": "0.5",
+            "change": "Now adds Aura and Empoleon from Multiplexer. Black screen still happens with empoleon and the vpn bug are still left to fix."
+        },
+        {
+            "version": "0.5.4",
+            "change": "Readded windows themes from Multiplexer and adds optional Activator gestures."
+        },
+        {
+            "version": "0.6",
+            "change": "Fixed 9.1 compatibility. Still need to fix black screen bugs."
+        },
+        {
+            "version": "0.6.2",
+            "change": "Fixed black screen bug with windows on home screem. Fixed hashsum when downloading. Colored prefs to make them a little prettier."
+        },
+        {
+            "version": "0.6.3",
+            "change": "Fixed startup crash due to typo."
+        },
+        {
+            "version": "0.7",
+            "change": "Fixed not being able to launch apps from HS when running app in window. I say the tweak is pretty stable, but I need more reports to see if all the bugs have been fixed."
+        },
+        {
+            "version": "0.7.2",
+            "change": "Fixed crashes caused by a typo and Asphaleia."
+        },
+        {
+            "version": "0.7.9",
+            "change": "Fixed THE startup crash, fixed audio issues? Fixed VPN bug, may have fixed 10.X crash but not sure. Unfortunately in order to fix the startup crash, I had to kill ios 8 support (if people used Zypen on ios 8 sorry)."
+        },
+        {
+            "version": "0.8",
+            "change": "Sorry for lack of updates, was busy updating all of Multiplexer for Elijah Frederickson (95% done). Fixed assertiond hook (not sure of implications but should fix backgronding issues) and made the daemon actually work. Still working on launch crashes."
+        },
+        {
+            "version": "0.9",
+            "change": "I THINK I FIXED THE STARTUP CRASH!!! That and a better iOS 10 compatibility."
+        },
+        {
+            "version": "0.9.1",
+            "change": "Fixed crash when clicking home button."
+        }
+    ]
+}

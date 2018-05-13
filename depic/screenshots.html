@@ -45,6 +45,17 @@
                     $('.materialboxed').materialbox();
                 }
             });
+
+            var URL = name + "/info.json";
+            $.getJSON(URL, function(data) {
+                for (i in data.screenshots) {
+                    var description = data.screenshots[i].description;
+                    var imageURL = data.screenshots[i].image;
+                    $(".row").append('<img src="' + name + '/screenshots/' + imageURL + '" data-caption="' + description + '" width="300px" class="materialboxed" />');
+                }
+
+                $('.materialboxed').materialbox();
+            });
         });
     </script>
 </body>

@@ -1,0 +1,17 @@
+{
+    "version": "0.1",
+    "compatibility": {
+        "miniOS": "10.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "Flipswitch",
+        "Cephei"
+    ],
+    "description": [
+        "Enable DND / lock device when face down.",
+        "In Beta, Email me issues."
+    ],
+    "changelog": "Initial release."
+}

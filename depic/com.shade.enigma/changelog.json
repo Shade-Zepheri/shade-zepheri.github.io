@@ -1,0 +1,11 @@
+{
+    "changes": [{
+            "version": "0.1",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.2",
+            "change": "Added An Icon to the toggle."
+        }
+    ]
+}

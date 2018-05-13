@@ -1,0 +1,19 @@
+{
+    "version": "0.10",
+    "compatibility": {
+        "miniOS": "7.1"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader"
+    ],
+    "description": [
+        "Onscreen home button.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "Settings",
+        "image": "domum.png"
+    }],
+    "changelog": "iOS 10 fixes."
+}

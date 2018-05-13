@@ -1,0 +1,23 @@
+{
+    "changes": [{
+            "version": "1.0",
+            "change": "Initial release."
+        },
+        {
+            "version": "1.0.0-100+debug",
+            "change": "Revamped App chooser (also fixed Answeringmachine replacing imessage app). Have to ability to choose app protection level. Currently only TouchID+Passcode and passcode only work."
+        },
+        {
+            "version": "1.0.0-106+debug",
+            "change": "Fully implemented app protection levels. Passcode only and TouchID only fully work now."
+        },
+        {
+            "version": "1.1",
+            "change": "Fixed control panel and added french localizations (shoutout to Lionel Beaud @lio04nel). Email me if you're interested in translating the tweak for me."
+        },
+        {
+            "version": "1.2",
+            "change": "Fixed Prefs on iPad. Fixed not being able to use TouchID and TouchID sections not showing up in prefs. Internal reformat. Fixed being able to unlock to app from notification. Made localizations system wide + Turkish translations (thanks @DemirciAlptekin. I promise ill give u credits in prefs in the next update). Settings now uses Cephei. Somehow fixed Flipswitch protection and started on multitasking protection."
+        }
+    ]
+}

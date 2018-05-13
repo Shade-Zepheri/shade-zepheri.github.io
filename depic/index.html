@@ -66,33 +66,27 @@
         $(document).ready(function() {
             var name = getUrlParams('p');
 
-            $.ajax({
-                type: "GET",
-                url: (name + "/info.xml"),
-                cache: false,
-                dataType: "xml",
-                success: function(xml) {
-                    var minOS = $(xml).find('package>compatibility>firmware>miniOS').text();
-                    var maxOS = $(xml).find('package>compatibility>firmware>maxiOS').text();
-                    var banner = checkIOSVersion(minOS, maxOS);
-                    $("#compatibilityCheck").text(banner);
+            var URL = name + "/info.json";
+            $.getJSON(URL, function(data) {
+                var miniOS = data.compatibility.miniOS;
+                var maxiOS = data.compatibility.maxiOS;
+                var banner = checkIOSVersion(miniOS, maxiOS);
+                $("#compatibilityCheck").text(banner);
 
-                    $("#changelog").html($(xml).find('package>changelog>change').text());
-                    $("#badge").html($(xml).find('package>version').text());
+                $("#changelog").text(data.changelog);
+                $("#badge").html(data.version);
 
-                    $("#screenshotLink").attr('href', 'screenshots?p=' + name);
+                $("#screenshotLink").attr('href', 'screenshots?p=' + name);
+                $("#changelogLink").attr('href', 'changelog?p=' + name);
 
-                    $("#changelogLink").attr('href', 'changelog?p=' + name);
+                for (i in data.dependencies) {
+                    var package = data.dependencies[i];
+                    $("#dependencies").append('<div class="collapsible-body"><p>' + package + '</p></div>');
+                }
 
-                    $(xml).find('package>descriptionlist>description').each(function() {
-                        var description = $(this).text();
-                        $("#description").append('<div class="collapsible-body"><p>' + description + '</p></div>');
-                    });
-
-                    $(xml).find("dependencies>package").each(function() {
-                        var dependName = $(this).text();
-                        $("#dependencies").append('<div class="collapsible-body"><p>' + dependName + '</p></div>');
-                    });
+                for (i in data.description) {
+                    var description = data.description[i];
+                    $("#description").append('<div class="collapsible-body"><p>' + description + '</p></div>');
                 }
             });
         });

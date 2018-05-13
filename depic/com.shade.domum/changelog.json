@@ -1,0 +1,51 @@
+{
+    "changes": [{
+            "version": "0.6",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.6.1",
+            "change": "Fixed major flaw where button was created everytime the device unlocked, now only created once."
+        },
+        {
+            "version": "0.7",
+            "change": "Started Activator, overhaul of prefs, domum now hides during screenshot."
+        },
+        {
+            "version": "0.8",
+            "change": "Rewrote the whole tweak, so thats why there were no updates, Added option to hide on lockscreen, made button moveable and option to reset the position, added activator gestures to show, hide and toggle, Hides during Screenshot, Fixed and made settings prettier? Email me if you want any other features. Im not sure about the autohide or resize feature, but im working on it. ABOUT DONATIONS: I cannot accept donations ATM."
+        },
+        {
+            "version": "0.8.5",
+            "change": "Sorry for lack of Updates, was on retreat. Made double tap open app switcher and added boundaries so you cant drag the button offscreen."
+        },
+        {
+            "version": "0.9",
+            "change": "Made double tap faster. Started theme support. To make a theme, create a folder in /Library/Application Support/Domum/ called YOURTHEMENAME.bundle In that make your png 52x52 and call it 'home.png'"
+        },
+        {
+            "version": "0.9.5",
+            "change": "Fixed crashes, fixed theme support(caused by faulty loading of themes, changed how loaded). Add Resizing options but it is a slider in the settings, not a pinch. If you still want a pinch to resize email me. Next up is saving the position after respring and activator optional (finally)."
+        },
+        {
+            "version": "0.9.9",
+            "change": "Removed Theme support as it caused too many issues and there wasnt enough community support."
+        },
+        {
+            "version": "0.9.9.5",
+            "change": "Removed activator dependency finally.."
+        },
+        {
+            "version": "0.9.9.6",
+            "change": "Made switcher gesture more reliable by increasing time to double tap."
+        },
+        {
+            "version": "0.9.9.9",
+            "change": "Tinted Prefs, rewrote tweak as original looks like it was written by 5 year old. Trade off is that I had to make the single tap recognizer slower to make double tap more reliable."
+        },
+        {
+            "version": "0.10",
+            "change": "Rewrote the tweak as it desperately needed a rewrite. Fixed it on iOS 10."
+        }
+    ]
+}

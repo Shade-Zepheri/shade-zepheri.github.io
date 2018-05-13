@@ -1,0 +1,17 @@
+{
+    "version": "0.9-5",
+    "compatibility": {
+        "miniOS": "9.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "Activator",
+        "AppList"
+    ],
+    "description": [
+        "SmartClose for iOS 9+.",
+        "In Beta, Email me issues."
+    ],
+    "changelog": "Fixed tweak not working sometimes."
+}

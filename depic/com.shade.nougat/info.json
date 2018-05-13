@@ -1,0 +1,26 @@
+{
+    "version": "0.1-297+debug",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "Flipswitch",
+        "Cephei"
+    ],
+    "description": [
+        "Android notification drawer for iOS.",
+        "In Beta, Email me issues. Contact me if you have an Icon Design for Prefs or are interested in translating."
+    ],
+    "screenshots": [{
+            "description": "Quick settings",
+            "image": "quickToggles.png"
+        },
+        {
+            "description": "Main Panel",
+            "image": "mainPanel.png"
+        }
+    ],
+    "changelog": "Initial release."
+}

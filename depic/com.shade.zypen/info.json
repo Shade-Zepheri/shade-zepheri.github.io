@@ -1,0 +1,21 @@
+{
+    "version": "0.9.1",
+    "compatibility": {
+        "miniOS": "9.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "RocketBootstrap"
+    ],
+    "description": [
+        "1/2 of Multiplexer for iOS 9 and 10.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "Split apps",
+        "image": "zypen.png"
+    }],
+    "changelog": "Fixed home button crash."
+}

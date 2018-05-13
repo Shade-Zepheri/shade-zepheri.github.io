@@ -1,0 +1,21 @@
+{
+    "version": "0.3",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "Cephei"
+    ],
+    "description": [
+        "An Elegant app launcher.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "App View",
+        "image": "view.png"
+    }],
+    "changelog": "Added the ability to change background color and have it be controlled by Noctis."
+}

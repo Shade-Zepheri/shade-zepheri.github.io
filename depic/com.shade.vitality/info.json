@@ -1,0 +1,17 @@
+{
+    "version": "0.3",
+    "compatibility": {
+        "miniOS": "9.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "Cephei"
+    ],
+    "description": [
+        "Animated wallpapers.",
+        "In Beta, Email me issues.",
+        "How to use: You take your gif file and place it in '/var/mobile/Library/Vitality/YOURBUNDLE.bundle/wallpaper.gif', renaming the gif to 'wallpaper.gif'."
+    ],
+    "changelog": "See full changelog."
+}

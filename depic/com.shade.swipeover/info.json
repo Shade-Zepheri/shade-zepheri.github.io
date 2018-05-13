@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0~rc1",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "MultiplexerCore"
+    ],
+    "description": [
+        "SwipeOver for Multiplexer.",
+        "In Beta, Email me issues."
+    ],
+    "changelog": "Fixed grabber not showing on SB."
+}

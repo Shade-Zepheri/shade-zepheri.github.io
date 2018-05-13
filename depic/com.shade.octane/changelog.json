@@ -1,0 +1,11 @@
+{
+    "changes": [{
+            "version": "1.0",
+            "change": "Initial release."
+        },
+        {
+            "version": "1.0.1",
+            "change": "Added fallback font incase user did not use bytafont/aneomone. Added option to change the 4th app on the list."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "version": "1.0",
+    "compatibility": {
+        "miniOS": "7.0"
+    },
+    "dependencies": [
+        "InfoStats2"
+    ],
+    "description": [
+        "Octane full page widget.",
+        "Requires either iWidgets or XenHTML.",
+        "Currently in a semi beta, weather does not properly update sometimes and is an issue on Infostats 2's side."
+    ],
+    "screenshots": [{
+        "description": "Octane",
+        "image": "octane.png"
+    }],
+    "changelog": "Initial release."
+}

@@ -1,0 +1,14 @@
+{
+    "version": "0.2",
+    "compatibility": {
+        "miniOS": "10.0"
+    },
+    "dependencies": [
+        "MobileSubstrate"
+    ],
+    "description": [
+        "Enable hidden cellular data toggle on 10.X.",
+        "In Beta, Email me issues."
+    ],
+    "changelog": "Added Icon."
+}

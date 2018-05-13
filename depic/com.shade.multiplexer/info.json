@@ -1,0 +1,21 @@
+{
+    "version": "0.2",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "RocketBootstrap"
+    ],
+    "description": [
+        "All sorts of Multitasking.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "Settings",
+        "image": "settings.png"
+    }],
+    "changelog": "Tons of bug fixes."
+}

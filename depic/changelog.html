@@ -31,23 +31,14 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var name = getUrlParams('p');
-            $.ajax({
-                type: "GET",
-                url: (name + "/changelog.xml"),
-                cache: false,
-                dataType: "xml",
-                success: function(xml) {
-                    $(xml).find('changelog>changes').each(function() {
-                        var version;
-                        var change;
-                        $(this).find('version').each(function() {
-                            version = $(this).text();
-                        });
-                        $(this).find('change').each(function() {
-                            change = $(this).text();
-                        });
-                        $("#mainList").append('<li><div class="collapsible-header"><i class="material-icons">build</i>' + version + '</div><div class="collapsible-body"><p>' + change + '</p></div></li>');
-                    });
+
+            var URL = name + "/changelog.json";
+            $.getJSON(URL, function(data) {
+                for (i in data.changes) {
+                    var change = data.changes[i].change;
+                    var version = data.changes[i].version;
+
+                    $("#mainList").append('<li><div class="collapsible-header"><i class="material-icons">build</i>' + version + '</div><div class="collapsible-body"><p>' + change + '</p></div></li>');
                 }
             });
         });

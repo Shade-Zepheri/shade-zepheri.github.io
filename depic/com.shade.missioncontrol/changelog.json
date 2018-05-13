@@ -1,0 +1,19 @@
+{
+    "changes": [{
+            "version": "0.1-2+debug",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.1-11+debug",
+            "change": "Fixed lag hopefully."
+        },
+        {
+            "version": "0.1-35+debug",
+            "change": "Fixed orientation on iPads. Fixed killall freezing SB. Now uses new localization system. Internal changes."
+        },
+        {
+            "version": "1.0.0~rc1",
+            "change": "Fixed MC behavior inside apps. Fixed SlideOut gesture and upside down support. Internal Changes for release candidate."
+        }
+    ]
+}

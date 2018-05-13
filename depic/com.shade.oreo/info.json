@@ -1,0 +1,21 @@
+{
+    "version": "0.1",
+    "compatibility": {
+        "miniOS": "8.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "AppList",
+        "Cephei"
+    ],
+    "description": [
+        "An Elegant app drawer.",
+        "In Beta, Email me issues."
+    ],
+    "screenshots": [{
+        "description": "Drawer",
+        "image": "view.png"
+    }],
+    "changelog": "Initial release."
+}
