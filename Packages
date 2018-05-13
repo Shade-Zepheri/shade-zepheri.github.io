@@ -1630,3 +1630,20 @@ Section: Tweaks
 Version: 0.1-297+debug
 Installed-Size: 556
 
+Package: com.shade.shush
+Name: Shush
+Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.shush_0.1_iphoneos-arm.deb
+Size: 7978
+MD5sum: bf12eacf92c8f9b46e3d12bbf1638b36
+SHA1: e1c7a3395d822775a3e42886b0000952891f6c7e
+SHA256: 30463c1de931bba014672a830bfeefa68131d83f5ade71e1c4e349067258303a
+Description: Do not disturb when face down.
+Depiction: https://shade-zepheri.github.io/depic/?p=com.shade.shush
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1
+Installed-Size: 280
+
