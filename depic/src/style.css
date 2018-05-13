@@ -1,8 +1,16 @@
 p {
-  line-height: 1em;
+    line-height: 1em;
 }
 
 a {
-  line-height: 3em;
-  padding: 30px;
+    line-height: 3em;
+    padding: 30px;
+}
+
+a:link {
+    color: darkorange;
+}
+
+a:visited {
+    color: orangered;
 }
