@@ -42,3 +42,7 @@ p {
 footer.page-footer {
     margin: 0
 }
+
+.waves-effect.waves-eggplant .waves-ripple {
+    background-color: rgba(156, 136, 146, 0.65);
+}
