@@ -6,6 +6,10 @@
         {
             "version": "0.3",
             "change": "Fixed not showing on the HS sometimes. Fixed gifs not playing at full speed. No longer needs respring to apply changes. Made the prefs page prettier. Major internal changes (rewrote the whole thing)."
+        },
+        {
+            "version": "0.3-1",
+            "change": "Minor rewrite which allows gif to play on LS. Fixed prefs sometimes not applying."
         }
     ]
 }

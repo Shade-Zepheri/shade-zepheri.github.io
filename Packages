@@ -1108,6 +1108,23 @@ Name: Vitality
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 6964
 
+Package: com.shade.vitality
+Version: 0.3-1
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.vitality_0.3-1_iphoneos-arm.deb
+Size: 6818910
+MD5sum: c719ac0bfd5a8a62a6a8e4f93585cc79
+SHA1: 38873459af19034f7c79efcbf9f81d2b8c46e9b6
+SHA256: 76505883eb73b9077a82d4ad1c50b944d984fdb2f1648e3b1936f08ae8c75f49
+Description: Animated Wallpapers
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
+Name: Vitality
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 6980
+
 Package: com.shade.aura
 Name: Aura
 Depends: mobilesubstrate, com.shade.multiplexercore
