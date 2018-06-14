@@ -934,6 +934,24 @@ Name: Asphaleia X (iOS 10)
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 1740
 
+Package: com.shade.asphaleiax
+Version: 1.3
+Section: Tweaks
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap, ws.hbang.common
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.asphaleiax_1.3_iphoneos-arm.deb
+Size: 211648
+MD5sum: f3a33fc4bfcf93b48c431dec408eea1d
+SHA1: fa8c270e4722fe0103d6e0d08572c5a0bf18da28
+SHA256: 8f6347c7869c7c660b16403ac12cc3e446d29465b9a6bedac7df04d3824cf7bc
+Description: customizable locking system for apps & more
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
+Name: Asphaleia X (iOS 10)
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1504
+
 Package: com.shade.abaculus
 Version: 0.1-189+debug
 Section: Tweaks

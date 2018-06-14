@@ -18,6 +18,10 @@
         {
             "version": "1.2",
             "change": "Fixed Prefs on iPad. Fixed not being able to use TouchID and TouchID sections not showing up in prefs. Internal reformat. Fixed being able to unlock to app from notification. Made localizations system wide + Turkish translations (thanks @DemirciAlptekin. I promise ill give u credits in prefs in the next update). Settings now uses Cephei. Somehow fixed Flipswitch protection and started on multitasking protection."
+        },
+        {
+            "version": "1.3",
+            "change": "Began iOS 11 support. Major Prefs panel overhaul. Fixed Spotlight protection on iOS 10. Minor cleanups and fixes"
         }
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "version": "1.2",
+    "version": "1.3",
     "compatibility": {
         "miniOS": "10.0"
     },
@@ -13,7 +13,8 @@
     ],
     "description": [
         "Customizable app locking.",
-        "In Beta, Email me issues. Please contact me if you're interested in translating."
+        "In Beta, Email me issues and crashes. Please contact me if you're interested in translating.",
+        "iOS 11 USERS: I'm letting y'all install this so I can generate crashreports so I know what is causing crashes."
     ],
     "screenshots": [{
         "description": "Settings",
