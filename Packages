@@ -1682,3 +1682,20 @@ Section: Tweaks
 Version: 0.1
 Installed-Size: 280
 
+Package: com.shade.oof
+Name: oof
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.oof_0.1_iphoneos-arm.deb
+Size: 39184
+MD5sum: 89fdfb330f4800233e8420294e347c25
+SHA1: c54573ae368a6144328f1a87774189106cb1700a
+SHA256: a39b667715255916280620de73cd6290b6409602d649ed0442d39c6ed185123f
+Description: Can I get an oof in the chat?
+Depiction: https://shade-zepheri.github.io/depic/?p=com.shade.oof
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.1
+Installed-Size: 196
+
