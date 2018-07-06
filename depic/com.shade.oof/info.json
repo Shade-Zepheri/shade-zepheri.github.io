@@ -1,5 +1,5 @@
 {
-    "version": "0.1",
+    "version": "0.2",
     "compatibility": {
         "miniOS": "9.0"
     },
@@ -12,5 +12,5 @@
         "Oof when closing an app.",
         "In Beta, Email me issues."
     ],
-    "changelog": "Initial release."
+    "changelog": "Fixed on iOS 11."
 }

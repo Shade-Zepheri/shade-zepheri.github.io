@@ -1,6 +1,11 @@
 {
     "changes": [{
-        "version": "0.1",
-        "change": "Initial release."
-    }]
+            "version": "0.1",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.2",
+            "change": "Fixed on iOS 11 and added prefs icon."
+        }
+    ]
 }
