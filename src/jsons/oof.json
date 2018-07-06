@@ -1,0 +1,7 @@
+{
+    "name": "oof",
+    "url": "https://github.com/Shade-Zepheri/oof",
+    "about": "Inspired by a reddit thread, this tweak aims to be a fun joke about the 'oof' sound.",
+    "features": "When closing an app, the 'oof' sound will play.",
+    "compatibility": "9.0-11.3"
+}
