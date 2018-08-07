@@ -1,6 +1,11 @@
 {
     "changes": [{
-        "version": "0.1-297+debug",
-        "change": "Initial release."
-    }]
+            "version": "0.1-297+debug",
+            "change": "Initial release."
+        },
+        {
+            "version": "0.5",
+            "change": "Massive rewrite. Now using full pan gesture instead of swipe. Added a bunch of cool animations. Completely revamped settings panel."
+        }
+    ]
 }
