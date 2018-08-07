@@ -1,5 +1,5 @@
 {
-    "version": "0.5",
+    "version": "0.5.1",
     "compatibility": {
         "miniOS": "9.0"
     },
@@ -26,5 +26,5 @@
             "image": "settings.png"
         }
     ],
-    "changelog": "Massive rewrite, see full changelog."
+    "changelog": "Hot fix for iOS 11."
 }

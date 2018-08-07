@@ -6,6 +6,10 @@
         {
             "version": "0.5",
             "change": "Massive rewrite. Now using full pan gesture instead of swipe. Added a bunch of cool animations. Completely revamped settings panel."
+        },
+        {
+            "version": "0.5.1",
+            "change": "Hot fix for iOS 11 crash."
         }
     ]
 }
