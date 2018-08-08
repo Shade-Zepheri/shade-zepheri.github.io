@@ -10,6 +10,10 @@
         {
             "version": "0.5.1",
             "change": "Hot fix for iOS 11 crash."
+        },
+        {
+            "version": "0.5.2",
+            "change": "Fix gesture inconsistencies (buttons / brightness slider not working). Fix Sort Order panel crashing."
         }
     ]
 }

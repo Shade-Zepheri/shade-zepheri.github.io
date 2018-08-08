@@ -1,5 +1,5 @@
 {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "compatibility": {
         "miniOS": "9.0"
     },
@@ -26,5 +26,5 @@
             "image": "settings.png"
         }
     ],
-    "changelog": "Hot fix for iOS 11."
+    "changelog": "Fix settings crash and gesture inconsistencies."
 }
