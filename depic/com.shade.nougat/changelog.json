@@ -14,6 +14,10 @@
         {
             "version": "0.5.2",
             "change": "Fix gesture inconsistencies (buttons / brightness slider not working). Fix Sort Order panel crashing."
+        },
+        {
+            "version": "0.6",
+            "change": "Update for iOS 11 and iOS 12 (A12). Fix consistency on LS and added ripple to buttons."
         }
     ]
 }

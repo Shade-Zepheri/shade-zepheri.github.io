@@ -1771,4 +1771,22 @@ Section: Tweaks
 Version: 0.5.2
 Installed-Size: 1116
 
+Package: com.shade.nougat
+Name: Nougat
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.nougat_0.6_iphoneos-arm.deb
+Size: 504248
+MD5sum: 156b76a09450396a562de9dbb24b96f4
+SHA1: 9350ba217925d575f08b14285e82f22b3e1096c0
+SHA256: 1932c60feaf50f9aee888c4e0fb6a0865c5b4c914244b23bc7a071aeb08005dc
+Description: Android NC for iOS
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.6
+Installed-Size: 1420
+
 
