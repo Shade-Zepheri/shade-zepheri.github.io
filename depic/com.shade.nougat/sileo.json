@@ -17,11 +17,11 @@
                     "itemCornerRadius": 8,
                     "itemSize": "{160, 346}",
                     "screenshots": [{
-                            "url": "https://shade-zepheri.github.io/depic/com.shade.nougat/screenshots/nougat-1.png",
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.nougat/screenshots/nougat-1.jpg",
                             "accessibilityText": "Screenshot"
                         },
                         {
-                            "url": "https://shade-zepheri.github.io/depic/com.shade.nougat/screenshots/nougat-2.png",
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.nougat/screenshots/nougat-2.jpg",
                             "accessibilityText": "Screenshot"
                         }
                     ]
