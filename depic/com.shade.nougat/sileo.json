@@ -1,6 +1,6 @@
 {
     "minVersion": "0.3",
-    "headerImage": "https://shade-zepheri.github.io/depic/com.shade.nougat/images/sileo-header.jpg",
+    "headerImage": "https://shade-zepheri.github.io/depic/com.shade.nougat/images/sileo-header.png",
     "tintColor": "#212121",
     "class": "DepictionTabView",
     "tabs": [{
