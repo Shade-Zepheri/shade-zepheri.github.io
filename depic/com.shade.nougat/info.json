@@ -1,5 +1,5 @@
 {
-    "version": "0.6",
+    "version": "0.7",
     "compatibility": {
         "miniOS": "9.0"
     },
@@ -26,5 +26,5 @@
             "image": "settings.png"
         }
     ],
-    "changelog": "Update for iOS 12 and features."
+    "changelog": "Custom toggles and more."
 }

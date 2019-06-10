@@ -62,6 +62,21 @@
             "tabname": "Changelog",
             "views": [{
                     "class": "DepictionSubheaderView",
+                    "title": "0.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Major update, now allows for custom toggles to be implemented, check github repo wiki for more information</li>\n<li>New settings icon and color theme</li>\n<li>Restylize sort order pane</li>\n<li>Add long press to toggle to go to specified settings panel</li>\n<li>Add tap to dismiss</li>\n<li>Fix gesture inconsistencies</li>\n<li>Update assets and internal updates</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.6",
                     "useBoldText": true,
                     "useBottomMargin": false

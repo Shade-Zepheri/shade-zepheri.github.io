@@ -1790,4 +1790,23 @@ Section: Tweaks
 Version: 0.6
 Installed-Size: 1420
 
+Package: com.shade.nougat
+Name: Nougat
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.nougat_0.7_iphoneos-arm.deb
+Size: 1079928
+MD5sum: 5f9bdb1e06057c3c202c76d2b74b9c1f
+SHA1: e39c6b0bc5582e018535b9dad683acb47a100b93
+SHA256: 26aca1b5fd4136492d58a31160788a1558e738e0a08c967928716391d878d941
+Description: Android NC for iOS
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.7
+Installed-Size: 5028
+
 

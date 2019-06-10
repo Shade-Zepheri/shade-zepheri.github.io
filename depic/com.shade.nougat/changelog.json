@@ -18,6 +18,10 @@
         {
             "version": "0.6",
             "change": "Update for iOS 11 and iOS 12 (A12). Fix consistency on LS and added ripple to buttons."
+        },
+        {
+            "version": "0.7",
+            "change": "Major update, now allows for custom toggles to be implemented, check github repo wiki for more information. New settings icon and color theme. Restylize sort order pane. Add long press to toggle to go to specified settings panel. Add tap to dismiss. Fix gesture inconsistencies. Update assets and internal updates"
         }
     ]
 }
