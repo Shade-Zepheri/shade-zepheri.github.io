@@ -2,6 +2,10 @@
     "changes": [{
             "version": "0.1",
             "change": "Initial release."
+        },
+        {
+            "version": "0.1.1",
+            "change": "Add support for A7-A11 because im dumb and forgot to compile for arm64."
         }
     ]
 }
