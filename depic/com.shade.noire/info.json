@@ -1,0 +1,15 @@
+{
+    "version": "0.1",
+    "compatibility": {
+        "miniOS": "12.0"
+    },
+    "dependencies": [
+        "MobileSubstrate",
+        "PreferenceLoader",
+        "Cephei"
+    ],
+    "description": [
+        "Free system dark mode for iOS 12. Uses native dark mode methods so should be very efficient. Also requires no respring to change settings."
+    ],
+    "changelog": "Initial release."
+}

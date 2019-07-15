@@ -1,0 +1,63 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#212121",
+    "class": "DepictionTabView",
+    "tabs": [{
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [{
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><p>A free dark mode for iOS 12, which unlike other existing options, uses the native dark mode methods and efficient integration.</p><p>Enable Noire from Settings panel, with no respring required!</p>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.1",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Last Updated",
+                    "text": "July 15, 2019",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "License",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Compatibility",
+                    "text": "iOS 12.0 to 12.2",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Support",
+                    "action": "mailto:ziroalpha@gmail.com?subject=Noire%20Support",
+                    "openExternal": true
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [{
+                    "class": "DepictionSubheaderView",
+                    "title": "0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Initial release</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
