@@ -1,5 +1,5 @@
 {
-    "minVersion": "0.1.1",
+    "minVersion": "0.2",
     "tintColor": "#121212",
     "class": "DepictionTabView",
     "tabs": [{
@@ -16,12 +16,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "0.1.1",
+                    "text": "0.2",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Last Updated",
-                    "text": "July 15, 2019",
+                    "text": "July 18, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -47,13 +47,28 @@
             "tabname": "Changelog",
             "views": [{
                     "class": "DepictionSubheaderView",
+                    "title": "0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#121212}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Allow toggling of theming components</li>\n<li>Restylized preference panel</li>\n<li>Implemented notification theming without requiring a respring</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "0.1.1",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<style>a{color:#121212}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Add support for A7-A11 because im dumb and forgot to compile for arm64.</li>\n</ul>",
+                    "markdown": "<style>a{color:#121212}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Add support for A7-A11 because im dumb and forgot to compile for arm64</li>\n</ul>",
                     "useSpacing": true,
                     "useRawFormat": true
                 },

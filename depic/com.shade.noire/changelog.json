@@ -6,6 +6,10 @@
         {
             "version": "0.1.1",
             "change": "Add support for A7-A11 because im dumb and forgot to compile for arm64."
+        },
+        {
+            "version": "0.2",
+            "change": "Allow toggling of components, and preference panel restyling to accompany it. Implemented toggling of notification themeing."
         }
     ]
 }

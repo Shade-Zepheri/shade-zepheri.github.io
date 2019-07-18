@@ -1845,3 +1845,21 @@ Section: Tweaks
 Version: 0.1.1
 Installed-Size: 368
 
+Package: com.shade.noire
+Name: Noire
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: /debs/com.shade.noire_0.2_iphoneos-arm.deb
+Size: 81568
+MD5sum: 252e9b1235f7bfb343a2fd3b05e7e989
+SHA1: f4dedecfd4c9c77a557a06220864d070ce606de4
+SHA256: 72072c84103fa3fe32d18f9cfc896e3e896c78511dac0495cd190a169a3d6505
+Description: Free iOS 12 Night Mode
+Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Section: Tweaks
+Version: 0.2
+Installed-Size: 412
