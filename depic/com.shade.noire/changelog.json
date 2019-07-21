@@ -10,6 +10,10 @@
         {
             "version": "0.2",
             "change": "Allow toggling of components, and preference panel restyling to accompany it. Implemented toggling of notification themeing."
+        },
+        {
+            "version": "0.3",
+            "change": "Theme stacked notifications, fix folder opening glitch, fix notification theming not changing on settings change, fix notification close buttons not styling, fix 3D Touch text."
         }
     ]
 }
