@@ -14,6 +14,10 @@
         {
             "version": "0.3",
             "change": "Theme stacked notifications, fix folder opening glitch, fix notification theming not changing on settings change, fix notification close buttons not styling, fix 3D Touch text."
+        },
+        {
+            "version": "0.3.1",
+            "change": "Fix 3D Touch crash and theme notification long look header."
         }
     ]
 }
