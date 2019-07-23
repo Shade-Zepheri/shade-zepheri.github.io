@@ -1,5 +1,6 @@
 {
     "minVersion": "0.3",
+    "headerImage": "https://shade-zepheri.github.io/depic/com.shade.noire/images/sileo-header.png",
     "tintColor": "#121212",
     "class": "DepictionTabView",
     "tabs": [{
@@ -10,6 +11,36 @@
                     "markdown": "<style>a{color:#121212}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><p>A free dark mode for iOS 12, which unlike other existing options, uses the native dark mode methods and efficient integration.</p><p>Enable Noire from Settings panel, with no respring required!</p>",
                     "useSpacing": true,
                     "useRawFormat": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 346}",
+                    "screenshots": [{
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-1.jpg",
+                            "accessibilityText": "Dock"
+                        },
+                        {
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-2.jpg",
+                            "accessibilityText": "Folders"
+                        },
+                        {
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-3.jpg",
+                            "accessibilityText": "Widgets"
+                        },
+                        {
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-4.jpg",
+                            "accessibilityText": "3D Touch"
+                        },
+                        {
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-5.jpg",
+                            "accessibilityText": "Notifications"
+                        },
+                        {
+                            "url": "https://shade-zepheri.github.io/depic/com.shade.noire/images/noire-6.jpg",
+                            "accessibilityText": "Notifications expanded"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSeparatorView"
