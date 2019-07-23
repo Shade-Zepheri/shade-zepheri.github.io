@@ -1,0 +1,7 @@
+{
+    "name": "Noire",
+    "url": "https://github.com/Shade-Zepheri/Noire",
+    "about": "My goal was to use native dark mode methods present in iOS 12 to provide a simple, native and efficient dark mode compared to other alternatives.",
+    "features": "Themes 3D Touch, Control Center, Dock, Folders, Notifications and Widgets with a iOS 13 esque dark mode without requiring a respring.",
+    "compatibility": "12.0-12.2"
+}
