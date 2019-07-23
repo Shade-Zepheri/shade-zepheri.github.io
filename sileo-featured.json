@@ -2,10 +2,18 @@
     "class": "FeaturedBannersView",
     "itemSize": "{263, 148}",
     "itemCornerRadius": 10,
-    "banners": [{
-        "url": "https://shade-zepheri.github.io/src/images/nougat-featured.png",
-        "title": "Nougat",
-        "package": "com.shade.nougat",
-        "hideShadow": false
-    }]
+    "banners": [
+        {
+            "url": "https://shade-zepheri.github.io/src/images/nougat-featured.png",
+            "title": "Nougat",
+            "package": "com.shade.nougat",
+            "hideShadow": false
+        },
+        {
+            "url": "https://shade-zepheri.github.io/src/images/noire-featured.png",
+            "title": "Noire",
+            "package": "com.shade.noire",
+            "hideShadow": false
+        }
+    ]
 }
