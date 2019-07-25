@@ -18,6 +18,10 @@
         {
             "version": "0.3.1",
             "change": "Fix 3D Touch crash and theme notification long look header."
+        },
+        {
+            "version": "0.3.2",
+            "change": "Fix another 3D Touch crash and fix theming on iPad and iPX docks."
         }
     ]
 }

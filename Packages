@@ -1,1903 +1,1871 @@
-Package: com.shade.octane
-Version: 1.0
-Section: Widgets
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: com.matchstic.infostats2
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.octane.deb
-Size: 625468
-MD5sum: 74a92aabc18c399accd6f569a592e165
-SHA1: 98eaae7eba88d936252a9890b756636640d0a826
-SHA256: 6ceb28107c38627fd4ddb16e85c85fe5a051c33c2bc40788dd49363176b0e4d4
-Description: Octane Full page widget. Requires either iWidgets or XenHTML. Kind of an open beta right now, the weather does not properly update, which is an issue on infostats 2's side.
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.octane
-Name: Octane
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.octane
-Version: 1.0.1
-Section: Widgets
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: com.matchstic.infostats2
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.octane.101.deb
-Size: 625796
-MD5sum: e373078e7061a0554382dc6ebe0cdf5c
-SHA1: 0cdbaad7af30b055644d837139994712f7110b72
-SHA256: bc24425765c4372a1cc9d48242043c709c38de020ebf5c4b1e87657e36c7675d
-Description: Octane Full page widget. Requires either iWidgets or XenHTML. Kind of an open beta right now, the weather does not properly update, which is an issue on infostats 2's side.
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.octane
-Name: Octane
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.0
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus.1.0.deb
-Size: 25328
-MD5sum: 9708a1cd70a6179efb5baaac376f6eaf
-SHA1: fe86d717eaa847a822f0fb33c8945e02f54f7c2f
-SHA256: 6020b362ab334a57b5a41c8df67d793ed86a3c63c262aa0845d3a9955d1db2ec
-Description: %hooks law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.0-41+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.0-41+debug.deb
-Size: 27752
-MD5sum: 4fe0ac5f10ea401f630fd0b2b2a5ee75
-SHA1: 303ab0d3a1a71f70b6aa8c1a97f1cd3f0d43d738
-SHA256: fa771f077613def446836a206de5a07a8a57d8446fcbf2202f8dba09c9d72641
-Description: %hooks law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.1-1.deb
-Size: 26264
-MD5sum: cac86818ac70c9d8aff99f50e39f1e91
-SHA1: 0fd1ac3964d578b4c76fe7ba4e64b5a98e62c004
-SHA256: 623bde6fae37b5ae3e0f05cd389367b949bf55da9d2a3f8a13d3948f72112cb2
-Description: %hooks law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.1-1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.1-1_iphoneos-arm.deb
-Size: 26264
-MD5sum: e5a18dc6c5923c8cf66b243a4d50ffaa
-SHA1: 4ea17a58e1e1307a3443033b521fd3f493b7ccd8
-SHA256: fe02c68309693100423336405f787347e1045af398412b52eb3846f23835247e
-Description: Hook's Law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.2_iphoneos-arm.deb
-Size: 26030
-MD5sum: b94f5b412132a05995266900d19a85bd
-SHA1: b3f5995f15d8f1e836849c8e62172b3d7f82028d
-SHA256: d7bd915ee7288b7451a041f16a03616377fab05e7c3237fc3b658cb58383c2f9
-Description: Hook's Law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.hortus
-Version: 1.2.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.2.1_iphoneos-arm.deb
-Size: 26562
-MD5sum: 3b16001acf92873b03da72201a7d534e
-SHA1: 01e1d39c285501bf67eebca10c005ee5be16eb97
-SHA256: 6d4457481f93624320623bf8668c5d1be08a916cc0cf7043afe3260bae87194b
-Description: Hook's Law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 304
-
-Package: com.shade.hortus
-Version: 1.2.1.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.2.1.1_iphoneos-arm.deb
-Size: 26650
-MD5sum: b6c8a7b95d29d6c7c3399181c54b9d4d
-SHA1: f27f3e6c368725fc41bd9a65593ad2b191fdd7a7
-SHA256: 1226e97e7545193554982ca3fe00da70d3124012331538014555a9ee649d5b49
-Description: Hook's Law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 288
-
-Package: com.shade.hortus
-Version: 1.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.hortus_1.3_iphoneos-arm.deb
-Size: 33082
-MD5sum: 397714b0608b8cc51133e88a59a7e4dd
-SHA1: 2138b84249d40dd483f9b7ecc25b5b51082c04d7
-SHA256: 21d09b227056fe47b3423aeb7d7a28c625a7194c35a2122fa1be3e726e338a1b
-Description: Hook's Law for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
-Name: Hortus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 280
-
-Package: com.shade.stealmeme
-Version: 1.0
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.stealmeme_1.0_iphoneos-arm.deb
-Size: 6728
-MD5sum: 01c6c3904662c4d7be8387e2ed1d6eeb
-SHA1: 8c7fc5081ce03ccd3f3fc085e2de3c8c7caa1e9f
-SHA256: 73ece5119ed160ed663edbbb5949488622d2cef677db83f05e199c6a43bd6830
-Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
-Name: StealMeme
-Author: Shade Zepheri <ziroalpha@gmail.com>
-
-Package: com.shade.stealmeme
-Version: 1.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.stealmeme_1.1_iphoneos-arm.deb
-Size: 6876
-MD5sum: ab977c6fae28d83c4a7db22c5a441496
-SHA1: 8f40e5e44693c2118cd851b66ab27467a87f884d
-SHA256: 68122d495854f83218440c410fac7cc4f2a52387948eda684c6f1ba25a0ced6c
-Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
-Name: StealMeme
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 280
-
-Package: com.shade.domum
-Version: 0.6.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.6.1_iphoneos-arm.deb
-Size: 13898
-MD5sum: bcbf900e5730ca0448bdc30cc85ff022
-SHA1: 727817e0991f52468d47feda739c5005ac26cef7
-SHA256: 9501b7e5b346a3786881e6e3361c7951bbd01b246c19e29222f84963046be833
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 260
-
-Package: com.shade.domum
-Version: 0.7
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.7_iphoneos-arm.deb
-Size: 44378
-MD5sum: b272de564da8d74c1672b0e1a3b6c006
-SHA1: f73dcb1cc14ed0fa331157ea2488a7ad260e3131
-SHA256: 95cfa2395513746662f88b7403c859ff372e0af1241b689f20fd60d0e7d65cd7
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 308
-
-Package: com.shade.domum
-Version: 0.8
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.8_iphoneos-arm.deb
-Size: 65796
-MD5sum: 04ab405b299567fd85e4757ddf1ea6b7
-SHA1: daa75fafebb3603992795c95a9ba527b24de2475
-SHA256: 0562bbc221bbe218cbd4f5aaf1bc235186466620e7797d40251d552cdb396cc1
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 348
-
-Package: com.shade.domum
-Version: 0.8.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.8.5_iphoneos-arm.deb
-Size: 69858
-MD5sum: a8a8ac3db67c2892a569bb9830bb653f
-SHA1: a5ab0699add967b7e7966d4a2240fcda3cae29d7
-SHA256: d35938e7a6099f5c84e7f9bc5b95e04ac2bb62b245862cc80992232e510585e0
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 360
-
-Package: com.shade.domum
-Version: 0.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9_iphoneos-arm.deb
-Size: 70410
-MD5sum: ceb5a02eeae9c1269bee825d244d0df1
-SHA1: 1c7e4ea28bb2e2e7e52d8be2c732dabac6fb055f
-SHA256: 916ba4b1d02967d569af8820c31308ce825d38c94742a4613407e7d84df4878b
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 368
-
-Package: com.shade.domum
-Version: 0.9.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9.5_iphoneos-arm.deb
-Size: 70156
-MD5sum: 5271eb2bdfe06737515e4cf67c5a61e9
-SHA1: 4e3f01ea0492bef3220ba662837ec2e8340b0eac
-SHA256: 9ee4fcaac3901eef637db9b9859d2f62a33aea1460c9c584c5f833e61afe60b9
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 368
-
-Package: com.shade.domum
-Version: 0.9.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, libactivator
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9.9_iphoneos-arm.deb
-Size: 69154
-MD5sum: 1ba3ad525cb7a9f3023e966615b7e8ad
-SHA1: 62d9177d96fb16043eaeb915b7cac96ee460d676
-SHA256: 7ad3b6d878734564b98b8e9b535293ceb4a23c39527bbf006ae97d14d15750e5
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 400
-
-Package: com.shade.domum
-Version: 0.9.9.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9.9.5_iphoneos-arm.deb
-Size: 66896
-MD5sum: 0300b1424f399ec5d0d9dbc9e1002a86
-SHA1: 8f40a7d417dd06fc33fcc3b7b65e4ed4779f17b2
-SHA256: c8d181cde4566b44b442139469fe9b3d2342136775cbd5ad30d6c5376f2800f9
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 400
-
-Package: com.shade.domum
-Version: 0.9.9.6
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9.9.6_iphoneos-arm.deb
-Size: 66866
-MD5sum: c4d3f5daca9813522ee361698b6f2251
-SHA1: 6dcf7530dd4e149a64adeda5ebec5e826988a7a4
-SHA256: 9edd5e4ba3ac6e539b6eadc0763f77482764fbbbab5b2b16550d65fa3eb501d7
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 400
-
-Package: com.shade.domum
-Version: 0.9.9.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.9.9.9_iphoneos-arm.deb
-Size: 72412
-MD5sum: b9f71e84e3ede589fef9c3cc8ba6c59f
-SHA1: d42a52ef9f09e6cd782276cfebe3bd1457f8eb2a
-SHA256: 2c373dd174e1635bedc607a45d465f83df74ac6267720b24ae2574e1d8ad5993
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 400
-
-Package: com.shade.domum
-Version: 0.10
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.domum_0.10_iphoneos-arm.deb
-Size: 73150
-MD5sum: b40b1beb1ef04e89650b104a45de706b
-SHA1: b5dd4392f7d9b3036d9889c37a522058fc0f6bca
-SHA256: d965c5867c8bec8a946e1921461477a94b074e1ee9ac60c8c03e54c886605f45
-Description: Onscreen Home Button
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.domum
-Name: Domum
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 400
-
-Package: com.shade.splyce
-Version: 0.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.5_iphoneos-arm.deb
-Size: 9760
-MD5sum: 3041da577411d6a20d2c4dd6a5ddd4a9
-SHA1: a53b7ddac83972b81ea4512479ca033dafdbaeec
-SHA256: 6c0e534c81422ad4880e0615fd5a1d41f0069574f7d3223a66af4c5b006fd89f
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.splyce
-Version: 0.6
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.6_iphoneos-arm.deb
-Size: 9778
-MD5sum: 501df5886e4a50719f7cdced4527678d
-SHA1: 19e4e0a705d10fe7822ba05c4bbdc68410b59eff
-SHA256: 3b0ff4ef73ccc55a9d9d300239ccc5fee1dcc0bc835c014992b2aeef9205867f
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.splyce
-Version: 0.7
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.7_iphoneos-arm.deb
-Size: 8966
-MD5sum: 63a9c92a42bc53123f91fde718ba2d9e
-SHA1: 6628cde47439095d4cd8bd4aa154d8cf724767af
-SHA256: cbdf2ad28ba4fa974436d0b9bfdb69feed4597013732d8855d167f9c9de27e4f
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.splyce
-Version: 0.8
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.8_iphoneos-arm.deb
-Size: 9636
-MD5sum: 1821a9958ec7710824009b31719a088f
-SHA1: b687baf0d7d497dc7a290d37d439a221a9fb451b
-SHA256: 33ceb2adc1fa8d9b266cdfbac01a85a2bd8dee07d5116225ca3e038e2b2ced2d
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.splyce
-Version: 0.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.9_iphoneos-arm.deb
-Size: 9452
-MD5sum: 5b7e61d4d09362c694c2c2328233932b
-SHA1: 61fdb49a7efa56ef5c723cb8013dc8af1f763b66
-SHA256: f18f7c79bd66a896b1b7e415908f422dcfbcaf827c621824db4ac135ef9a835a
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.splyce
-Version: 0.9-5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, libactivator, preferenceloader, applist
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.splyce_0.9-5_iphoneos-arm.deb
-Size: 9506
-MD5sum: 9b341b05870ecc7fdab941e87559fe18
-SHA1: 394111e56acc199046f96f8ed65431de38553644
-SHA256: 17edbde5aee60c7bfd57ac0c3a30778cda78c8ff459bfb2473a8a5f93922ab0f
-Description: SmartClose for iOS9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.splyce
-Name: Splyce
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 160
-
-Package: com.shade.zypen
-Version: 0.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.1_iphoneos-arm.deb
-Size: 211094
-MD5sum: d4785ff6a3e153cc368bf7d5b89772da
-SHA1: d49d159cbcd729e2547303bb88a21174b536eb75
-SHA256: d70f3b431d204562efc8ac3ba4fef3c571badbee468f0d4b59df598c384b203a
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 800
-
-Package: com.shade.zypen
-Version: 0.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.2_iphoneos-arm.deb
-Size: 212644
-MD5sum: 3e777d23c8d813a513f1d0519c0571b3
-SHA1: fb399f57b711ef9604e357f15dfc9c93a9ab525b
-SHA256: a053141f2198c1187356cc4b804f3ba64475c2c9369a209a88b4c178ef7fbe4e
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 872
-
-Package: com.shade.zypen
-Version: 0.2.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.2.5_iphoneos-arm.deb
-Size: 212964
-MD5sum: 78d7dd572cc7cf34d0401bc0740cd2c4
-SHA1: 0eb0d72015014a480d05f76c34e75a11b9ddc5f8
-SHA256: 6a89db8bad4f1215ddfa33a88dfdc97c17b1aee8e1d4a6cc8e2314c916738df6
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 872
-
-Package: com.shade.zypen
-Version: 0.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.3_iphoneos-arm.deb
-Size: 213826
-MD5sum: 472b2e65e4f0dbd4261138b55ff5af51
-SHA1: 1aef1a0db44b42dd09eaab78728f26afea869f48
-SHA256: 298919be8f4938e6e54eb88378d257f4f726f0b9a83938f94fecda2b365df5b3
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 872
-
-Package: com.shade.zypen
-Version: 0.4
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.4_iphoneos-arm.deb
-Size: 212854
-MD5sum: 32d60e6b959f46587a4114e12673de3a
-SHA1: 669c0e07bca1a7789ca74c33975924b54a4680cf
-SHA256: e4d832c1b3557654bd4fe4d89d6433c09bddb8f12161e160887479418eff81cb
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 872
-
-Package: com.shade.zypen
-Version: 0.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.5_iphoneos-arm.deb
-Size: 431420
-MD5sum: 3412747ab7700253d8a61f3f33fb4fd0
-SHA1: f721d0f8c7062f682bdad9012f07556dcca3ff50
-SHA256: 1b0215a16b93e9c5c94757e899fafb3be11f4a448e610de6db472bbc84a02561
-Description: ReachApp for iOS 9
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 1860
-
-Package: com.shade.zypen
-Version: 0.5.4
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.5.4_iphoneos-arm.deb
-Size: 452566
-MD5sum: 15579a16940376e06f3eb93b1f055cb5
-SHA1: cadbbf4624e9492935d37209774804e6d027e1f9
-SHA256: 4761219ce9ebd5a797cd9eec8ae3347daf5c867df30cc3539f31be1a79a61f4f
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2132
-
-Package: com.shade.zypen
-Version: 0.6
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.6_iphoneos-arm.deb
-Size: 453490
-MD5sum: 6e4bb97401cf2d757c148ce83d4f3867
-SHA1: 2f164b449651398a00d25b46ed18455b8f8a41e9
-SHA256: 25ffd0b3d835697325a0382194808b095a1086577a4c49b834ad89e92b569552
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2132
-
-Package: com.shade.zypen
-Version: 0.6.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.6.2_iphoneos-arm.deb
-Size: 458998
-MD5sum: 5c3d61c00854153f37ecd4604a7fb83e
-SHA1: 3f0832d8bece5d491a2e2a2d1a84df9f9a2ddb48
-SHA256: 22e8f707273b12c081f7d1d35d6a8eec77bd5c77c127be284d661a6812326149
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2148
-
-Package: com.shade.zypen
-Version: 0.6.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.6.3_iphoneos-arm.deb
-Size: 458716
-MD5sum: 4bcf5bf49144d735c06df1a19ba0b5e9
-SHA1: b3110d89cbfaad4bed878d721efff9c6c22d653c
-SHA256: 021762c25e481ce5d0b3837f587d4d49defe7bd1da85ba42a58db3d2a84925dd
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2148
-
-Package: com.shade.zypen
-Version: 0.7
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.7_iphoneos-arm.deb
-Size: 463970
-MD5sum: e795685fc6fdb64d9269491d1fddaf46
-SHA1: 0e8b4a7fc1d8446377e08b3e1d662e356ad62cca
-SHA256: a42ed219296cda6ea3303bf5432bdfc4ca2fe3fa96b74d9480a6312c24565878
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2164
-
-Package: com.shade.zypen
-Version: 0.7.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.7.2_iphoneos-arm.deb
-Size: 460008
-MD5sum: c95687047088ca66ffc9fb3755cedffc
-SHA1: 16a1ea17b359fc6e7c4a0fa6407a29e43b58ae78
-SHA256: 1049b581baae98b3c1dfc67fd611ed62b7fcceba1c91ce6d1f5b2de808538c54
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2148
-
-Package: com.shade.zypen
-Version: 0.7.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.7.9_iphoneos-arm.deb
-Size: 468276
-MD5sum: c6dc5cdadf4808023f03e1d470c75c9c
-SHA1: b24111657f90d35fa457bfe8e642f71d4330cab5
-SHA256: c3ff93cc199906d1529bf50a14937bcebfa83fded8150d19b77cdaf47453c7ae
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2164
-
-Package: com.shade.zypen
-Version: 0.8
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.8_iphoneos-arm.deb
-Size: 468904
-MD5sum: bbbc8148aa310f374b9129e3fe7bf672
-SHA1: af0f91d8aa3d126f15d93af2df7301b05aff1faa
-SHA256: 3fa4347720b0630b119441c91bc23b7f63a4cffa6a14819777d7817c0ffa47f6
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2164
-
-Package: com.shade.zypen
-Version: 0.9
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.9_iphoneos-arm.deb
-Size: 470248
-MD5sum: 275c654fdbab728c3cf0abe07488eda6
-SHA1: ebaf033a8c150960e1299aafc89c6d78f87e810e
-SHA256: 5a7030aee75b74734b16496a70bdf65bb38d27ad5381165506b777bb6e0efe2c
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2180
-
-Package: com.shade.zypen
-Version: 0.9.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.zypen_0.9.1_iphoneos-arm.deb
-Size: 469980
-MD5sum: f404c6552d5807e100d3b9934179a685
-SHA1: e732cf748968a8eafa31773e45cea6a0aa900767
-SHA256: 09aa2500976a750f43f5a531586d90faf6aee67ee6f63794d041c5c4dfa875c9
-Description: 1/2 of Multiplexer
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.zypen
-Name: Zypen
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2180
-
-Package: com.shade.enigma
-Version: 0.1-2+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.enigma_0.1-2+debug_iphoneos-arm.deb
-Size: 4362
-MD5sum: 42ed453df76023899a3b13982169ef9b
-SHA1: f340d2e873839ed2e712a992183a3af4e67f6194
-SHA256: 23aa3e3e882e4f297675620ed55e25495f05e3ed14d78752813415c1f5f426e5
-Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
-Name: Enigma
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 136
-
-Package: com.shade.enigma
-Version: 0.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.enigma_0.2_iphoneos-arm.deb
-Size: 3196
-MD5sum: bc876717b923c3326d055ef67bbf1442
-SHA1: 3788be4b5bda94b052620f43064b7028d2745b64
-SHA256: c18391f78d046b05be9892aa88b3481988a74847ef586ccb99bb94b8d6313eb4
-Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.enigma
-Name: Enigma
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 76
-
-Package: libstatusbar9
-Version: 0.6
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Provides: libstatusbar
-Replaces: libstatusbar
-Conflicts: libstatusbar
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/libstatusbar9_0.6_iphoneos-arm.deb
-Size: 46218
-MD5sum: 10373989e42f8c485490a8ca880aac30
-SHA1: c60953396c8e7223a78f4217915e07de56639c88
-SHA256: 1dfbb9dec1fceef78b90cfcceda8d218a6295992c41f9d71e8c5fb2ddbe04111
-Description: Improved libstatusbar
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
-Name: libstatusbar (Shade Zepheri)
-Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 240
-
-Package: libstatusbar9
-Version: 0.6.5
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Provides: libstatusbar
-Replaces: libstatusbar
-Conflicts: libstatusbar
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: /debs/libstatusbar9_0.6.5_iphoneos-arm.deb
-Size: 30180
-MD5sum: 869a296f82d46738d099d27d1791c384
-SHA1: 70c056aa413a7892998fb56bcb7781bf275e74e3
-SHA256: 253469d9e45b4f6255fd85d73a30d15559fa86fc5dd692aa37023302f4668bc3
-Description: Improved libstatusbar
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=libstatusbar9
-Name: libstatusbar (Shade Zepheri)
-Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 176
-
 Package: com.a3tweaks.asphaleia3
 Version: 1.0.0
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Architecture: iphoneos-arm
+Maintainer: A3tweaks <asphaleia@a3tweaks.com>
+Installed-Size: 1588
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
 Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.a3tweaks.asphaleia3_1.0.0_iphoneos-arm.deb
+Filename: debs/com.a3tweaks.asphaleia3_1.0.0_iphoneos-arm.deb
 Size: 329940
 MD5sum: 6c7bbc7bdcd1511a8e1d992e6266ae77
 SHA1: 38cad84141fa65f670910b20d101f97aa50fc6d2
 SHA256: e871ef45447d4649a9e264c6bf20a9ac3996717547e724439fdb6dfecdac2d40
+Section: Tweaks
 Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.a3tweaks.asphaleia3
-Name: Asphaleia 3 (iOS 9)
 Author: A3tweaks <asphaleia@a3tweaks.com>
-Installed-Size: 1588
-
-Package: com.shade.asphaleiaX
-Version: 1.0.0-86+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiaX_1.0.0-86+debug_iphoneos-arm.deb
-Size: 442190
-MD5sum: 537a9e694ed45621aa9d4bd6f1fe0ba4
-SHA1: 5646ebc477ed6be9440bd1f048159e9ab4cf1da5
-SHA256: 0d9ba975c2cee1f105939d523ff5afbb4b4d3384987c492e5a66045a0d691506
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2308
-
-Package: com.shade.asphaleiaX
-Version: 1.0.0-100+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiaX_1.0.0-100+debug_iphoneos-arm.deb
-Size: 438264
-MD5sum: e22a864f8d4a7556f08a6a43a6cc29a4
-SHA1: ee42d1a66f615ecb876407ad61f4484c8e5f7e75
-SHA256: 276a679b2ee1ef7db444531c17a7ae05560bbf09d870a4307f2d14211e3c36a6
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2312
-
-Package: com.shade.asphaleiaX
-Version: 1.0.0-106+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiaX_1.0.0-106+debug_iphoneos-arm.deb
-Size: 439258
-MD5sum: 2b0d7b069e94d93ab55eb78cfe7adc74
-SHA1: 2e2c92b25124cdc84da0e40335c93d55fc0eb938
-SHA256: 14205b339af4dc5c9e8b06bf87719ea85bc2edaa5259bc71c3102fb6a30b6b05
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 2312
-
-Package: com.shade.asphaleiaX
-Version: 1.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiaX_1.1_iphoneos-arm.deb
-Size: 337416
-MD5sum: d327df208b48873f0fcc2307e2ec53d6
-SHA1: 9019ceae5f352299a11283e1b1b2109ff5b9a42e
-SHA256: dede82c3df28dd17e17cb70295f4b899430e312ff5984901f40c98bd5d10dd10
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 1640
-
-Package: com.shade.asphaleiaX
-Version: 1.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap, ws.hbang.common
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiaX_1.2_iphoneos-arm.deb
-Size: 359322
-MD5sum: 18272f22532a0caed8f13180aa088991
-SHA1: 2d25d9cf22339a9cf15d6105d40174974eb3dafc
-SHA256: 1312ea7d71a6c64f3c79617720ff949b124153d280ceb765a49f12e54fc50f95
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 1740
-
-Package: com.shade.asphaleiax
-Version: 1.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap, ws.hbang.common
-Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.asphaleiax_1.3_iphoneos-arm.deb
-Size: 211648
-MD5sum: f3a33fc4bfcf93b48c431dec408eea1d
-SHA1: fa8c270e4722fe0103d6e0d08572c5a0bf18da28
-SHA256: 8f6347c7869c7c660b16403ac12cc3e446d29465b9a6bedac7df04d3824cf7bc
-Description: customizable locking system for apps & more
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
-Name: Asphaleia X (iOS 10)
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 1504
+Depiction: https://evilgoldfish.xyz/betarepo/asphaleia/index.html
+Name: Asphaleia 3 (iOS 9)
 
 Package: com.shade.abaculus
 Version: 0.1-189+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.1-189+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.shade.abaculus_0.1-189+debug_iphoneos-arm.deb
 Size: 77462
 MD5sum: e056c3bf038aeae5458d8144062ebb99
 SHA1: 033e39665e6e8a8d837614dffeeff3eac0b9a014
 SHA256: 16bb10b8730ffef40db2389a597224a1ad7b86cbd392309e03fa7d627bf21c1d
+Section: Tweaks
 Description: An elegant App Launcher
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
-Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 412
+Name: Abaculus
 
 Package: com.shade.abaculus
 Version: 0.1-209+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.1-209+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.abaculus_0.1-209+debug_iphoneos-arm.deb
 Size: 77272
 MD5sum: 809afa3a7d65621e1dbe3bdcc4496ae9
 SHA1: c7e5fb1a5beecacea4995aa080dd4dea57b18675
 SHA256: 10c6632951b10e3a101c599070df44ebacb33ec3dc8da9820315d65f7520b7f8
+Section: Tweaks
 Description: An elegant App Launcher
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
-Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 412
+Name: Abaculus
 
 Package: com.shade.abaculus
 Version: 0.1-225+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.1-225+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.abaculus_0.1-225+debug_iphoneos-arm.deb
 Size: 77602
 MD5sum: e4da1ddcf5dde864195e33cd84fc2343
 SHA1: 1918f1637c35d1c1ce04cd6ef19d7aaa5e4842a1
 SHA256: 78e8b31e397479bddc2e8ce1a019048db010d84277690695b61d3d09a1e7b21d
+Section: Tweaks
 Description: An elegant App Launcher
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
-Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 416
+Name: Abaculus
 
 Package: com.shade.abaculus
 Version: 0.1-231+debug
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.1-231+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.abaculus_0.1-231+debug_iphoneos-arm.deb
 Size: 78038
 MD5sum: ac7037e24b9bf6b6312a77a6000bde78
 SHA1: b0bdd99322a31a93e37ea75891caf809c7d33ee6
 SHA256: f94fe0e42a01464b60ad9480aa25bc342dba03fea12e87808e1c2e72a00e571c
+Section: Tweaks
 Description: An elegant App Launcher
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
-Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 416
+Name: Abaculus
 
 Package: com.shade.abaculus
 Version: 0.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.2_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.abaculus_0.2_iphoneos-arm.deb
 Size: 58400
 MD5sum: 0627f3997ffd08a1e55bf845e8fdb733
 SHA1: 2536b0fc1db8e9249f3ea3eb3267d33d4a97e687
 SHA256: 16cf3e9fa4d01e8ddfacba696dfe61b3c1fcfa20369446145ddc393cfce49e16
+Section: Tweaks
 Description: An elegant App Launcher
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
-Name: Abaculus
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 336
+Name: Abaculus
 
 Package: com.shade.abaculus
 Version: 0.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.abaculus_0.3_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 352
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.abaculus_0.3_iphoneos-arm.deb
 Size: 60274
 MD5sum: 2f0c61bb335eb9dd83823d51628e8a36
 SHA1: 5026da5093b974507fd6b04d60cf6c2a8345fbaf
 SHA256: 3d04cfd11fd0da010958d8caad178ba4147aa4e66091b97ff92bc8eb0ecd9e5d
+Section: Tweaks
 Description: An elegant App Launcher
+Author: Shade Zepheri <ziroalpha@gmail.com>
 Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.abaculus
 Name: Abaculus
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 352
 
-Package: com.shade.multiplexer
-Version: 0.1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
-Conflicts: cc.tweak.statushud
-Replaces: com.efrederickson.reachapp
+Package: com.shade.asphaleiaX
+Version: 1.0.0-100+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexer_0.1_iphoneos-arm.deb
-Size: 1053264
-MD5sum: 218c2db9c838277a2caa2867b082dfe9
-SHA1: e4a6557ccecb8b8efbc1348ca0cda417b0cd0d6e
-SHA256: 8a7216e7e8d1b24044c14d8f0ef6f91ac5929653fade7f72f6667770625f90bd
-Description: All sorts of multitasking
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
-Name: Multiplexer
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2312
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiaX_1.0.0-100+debug_iphoneos-arm.deb
+Size: 438264
+MD5sum: e22a864f8d4a7556f08a6a43a6cc29a4
+SHA1: ee42d1a66f615ecb876407ad61f4484c8e5f7e75
+SHA256: 276a679b2ee1ef7db444531c17a7ae05560bbf09d870a4307f2d14211e3c36a6
+Section: Tweaks
+Description: customizable locking system for apps & more
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 5224
+Name: Asphaleia X (iOS 10)
 
-Package: com.shade.multiplexer
-Version: 0.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
-Conflicts: cc.tweak.statushud
-Replaces: com.efrederickson.reachapp
+Package: com.shade.asphaleiaX
+Version: 1.0.0-106+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexer_0.2_iphoneos-arm.deb
-Size: 1059642
-MD5sum: 136b027e567b9dee44f8cbea8641aa7b
-SHA1: b530829d47f810966a4dd5bf49296c578236942c
-SHA256: c5bbb1edb12dbd9372d8a2eab8a9d6b31c93a3da1f32d798a9cd5bc4392d1990
-Description: All sorts of multitasking
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
-Name: Multiplexer
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2312
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiaX_1.0.0-106+debug_iphoneos-arm.deb
+Size: 439258
+MD5sum: 2b0d7b069e94d93ab55eb78cfe7adc74
+SHA1: 2e2c92b25124cdc84da0e40335c93d55fc0eb938
+SHA256: 14205b339af4dc5c9e8b06bf87719ea85bc2edaa5259bc71c3102fb6a30b6b05
+Section: Tweaks
+Description: customizable locking system for apps & more
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 5260
+Name: Asphaleia X (iOS 10)
 
-Package: com.shade.vitality
-Version: 0.2
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Package: com.shade.asphaleiaX
+Version: 1.0.0-86+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.vitality_0.2_iphoneos-arm.deb
-Size: 6831492
-MD5sum: 9c326a6185a17bda2430f8b7cd674f07
-SHA1: 7e7fcfc7a0ad77f7337d06c0d6fc478c75e57bdf
-SHA256: b4f5003f604cd2cb4178a1d1972eaf39b09c2f732fd99c571af96fc71de48c20
-Description: Animated Wallpapers
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
-Name: Vitality
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2308
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiaX_1.0.0-86+debug_iphoneos-arm.deb
+Size: 442190
+MD5sum: 537a9e694ed45621aa9d4bd6f1fe0ba4
+SHA1: 5646ebc477ed6be9440bd1f048159e9ab4cf1da5
+SHA256: 0d9ba975c2cee1f105939d523ff5afbb4b4d3384987c492e5a66045a0d691506
+Section: Tweaks
+Description: customizable locking system for apps & more
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 7036
+Name: Asphaleia X (iOS 10)
 
-Package: com.shade.vitality
-Version: 0.3
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Package: com.shade.asphaleiaX
+Version: 1.1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.vitality_0.3_iphoneos-arm.deb
-Size: 6817816
-MD5sum: 04b4a7e5b179479dfa55fa490d614089
-SHA1: ffb7636e4c66a6c48dee608e030de1e04f9ffded
-SHA256: 5690e8318c15588cef85168824475f3797a25b4083acf4aede0ca0e35aa2bd05
-Description: Animated Wallpapers
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
-Name: Vitality
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1640
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiaX_1.1_iphoneos-arm.deb
+Size: 337416
+MD5sum: d327df208b48873f0fcc2307e2ec53d6
+SHA1: 9019ceae5f352299a11283e1b1b2109ff5b9a42e
+SHA256: dede82c3df28dd17e17cb70295f4b899430e312ff5984901f40c98bd5d10dd10
+Section: Tweaks
+Description: customizable locking system for apps & more
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 6964
+Name: Asphaleia X (iOS 10)
 
-Package: com.shade.vitality
-Version: 0.3-1
-Section: Tweaks
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Package: com.shade.asphaleiaX
+Version: 1.2
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.vitality_0.3-1_iphoneos-arm.deb
-Size: 6818910
-MD5sum: c719ac0bfd5a8a62a6a8e4f93585cc79
-SHA1: 38873459af19034f7c79efcbf9f81d2b8c46e9b6
-SHA256: 76505883eb73b9077a82d4ad1c50b944d984fdb2f1648e3b1936f08ae8c75f49
-Description: Animated Wallpapers
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
-Name: Vitality
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1740
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap, ws.hbang.common
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiaX_1.2_iphoneos-arm.deb
+Size: 359322
+MD5sum: 18272f22532a0caed8f13180aa088991
+SHA1: 2d25d9cf22339a9cf15d6105d40174974eb3dafc
+SHA256: 1312ea7d71a6c64f3c79617720ff949b124153d280ceb765a49f12e54fc50f95
+Section: Tweaks
+Description: customizable locking system for apps & more
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Installed-Size: 6980
+Name: Asphaleia X (iOS 10)
+
+Package: com.shade.asphaleiax
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1504
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.a3tweaks.flipswitch, com.rpetrich.rocketbootstrap, ws.hbang.common
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect
+Filename: debs/com.shade.asphaleiax_1.3_iphoneos-arm.deb
+Size: 211648
+MD5sum: f3a33fc4bfcf93b48c431dec408eea1d
+SHA1: fa8c270e4722fe0103d6e0d08572c5a0bf18da28
+SHA256: 8f6347c7869c7c660b16403ac12cc3e446d29465b9a6bedac7df04d3824cf7bc
+Section: Tweaks
+Description: customizable locking system for apps & more
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.asphaleiax
+Name: Asphaleia X (iOS 10)
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-12+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_0.1-12+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_0.1-12+debug_iphoneos-arm.deb
 Size: 70470
 MD5sum: 93a41a2cb22f8fe179282762bec889e3
 SHA1: ab74a43374fc32d420b7806ecaff7f8cf6525383
 SHA256: f7b514088348c24b7176b73cd3c1d08099c7c87590961e9da532b9dde0000607
-Description: Customizable backgrounding for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-12+debug
-Installed-Size: 368
+Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Name: Aura
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-21+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_0.1-21+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_0.1-21+debug_iphoneos-arm.deb
 Size: 70894
 MD5sum: 564e9527b2aff66f40926b21cbcb6f0c
 SHA1: 54e58d94b0b4c02457d856428ec1cd0a4889ab45
 SHA256: 4ecfd5f414ce9410198eea357c8f86ea0ca9140f094f534f380d25cbf8b3ca46
-Description: Customizable backgrounding for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-21+debug
-Installed-Size: 368
+Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Name: Aura
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-29+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_0.1-29+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_0.1-29+debug_iphoneos-arm.deb
 Size: 70824
 MD5sum: b572a25dbdeadf2349cc74b77c17ec05
 SHA1: 5954efc9184b1dbe6430409b3b6b9630edee8b5b
 SHA256: a141e436f5b161470d6bedf17708949d9ed771df4a9926d975dd17481989e134
-Description: Customizable backgrounding for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-29+debug
-Installed-Size: 368
+Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Name: Aura
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-32+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_0.1-32+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_0.1-32+debug_iphoneos-arm.deb
 Size: 70786
 MD5sum: 1f3edb39494c4e402a61f953fd86691a
 SHA1: 52eea80699979282235a33f9a70248a06cca4e01
 SHA256: 216336e53d7409160a96d8214e0f09c50dcdf5c519d0a28a74feaca1f36eaf53
-Description: Customizable backgrounding for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-32+debug
-Installed-Size: 368
+Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Name: Aura
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-38+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_0.1-38+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_0.1-38+debug_iphoneos-arm.deb
 Size: 70872
 MD5sum: ded0b86203329606904fe55d6380aa6b
 SHA1: 4d435bf7804e37a8bdf1a4a0addd2852ee4bc586
 SHA256: 60f867e256b857a5aaadbed9b48507988288678da5f63ef0672c19d7a0a769d2
-Description: Customizable backgrounding for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-38+debug
-Installed-Size: 368
+Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
+Name: Aura
 
 Package: com.shade.aura
-Name: Aura
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 1.0.0~rc1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.aura_1.0.0~rc1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 252
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.aura_1.0.0~rc1_iphoneos-arm.deb
 Size: 46142
 MD5sum: 4a8f9faf7e6aa20d5d70c493a24961ad
 SHA1: 330376c13ddad364d05ca9571d225f8f98340c6c
 SHA256: 68b0a82143f3276a2c3c269968d7310adae8694ecd1a13f054e0c3b3d6af524d
+Section: Tweaks
 Description: Customizable backgrounding for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
 Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.aura
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Aura
+
+Package: com.shade.domum
+Version: 0.10
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.domum_0.10_iphoneos-arm.deb
+Size: 73150
+MD5sum: b40b1beb1ef04e89650b104a45de706b
+SHA1: b5dd4392f7d9b3036d9889c37a522058fc0f6bca
+SHA256: d965c5867c8bec8a946e1921461477a94b074e1ee9ac60c8c03e54c886605f45
 Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 252
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.6.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 260
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.domum_0.6.1_iphoneos-arm.deb
+Size: 13898
+MD5sum: bcbf900e5730ca0448bdc30cc85ff022
+SHA1: 727817e0991f52468d47feda739c5005ac26cef7
+SHA256: 9501b7e5b346a3786881e6e3361c7951bbd01b246c19e29222f84963046be833
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 308
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.7_iphoneos-arm.deb
+Size: 44378
+MD5sum: b272de564da8d74c1672b0e1a3b6c006
+SHA1: f73dcb1cc14ed0fa331157ea2488a7ad260e3131
+SHA256: 95cfa2395513746662f88b7403c859ff372e0af1241b689f20fd60d0e7d65cd7
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.8
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 348
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.8_iphoneos-arm.deb
+Size: 65796
+MD5sum: 04ab405b299567fd85e4757ddf1ea6b7
+SHA1: daa75fafebb3603992795c95a9ba527b24de2475
+SHA256: 0562bbc221bbe218cbd4f5aaf1bc235186466620e7797d40251d552cdb396cc1
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.8.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 360
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.8.5_iphoneos-arm.deb
+Size: 69858
+MD5sum: a8a8ac3db67c2892a569bb9830bb653f
+SHA1: a5ab0699add967b7e7966d4a2240fcda3cae29d7
+SHA256: d35938e7a6099f5c84e7f9bc5b95e04ac2bb62b245862cc80992232e510585e0
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.9_iphoneos-arm.deb
+Size: 70410
+MD5sum: ceb5a02eeae9c1269bee825d244d0df1
+SHA1: 1c7e4ea28bb2e2e7e52d8be2c732dabac6fb055f
+SHA256: 916ba4b1d02967d569af8820c31308ce825d38c94742a4613407e7d84df4878b
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.9.5_iphoneos-arm.deb
+Size: 70156
+MD5sum: 5271eb2bdfe06737515e4cf67c5a61e9
+SHA1: 4e3f01ea0492bef3220ba662837ec2e8340b0eac
+SHA256: 9ee4fcaac3901eef637db9b9859d2f62a33aea1460c9c584c5f833e61afe60b9
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, libactivator
+Filename: debs/com.shade.domum_0.9.9_iphoneos-arm.deb
+Size: 69154
+MD5sum: 1ba3ad525cb7a9f3023e966615b7e8ad
+SHA1: 62d9177d96fb16043eaeb915b7cac96ee460d676
+SHA256: 7ad3b6d878734564b98b8e9b535293ceb4a23c39527bbf006ae97d14d15750e5
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9.9.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.domum_0.9.9.5_iphoneos-arm.deb
+Size: 66896
+MD5sum: 0300b1424f399ec5d0d9dbc9e1002a86
+SHA1: 8f40a7d417dd06fc33fcc3b7b65e4ed4779f17b2
+SHA256: c8d181cde4566b44b442139469fe9b3d2342136775cbd5ad30d6c5376f2800f9
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9.9.6
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.domum_0.9.9.6_iphoneos-arm.deb
+Size: 66866
+MD5sum: c4d3f5daca9813522ee361698b6f2251
+SHA1: 6dcf7530dd4e149a64adeda5ebec5e826988a7a4
+SHA256: 9edd5e4ba3ac6e539b6eadc0763f77482764fbbbab5b2b16550d65fa3eb501d7
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
+
+Package: com.shade.domum
+Version: 0.9.9.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.domum_0.9.9.9_iphoneos-arm.deb
+Size: 72412
+MD5sum: b9f71e84e3ede589fef9c3cc8ba6c59f
+SHA1: d42a52ef9f09e6cd782276cfebe3bd1457f8eb2a
+SHA256: 2c373dd174e1635bedc607a45d465f83df74ac6267720b24ae2574e1d8ad5993
+Section: Tweaks
+Description: Onscreen Home button everywhere
+Author: Shade Zepheri
+Name: Domum
 
 Package: com.shade.empoleon
-Name: Empoleon
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-18+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.empoleon_0.1-2+debug_iphoneos-arm.deb
-Size: 149540
-MD5sum: 4509a67dbfa823a7828d94be8cdd1c8a
-SHA1: bc9c286501ea3979955dbcfbb65be7d6c15b3ac4
-SHA256: d088b9f3d19de4d288ffb47a3c580fd72aeaf1eabc8c914cde613fa3bed9610f
-Description: Empoleon for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
 Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-2+debug
-Installed-Size: 908
-
-Package: com.shade.empoleon
-Name: Empoleon
+Installed-Size: 632
 Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.empoleon_0.1-18+debug_iphoneos-arm.deb
+Filename: debs/com.shade.empoleon_0.1-18+debug_iphoneos-arm.deb
 Size: 134046
 MD5sum: eadba50dc410edae181ad229cb80438e
 SHA1: 9399910426fb93f7a94cd492e24388201bdc363b
 SHA256: ea0f16e05de68308059e08be07e588b6bdccb4bda0f3e10ab8bf3df51b34e047
-Description: Empoleon for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-18+debug
-Installed-Size: 632
+Description: Empoleon for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
+Name: Empoleon
 
 Package: com.shade.empoleon
-Name: Empoleon
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 0.1-2+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.empoleon_0.1-35+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 908
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.empoleon_0.1-2+debug_iphoneos-arm.deb
+Size: 149540
+MD5sum: 4509a67dbfa823a7828d94be8cdd1c8a
+SHA1: bc9c286501ea3979955dbcfbb65be7d6c15b3ac4
+SHA256: d088b9f3d19de4d288ffb47a3c580fd72aeaf1eabc8c914cde613fa3bed9610f
+Section: Tweaks
+Description: Empoleon for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
+Name: Empoleon
+
+Package: com.shade.empoleon
+Version: 0.1-35+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 668
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.empoleon_0.1-35+debug_iphoneos-arm.deb
 Size: 138300
 MD5sum: b2a32509b16ac15dbbde3f6140a6d7d0
 SHA1: caed550b556b9c6f5f1ed140474dc28017f94613
 SHA256: 5d86d75d8cdb4f4dd4d007c90fc17d3ec8de5ee1759a55e7e4d01cd2e14772b5
-Description: Empoleon for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-35+debug
-Installed-Size: 668
+Description: Empoleon for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
+Name: Empoleon
 
 Package: com.shade.empoleon
-Name: Empoleon
-Depends: mobilesubstrate, com.shade.multiplexercore
+Version: 1.0.0~rc1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.empoleon_1.0.0~rc1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 400
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.empoleon_1.0.0~rc1_iphoneos-arm.deb
 Size: 93112
 MD5sum: 8e4cbbaddc7688a59eb6bb2660715540
 SHA1: 4d2b8c1c9e2d9d9ffaec3abb9ec853f42625ebc4
 SHA256: 0be2b2508411db799d58c5ae9ee7446456660efcbe2b84edeb124115a7b6a9e5
+Section: Tweaks
 Description: Empoleon for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
 Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.empoleon
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 400
+Name: Empoleon
 
-Package: com.shade.missioncontrol
-Name: MissionControl
-Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.missioncontrol_0.1-2+debug_iphoneos-arm.deb
-Size: 163150
-MD5sum: 11698d0675ee7a69e47b1b345e17d8af
-SHA1: ebc7bcaf5313fa48c0fddea3c677abe5bfa5b3e5
-SHA256: af5021f016f0f24636a63e1549d34d83b3fa22914b0c73eda802cd5e2afdd8e1
-Description: MissionControl for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
+Package: com.shade.enigma
 Version: 0.1-2+debug
-Installed-Size: 856
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.shade.enigma_0.1-2+debug_iphoneos-arm.deb
+Size: 4362
+MD5sum: 42ed453df76023899a3b13982169ef9b
+SHA1: f340d2e873839ed2e712a992183a3af4e67f6194
+SHA256: 23aa3e3e882e4f297675620ed55e25495f05e3ed14d78752813415c1f5f426e5
+Section: Tweaks
+Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
+Author: Shade Zepheri
+Name: Enigma
+
+Package: com.shade.enigma
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.shade.enigma_0.2_iphoneos-arm.deb
+Size: 3196
+MD5sum: bc876717b923c3326d055ef67bbf1442
+SHA1: 3788be4b5bda94b052620f43064b7028d2745b64
+SHA256: c18391f78d046b05be9892aa88b3481988a74847ef586ccb99bb94b8d6313eb4
+Section: Tweaks
+Description: IOS 10.x ONLY!! Enables hidden Cellular Data toggle on 10.X. Dont know if it actually works/does anything as I only tested in simulator. Email issues to ziroalpha@gmail.com
+Author: Shade Zepheri
+Name: Enigma
+
+Package: com.shade.hortus
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 272
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.hortus.1.0.deb
+Size: 25328
+MD5sum: 9708a1cd70a6179efb5baaac376f6eaf
+SHA1: fe86d717eaa847a822f0fb33c8945e02f54f7c2f
+SHA256: 6020b362ab334a57b5a41c8df67d793ed86a3c63c262aa0845d3a9955d1db2ec
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.0-41+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 276
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.shade.hortus_1.0-41+debug.deb
+Size: 27752
+MD5sum: 4fe0ac5f10ea401f630fd0b2b2a5ee75
+SHA1: 303ab0d3a1a71f70b6aa8c1a97f1cd3f0d43d738
+SHA256: fa771f077613def446836a206de5a07a8a57d8446fcbf2202f8dba09c9d72641
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 288
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.shade.hortus_1.1-1.deb
+Size: 26264
+MD5sum: cac86818ac70c9d8aff99f50e39f1e91
+SHA1: 0fd1ac3964d578b4c76fe7ba4e64b5a98e62c004
+SHA256: 623bde6fae37b5ae3e0f05cd389367b949bf55da9d2a3f8a13d3948f72112cb2
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 288
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: debs/com.shade.hortus_1.1-1_iphoneos-arm.deb
+Size: 26264
+MD5sum: e5a18dc6c5923c8cf66b243a4d50ffaa
+SHA1: 4ea17a58e1e1307a3443033b521fd3f493b7ccd8
+SHA256: fe02c68309693100423336405f787347e1045af398412b52eb3846f23835247e
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 288
+Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.hortus_1.2_iphoneos-arm.deb
+Size: 26030
+MD5sum: b94f5b412132a05995266900d19a85bd
+SHA1: b3f5995f15d8f1e836849c8e62172b3d7f82028d
+SHA256: d7bd915ee7288b7451a041f16a03616377fab05e7c3237fc3b658cb58383c2f9
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 304
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.hortus_1.2.1_iphoneos-arm.deb
+Size: 26562
+MD5sum: 3b16001acf92873b03da72201a7d534e
+SHA1: 01e1d39c285501bf67eebca10c005ee5be16eb97
+SHA256: 6d4457481f93624320623bf8668c5d1be08a916cc0cf7043afe3260bae87194b
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.2.1.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 288
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.hortus_1.2.1.1_iphoneos-arm.deb
+Size: 26650
+MD5sum: b6c8a7b95d29d6c7c3399181c54b9d4d
+SHA1: f27f3e6c368725fc41bd9a65593ad2b191fdd7a7
+SHA256: 1226e97e7545193554982ca3fe00da70d3124012331538014555a9ee649d5b49
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
+
+Package: com.shade.hortus
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 280
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, applist, ws.hbang.common
+Filename: debs/com.shade.hortus_1.3_iphoneos-arm.deb
+Size: 33082
+MD5sum: 397714b0608b8cc51133e88a59a7e4dd
+SHA1: 2138b84249d40dd483f9b7ecc25b5b51082c04d7
+SHA256: 21d09b227056fe47b3423aeb7d7a28c625a7194c35a2122fa1be3e726e338a1b
+Section: Tweaks
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.hortus
+Name: Hortus
 
 Package: com.shade.missioncontrol
-Name: MissionControl
-Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Version: 0.1-11+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.missioncontrol_0.1-11+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 604
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Filename: debs/com.shade.missioncontrol_0.1-11+debug_iphoneos-arm.deb
 Size: 133020
 MD5sum: 39935686950f8eddaf16f95b86d17337
 SHA1: 92bc137859cb29dfcc40805751c19d4ece248d1b
 SHA256: 117492ee9fda33e3e0017d438068d8fbfecd97f6dcf2807ce818fc4988ffcd5b
-Description: MissionControl for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-11+debug
-Installed-Size: 604
+Description: MissionControl for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
+Name: MissionControl
 
 Package: com.shade.missioncontrol
-Name: MissionControl
-Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Version: 0.1-2+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.missioncontrol_0.1-35+debug_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 856
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Filename: debs/com.shade.missioncontrol_0.1-2+debug_iphoneos-arm.deb
+Size: 163150
+MD5sum: 11698d0675ee7a69e47b1b345e17d8af
+SHA1: ebc7bcaf5313fa48c0fddea3c677abe5bfa5b3e5
+SHA256: af5021f016f0f24636a63e1549d34d83b3fa22914b0c73eda802cd5e2afdd8e1
+Section: Tweaks
+Description: MissionControl for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
+Name: MissionControl
+
+Package: com.shade.missioncontrol
+Version: 0.1-35+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 584
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Filename: debs/com.shade.missioncontrol_0.1-35+debug_iphoneos-arm.deb
 Size: 130926
 MD5sum: 7f88a1f7da2b82848715f5ee3cd55edb
 SHA1: 18cc0303ee13434d063aef42fafa395ac50dec17
 SHA256: 1433e970d828b3ffe919adfaf1eae6ff82dcb42ebb4ce21d6e809a9ad9eb70dc
-Description: MissionControl for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-35+debug
-Installed-Size: 584
+Description: MissionControl for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
+Name: MissionControl
 
 Package: com.shade.missioncontrol
-Name: MissionControl
-Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Version: 1.0.0~rc1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.missioncontrol_1.0.0~rc1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 320
+Depends: mobilesubstrate, com.shade.multiplexercore, com.shade.empoleon
+Filename: debs/com.shade.missioncontrol_1.0.0~rc1_iphoneos-arm.deb
 Size: 83864
 MD5sum: 6e0a028ec261de309205b447fb55058c
 SHA1: 1e1c4b7a6ed2d014169c1fc083dab046eac43f17
 SHA256: 7568d85bfcb8dad401ff7b4ef1c28678f655ea0f515cb9426a72c64db25f8775
+Section: Tweaks
 Description: MissionControl for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
 Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.missioncontrol
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 320
+Name: MissionControl
 
-Package: com.shade.quickaccess
-Name: QuickAccess
-Depends: mobilesubstrate, com.shade.multiplexercore
+Package: com.shade.multiplexer
+Version: 0.1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.quickaccess_0.1-2+debug_iphoneos-arm.deb
-Size: 25334
-MD5sum: 8b571d19c624f990502731471e08495a
-SHA1: 6b4dab08469686418d338954c9f5c874bde83a3b
-SHA256: f411535b1479407826c8fc6a8cb7e25ec11290a3c62e2aa2d12502c44128d736
-Description: QuickAccess for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
 Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-2+debug
-Installed-Size: 260
-
-Package: com.shade.quickaccess
-Name: QuickAccess
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.quickaccess_0.1-47+debug_iphoneos-arm.deb
-Size: 23890
-MD5sum: 8eaf4f7afb5ca58196614140b020a77e
-SHA1: a77fa41abc03caae9ee41892e197a7c14989e172
-SHA256: 8c1f1cd384966e3699fa31c033644cb38a7fefcacdbce7ec053aa1e78dc00970
-Description: QuickAccess for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-47+debug
-Installed-Size: 180
-
-Package: com.shade.quickaccess
-Name: QuickAccess
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.quickaccess_1.0.0~rc1_iphoneos-arm.deb
-Size: 15484
-MD5sum: e7a4a7fcf7e6747c408f14a32da07c75
-SHA1: 6b1d4478b365acbbc15edb149448e081b91325e1
-SHA256: a1ab4c200b2f5dfd4eb382bf5eeb0358ac31f339178e0b09e7c5145d11b5b11e
-Description: QuickAccess for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 140
-
-Package: com.shade.reachapp
-Name: ReachApp
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.reachapp_0.1-9+debug_iphoneos-arm.deb
-Size: 52186
-MD5sum: 4813a6d9efdfbff10b5ce5f69f18b9c5
-SHA1: c12315d7adc598adff5f1bd1e9fa6b4428dc7d7b
-SHA256: c7a4376dd808bea1225d7508e800f395d34e3a4ccad845074bec595298ccacd7
-Description: ReachApp for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-9+debug
-Installed-Size: 296
-
-Package: com.shade.reachapp
-Name: ReachApp
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.reachapp_0.1-42+debug_iphoneos-arm.deb
-Size: 52622
-MD5sum: 3006a199d9e9708a59da2b61aad7f66e
-SHA1: dfa6087c3249d42e09d5b8484bb6d124ccc5a308
-SHA256: fece2977464740921693b543b87a53bd2a9a3824adb46537824629fc4efb6dde
-Description: ReachApp for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-42+debug
-Installed-Size: 296
-
-Package: com.shade.reachapp
-Name: ReachApp
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.reachapp_1.0.0~rc1_iphoneos-arm.deb
-Size: 34342
-MD5sum: a797ab097baf2745a1e4c288045ef9d6
-SHA1: 3f563d1c4db65e48aa42e0a084160a26e54f43df
-SHA256: 48dea096b67f0dfc888cd9eecb55624c8f3949fb9426d3ac1d047d116516753d
-Description: ReachApp for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 204
-
-Package: com.shade.swipeover
-Name: SwipeOver
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.swipeover_0.1-2+debug_iphoneos-arm.deb
-Size: 52704
-MD5sum: 38013f66ffa2e1b98ba5a791963a2d80
-SHA1: ef04a2106a86ad835b7d640cb6efd0790087c42e
-SHA256: 506b70a43d78e46a4e4dfa6bc1e34889153722460ac44fe73e306d2523304660
-Description: SwipeOver for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-2+debug
-Installed-Size: 352
-
-Package: com.shade.swipeover
-Name: SwipeOver
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.swipeover_0.1-58+debug_iphoneos-arm.deb
-Size: 47662
-MD5sum: e71fdc40a2159b6c45d2f44bf4eaa7ed
-SHA1: 683b78a3885f5f3cbb89203a4b9aebb64cd97be2
-SHA256: d6f91f54f67cb031e724cc3b86a9afb4ddee1e4e20b0e697648518f53d1b60b6
-Description: SwipeOver for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-58+debug
-Installed-Size: 244
-
-Package: com.shade.swipeover
-Name: SwipeOver
-Depends: mobilesubstrate, com.shade.multiplexercore
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.swipeover_1.0.0~rc1_iphoneos-arm.deb
-Size: 30950
-MD5sum: c3ecab64d1fecc35090e3dd788847b08
-SHA1: cf48f357720ed7da15ff0ba2a3d16e38e9b4902a
-SHA256: 3b5617cd360f6421932b9b05e1e6a14b71ed25c5f62eeeb7c67610128eafedea
-Description: SwipeOver for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 1.0.0~rc1
-Installed-Size: 172
-
-Package: com.shade.multiplexercore
-Name: Multiplexer Core
+Installed-Size: 5224
 Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_0.1-51+debug_iphoneos-arm.deb
-Size: 896882
-MD5sum: 835f0008a7345771cead7ce78c9fa2c3
-SHA1: c3d325bdf4900b7dbab527b2f56c969f7b3522cd
-SHA256: c48452d1c22cde48c3d561bb201a8aa2e8ea3e8002a2e3b5b1a4b0b94fbbfea5
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
+Filename: debs/com.shade.multiplexer_0.1_iphoneos-arm.deb
+Size: 1053264
+MD5sum: 218c2db9c838277a2caa2867b082dfe9
+SHA1: e4a6557ccecb8b8efbc1348ca0cda417b0cd0d6e
+SHA256: 8a7216e7e8d1b24044c14d8f0ef6f91ac5929653fade7f72f6667770625f90bd
 Section: Tweaks
-Version: 0.1-51+debug
-Installed-Size: 4240
+Description: All sorts of multitasking.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
+Name: Multiplexer
 
-Package: com.shade.multiplexercore
-Name: Multiplexer Core
+Package: com.shade.multiplexer
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 5260
 Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_0.1-71+debug_iphoneos-arm.deb
-Size: 841862
-MD5sum: ad8861d954d9a6dd91dcd347ad7b9cee
-SHA1: 55b002c0165bb0f04a5a1e3c45fa2e8e610c75a6
-SHA256: 3f12bc6527a8934aa238b5b52fccc5f59e3848d470e8640d792219dea8e00311
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
+Filename: debs/com.shade.multiplexer_0.2_iphoneos-arm.deb
+Size: 1059642
+MD5sum: 136b027e567b9dee44f8cbea8641aa7b
+SHA1: b530829d47f810966a4dd5bf49296c578236942c
+SHA256: c5bbb1edb12dbd9372d8a2eab8a9d6b31c93a3da1f32d798a9cd5bc4392d1990
 Section: Tweaks
-Version: 0.1-71+debug
+Description: All sorts of multitasking.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexer
+Name: Multiplexer
+
+Package: com.shade.multiplexercore
+Version: 0.1-110+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 3700
-
-Package: com.shade.multiplexercore
-Name: Multiplexer Core
 Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_0.1-93+debug_iphoneos-arm.deb
-Size: 842404
-MD5sum: bff85ad9b8658415b4ec4e6275c907da
-SHA1: 31ea78e6e9794d79894cef45a029b046f6e0d9d6
-SHA256: 0ad4cf5559d71c50177c7e1c3bbabcb30afec18f01a41cff26c5f3cc4dad9aa3
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-93+debug
-Installed-Size: 3700
-
-Package: com.shade.multiplexercore
-Name: Multiplexer Core
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
-Conflicts: cc.tweak.statushud
-Replaces: com.efrederickson.reachapp
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_0.1-110+debug_iphoneos-arm.deb
+Filename: debs/com.shade.multiplexercore_0.1-110+debug_iphoneos-arm.deb
 Size: 842228
 MD5sum: b0a0a638361ae6b011846927bce6bd0d
 SHA1: c4de3961fd319a6ec7b04a8f81668f696813ac42
 SHA256: 595ac85158121ab2be9cd82c396252d70ca7390b2ef6b79cd4b21ca58edc3b4c
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1-110+debug
-Installed-Size: 3700
+Description: Main Library for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
 
 Package: com.shade.multiplexercore
-Name: Multiplexer Core
+Version: 0.1-51+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 4240
 Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
+Filename: debs/com.shade.multiplexercore_0.1-51+debug_iphoneos-arm.deb
+Size: 896882
+MD5sum: 835f0008a7345771cead7ce78c9fa2c3
+SHA1: c3d325bdf4900b7dbab527b2f56c969f7b3522cd
+SHA256: c48452d1c22cde48c3d561bb201a8aa2e8ea3e8002a2e3b5b1a4b0b94fbbfea5
+Section: Tweaks
+Description: Main Library for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
+
+Package: com.shade.multiplexercore
+Version: 0.1-71+debug
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_0.2_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 3700
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Filename: debs/com.shade.multiplexercore_0.1-71+debug_iphoneos-arm.deb
+Size: 841862
+MD5sum: ad8861d954d9a6dd91dcd347ad7b9cee
+SHA1: 55b002c0165bb0f04a5a1e3c45fa2e8e610c75a6
+SHA256: 3f12bc6527a8934aa238b5b52fccc5f59e3848d470e8640d792219dea8e00311
+Section: Tweaks
+Description: Main Library for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
+
+Package: com.shade.multiplexercore
+Version: 0.1-93+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 3700
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Filename: debs/com.shade.multiplexercore_0.1-93+debug_iphoneos-arm.deb
+Size: 842404
+MD5sum: bff85ad9b8658415b4ec4e6275c907da
+SHA1: 31ea78e6e9794d79894cef45a029b046f6e0d9d6
+SHA256: 0ad4cf5559d71c50177c7e1c3bbabcb30afec18f01a41cff26c5f3cc4dad9aa3
+Section: Tweaks
+Description: Main Library for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
+
+Package: com.shade.multiplexercore
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2904
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: cc.tweak.statushud
+Replaces: com.efrederickson.reachapp
+Filename: debs/com.shade.multiplexercore_0.2_iphoneos-arm.deb
 Size: 704664
 MD5sum: 266cccae0246f90439fed732b1d7ed50
 SHA1: bddbc3b79ae33ea14340bff3c2275aaf5a343a04
 SHA256: 7c2e40b426447e1160a165b4f346417e41ac59df94acf2736a8911150723cc81
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.2
-Installed-Size: 2904
+Description: Main Library for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
 
 Package: com.shade.multiplexercore
-Name: Multiplexer Core
+Version: 1.0.0~rc1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 2792
 Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap
 Conflicts: cc.tweak.statushud
 Replaces: com.efrederickson.reachapp
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.multiplexercore_1.0.0~rc1_iphoneos-arm.deb
+Filename: debs/com.shade.multiplexercore_1.0.0~rc1_iphoneos-arm.deb
 Size: 650072
 MD5sum: 46eca91f596f9de62c96ed467cd42aee
 SHA1: 8ddeffbb5881e3b7f8da743fead1f29da40b8366
 SHA256: 5303e0659f431688c0c5b435ff124ff421af79352e737ec8ab97f58a35b3e8d5
-Description: Main Library for Multiplexer.
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Development
-Version: 1.0.0~rc1
-Installed-Size: 2792
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.1-297+debug_iphoneos-arm.deb
-Size: 67988
-MD5sum: 4d6d55a0d7c0834ad980958a4731e041
-SHA1: 056d8ee53f818e573531b3f4f610ed3c6f068ce5
-SHA256: ce84d0697740a0b7e876e7c5325d09caeb40d676553e6bec42138bc1704241ab
-Description: Android NC for iOS
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Description: Main Framework for Multiplexer.
 Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1-297+debug
-Installed-Size: 556
-
-Package: com.shade.shush
-Name: Shush
-Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.shush_0.1_iphoneos-arm.deb
-Size: 7978
-MD5sum: bf12eacf92c8f9b46e3d12bbf1638b36
-SHA1: e1c7a3395d822775a3e42886b0000952891f6c7e
-SHA256: 30463c1de931bba014672a830bfeefa68131d83f5ade71e1c4e349067258303a
-Description: Do not disturb when face down.
-Depiction: https://shade-zepheri.github.io/depic/?p=com.shade.shush
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1
-Installed-Size: 280
-
-Package: com.shade.oof
-Name: oof
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.oof_0.1_iphoneos-arm.deb
-Size: 39184
-MD5sum: 89fdfb330f4800233e8420294e347c25
-SHA1: c54573ae368a6144328f1a87774189106cb1700a
-SHA256: a39b667715255916280620de73cd6290b6409602d649ed0442d39c6ed185123f
-Description: Can I get an oof in the chat?
-Depiction: https://shade-zepheri.github.io/depic/?p=com.shade.oof
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.1
-Installed-Size: 196
-
-Package: com.shade.oof
-Name: oof
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.oof_0.2_iphoneos-arm.deb
-Size: 52848
-MD5sum: 6f32661b326ed7422c9ff6f3955f30c6
-SHA1: 63cea955b4e26ecbd1e242296793b37d3dddc3a9
-SHA256: 4ab485fb31daa7f1ad2167cffa6c93c8749c57ed06be2ef89a18000fd7134d0e
-Description: Can I get an oof in the chat?
-Icon: file:///Library/PreferenceLoader/Preferences/oof@2x.png
-Depiction: https://shade-zepheri.github.io/depic/?p=com.shade.oof
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.2
-Installed-Size: 216
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.5_iphoneos-arm.deb
-Size: 615596
-MD5sum: f43feb8890b6589cd1c7ed296b65a8fd
-SHA1: e4fbeaaef30664bfc5c419b233164852ebd1bd42
-SHA256: e047d2786392e9ecb73a1936e80f0d9578bdc9a50cc58fdf52f2b8d4ff8391ac
-Description: Android NC for iOS
-Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.5
-Installed-Size: 1116
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.5.1_iphoneos-arm.deb
-Size: 615952
-MD5sum: 070f63599f3e1c74f6b997a05fa51c9d
-SHA1: 65dd3c668d853a0ea637db64614a1917fefbcb57
-SHA256: 55dd82521af791367f00154a19a12ac802e260104d71aee18d819c44a61b24ee
-Description: Android NC for iOS
-Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.5.1
-Installed-Size: 1116
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.5.2_iphoneos-arm.deb
-Size: 616214
-MD5sum: c5376274c3c11b1d57a3c07387dfdb09
-SHA1: fd955d42f0f43ac11a8b5a6349ee5f0a904f9b0d
-SHA256: e68dcd0c771573f480c2ae798fad342c54d0b78795647994a07cca189fe9a005
-Description: Android NC for iOS
-Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.5.2
-Installed-Size: 1116
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.6_iphoneos-arm.deb
-Size: 504248
-MD5sum: 156b76a09450396a562de9dbb24b96f4
-SHA1: 9350ba217925d575f08b14285e82f22b3e1096c0
-SHA256: 1932c60feaf50f9aee888c4e0fb6a0865c5b4c914244b23bc7a071aeb08005dc
-Description: Android NC for iOS
-Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.6
-Installed-Size: 1420
-
-Package: com.shade.nougat
-Name: Nougat
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: /debs/com.shade.nougat_0.7_iphoneos-arm.deb
-Size: 1079928
-MD5sum: 5f9bdb1e06057c3c202c76d2b74b9c1f
-SHA1: e39c6b0bc5582e018535b9dad683acb47a100b93
-SHA256: 26aca1b5fd4136492d58a31160788a1558e738e0a08c967928716391d878d941
-Description: Android NC for iOS
-Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
-Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
-Section: Tweaks
-Version: 0.7
-Installed-Size: 5028
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.multiplexercore
+Name: Multiplexer Core
 
 Package: com.shade.noire
-Name: Noire
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 0.1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.noire_0.1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 224
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.1_iphoneos-arm.deb
 Size: 16792
 MD5sum: 53e1d11c879cccf3f906baa66d3b981e
 SHA1: ee6e92b18e221f127a2e9200c50337377a632bfb
 SHA256: ec1cd4714375fb8d68dadbaff3ed953277279447d1979f8532a793bba2038e6f
-Description: Free iOS 12 Night Mode
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1
-Installed-Size: 224
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
 
 Package: com.shade.noire
-Name: Noire
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 0.1.1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.noire_0.1.1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.1.1_iphoneos-arm.deb
 Size: 23338
 MD5sum: 97c1ff3c08504789e7b7e05bc861cbf1
 SHA1: 55be5657c605d28d71f4a46e69c32c5cadd78d95
 SHA256: be98dc7745745900ff4de5c38b0cb929da600bc66c13fddaf0fa6e6f161a5edd
-Description: Free iOS 12 Night Mode
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.1.1
-Installed-Size: 368
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
 
 Package: com.shade.noire
-Name: Noire
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 0.2
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.noire_0.2_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.2_iphoneos-arm.deb
 Size: 81568
 MD5sum: 252e9b1235f7bfb343a2fd3b05e7e989
 SHA1: f4dedecfd4c9c77a557a06220864d070ce606de4
 SHA256: 72072c84103fa3fe32d18f9cfc896e3e896c78511dac0495cd190a169a3d6505
-Description: Free iOS 12 Night Mode
-Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.2
-Installed-Size: 412
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
 
 Package: com.shade.noire
-Name: Noire
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 0.3
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.noire_0.3_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.3_iphoneos-arm.deb
 Size: 85036
 MD5sum: 4a1532e7a8a8c310cf1a1d171a82c2e6
 SHA1: a16d9d958f5f9a160302b4cadb27f722e7e5457e
 SHA256: a8191eee58034a3cc0d5a1893dbdf88f2c04c2f5099fd69d8d3a52e68a0fa1cc
-Description: Free iOS 12 Night Mode
-Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.3
-Installed-Size: 444
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
 
 Package: com.shade.noire
-Name: Noire
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Version: 0.3.1
 Architecture: iphoneos-arm
-Filename: /debs/com.shade.noire_0.3.1_iphoneos-arm.deb
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.3.1_iphoneos-arm.deb
 Size: 85090
 MD5sum: d04a57fdf79f91f5f693ea3bfe1aeeb8
 SHA1: a160f414426db6d8820573f7d8827fe86a1eae53
 SHA256: 47e1a604ebebb01f357fc8cfda4c59915c00d3089023bc8aa15b06c01c9d3c8b
-Description: Free iOS 12 Night Mode
-Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
-Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
-SileoDepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
-Maintainer: Shade Zepheri <ziroalpha@gmail.com>
-Author: Shade Zepheri <ziroalpha@gmail.com>
 Section: Tweaks
-Version: 0.3.1
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
+
+Package: com.shade.noire
+Version: 0.3.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 444
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.noire_0.3.2_iphoneos-arm.deb
+Size: 85530
+MD5sum: 9d3b4cc065c21c12bed3abef3f6fdcbc
+SHA1: 360a04adcf6a41be26bd54e762f5042fe0d52b75
+SHA256: ec135f43b891e008c6ef43ce31f9405639a1dbe3e419081aa32a491e154b19ee
+Section: Tweaks
+Description: Free iOS 12 Night Mode
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.noire
+Icon: file:///Library/PreferenceBundles/Noire.bundle/icon@2x.png
+Name: Noire
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.noire/sileo.json
+
+Package: com.shade.nougat
+Version: 0.1-297+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 556
+Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
+Filename: debs/com.shade.nougat_0.1-297+debug_iphoneos-arm.deb
+Size: 67988
+MD5sum: 4d6d55a0d7c0834ad980958a4731e041
+SHA1: 056d8ee53f818e573531b3f4f610ed3c6f068ce5
+SHA256: ce84d0697740a0b7e876e7c5325d09caeb40d676553e6bec42138bc1704241ab
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Name: Nougat
+
+Package: com.shade.nougat
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_0.5_iphoneos-arm.deb
+Size: 615596
+MD5sum: f43feb8890b6589cd1c7ed296b65a8fd
+SHA1: e4fbeaaef30664bfc5c419b233164852ebd1bd42
+SHA256: e047d2786392e9ecb73a1936e80f0d9578bdc9a50cc58fdf52f2b8d4ff8391ac
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+
+Package: com.shade.nougat
+Version: 0.5.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_0.5.1_iphoneos-arm.deb
+Size: 615952
+MD5sum: 070f63599f3e1c74f6b997a05fa51c9d
+SHA1: 65dd3c668d853a0ea637db64614a1917fefbcb57
+SHA256: 55dd82521af791367f00154a19a12ac802e260104d71aee18d819c44a61b24ee
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+
+Package: com.shade.nougat
+Version: 0.5.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1116
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_0.5.2_iphoneos-arm.deb
+Size: 616214
+MD5sum: c5376274c3c11b1d57a3c07387dfdb09
+SHA1: fd955d42f0f43ac11a8b5a6349ee5f0a904f9b0d
+SHA256: e68dcd0c771573f480c2ae798fad342c54d0b78795647994a07cca189fe9a005
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+
+Package: com.shade.nougat
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_0.6_iphoneos-arm.deb
+Size: 504248
+MD5sum: 156b76a09450396a562de9dbb24b96f4
+SHA1: 9350ba217925d575f08b14285e82f22b3e1096c0
+SHA256: 1932c60feaf50f9aee888c4e0fb6a0865c5b4c914244b23bc7a071aeb08005dc
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+
+Package: com.shade.nougat
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 5028
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_0.7_iphoneos-arm.deb
+Size: 1079928
+MD5sum: 5f9bdb1e06057c3c202c76d2b74b9c1f
+SHA1: e39c6b0bc5582e018535b9dad683acb47a100b93
+SHA256: 26aca1b5fd4136492d58a31160788a1558e738e0a08c967928716391d878d941
+Section: Tweaks
+Description: Android NC for iOS
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
+
+Package: com.shade.octane
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Depends: com.matchstic.infostats2
+Filename: debs/com.shade.octane.deb
+Size: 625468
+MD5sum: 74a92aabc18c399accd6f569a592e165
+SHA1: 98eaae7eba88d936252a9890b756636640d0a826
+SHA256: 6ceb28107c38627fd4ddb16e85c85fe5a051c33c2bc40788dd49363176b0e4d4
+Section: Widgets
+Description: Octane full page widget
+Author: Shade Zepheri
+Name: Octane
+
+Package: com.shade.octane
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Depends: com.matchstic.infostats2
+Filename: debs/com.shade.octane.101.deb
+Size: 625796
+MD5sum: e373078e7061a0554382dc6ebe0cdf5c
+SHA1: 0cdbaad7af30b055644d837139994712f7110b72
+SHA256: bc24425765c4372a1cc9d48242043c709c38de020ebf5c4b1e87657e36c7675d
+Section: Widgets
+Description: Full Page Widget, Requires Infostats 2 and either iWidgets or XenHTML. Sized for i6, please email if it doesn’t work on i5 or i6+. Installed to iWidgets directory.
+Author: Shade Zepheri
+Name: Octane
+
+Package: com.shade.oof
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 196
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.oof_0.1_iphoneos-arm.deb
+Size: 39184
+MD5sum: 89fdfb330f4800233e8420294e347c25
+SHA1: c54573ae368a6144328f1a87774189106cb1700a
+SHA256: a39b667715255916280620de73cd6290b6409602d649ed0442d39c6ed185123f
+Section: Tweaks
+Description: Can I get an oof in the chat?
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: oof
+
+Package: com.shade.oof
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.oof_0.2_iphoneos-arm.deb
+Size: 52848
+MD5sum: 6f32661b326ed7422c9ff6f3955f30c6
+SHA1: 63cea955b4e26ecbd1e242296793b37d3dddc3a9
+SHA256: 4ab485fb31daa7f1ad2167cffa6c93c8749c57ed06be2ef89a18000fd7134d0e
+Section: Tweaks
+Description: Can I get an oof in the chat?
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: http://shade-zepheri.github.io/depic/index.html?p=com.shade.oof
+Icon: file:///Library/PreferenceLoader/Preferences/oof@2x.png
+Name: oof
+
+Package: com.shade.quickaccess
+Version: 0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 260
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.quickaccess_0.1-2+debug_iphoneos-arm.deb
+Size: 25334
+MD5sum: 8b571d19c624f990502731471e08495a
+SHA1: 6b4dab08469686418d338954c9f5c874bde83a3b
+SHA256: f411535b1479407826c8fc6a8cb7e25ec11290a3c62e2aa2d12502c44128d736
+Section: Tweaks
+Description: QuickAccess for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
+Name: QuickAccess
+
+Package: com.shade.quickaccess
+Version: 0.1-47+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 180
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.quickaccess_0.1-47+debug_iphoneos-arm.deb
+Size: 23890
+MD5sum: 8eaf4f7afb5ca58196614140b020a77e
+SHA1: a77fa41abc03caae9ee41892e197a7c14989e172
+SHA256: 8c1f1cd384966e3699fa31c033644cb38a7fefcacdbce7ec053aa1e78dc00970
+Section: Tweaks
+Description: QuickAccess for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
+Name: QuickAccess
+
+Package: com.shade.quickaccess
+Version: 1.0.0~rc1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 140
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.quickaccess_1.0.0~rc1_iphoneos-arm.deb
+Size: 15484
+MD5sum: e7a4a7fcf7e6747c408f14a32da07c75
+SHA1: 6b1d4478b365acbbc15edb149448e081b91325e1
+SHA256: a1ab4c200b2f5dfd4eb382bf5eeb0358ac31f339178e0b09e7c5145d11b5b11e
+Section: Tweaks
+Description: QuickAccess for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.quickaccess
+Name: QuickAccess
+
+Package: com.shade.reachapp
+Version: 0.1-42+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 296
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.reachapp_0.1-42+debug_iphoneos-arm.deb
+Size: 52622
+MD5sum: 3006a199d9e9708a59da2b61aad7f66e
+SHA1: dfa6087c3249d42e09d5b8484bb6d124ccc5a308
+SHA256: fece2977464740921693b543b87a53bd2a9a3824adb46537824629fc4efb6dde
+Section: Tweaks
+Description: ReachApp for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
+Name: ReachApp
+
+Package: com.shade.reachapp
+Version: 0.1-9+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 296
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.reachapp_0.1-9+debug_iphoneos-arm.deb
+Size: 52186
+MD5sum: 4813a6d9efdfbff10b5ce5f69f18b9c5
+SHA1: c12315d7adc598adff5f1bd1e9fa6b4428dc7d7b
+SHA256: c7a4376dd808bea1225d7508e800f395d34e3a4ccad845074bec595298ccacd7
+Section: Tweaks
+Description: ReachApp for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
+Name: ReachApp
+
+Package: com.shade.reachapp
+Version: 1.0.0~rc1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 204
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.reachapp_1.0.0~rc1_iphoneos-arm.deb
+Size: 34342
+MD5sum: a797ab097baf2745a1e4c288045ef9d6
+SHA1: 3f563d1c4db65e48aa42e0a084160a26e54f43df
+SHA256: 48dea096b67f0dfc888cd9eecb55624c8f3949fb9426d3ac1d047d116516753d
+Section: Tweaks
+Description: ReachApp for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.reachapp
+Name: ReachApp
+
+Package: com.shade.shush
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch, ws.hbang.common
+Filename: debs/com.shade.shush_0.1_iphoneos-arm.deb
+Size: 7978
+MD5sum: bf12eacf92c8f9b46e3d12bbf1638b36
+SHA1: e1c7a3395d822775a3e42886b0000952891f6c7e
+SHA256: 30463c1de931bba014672a830bfeefa68131d83f5ade71e1c4e349067258303a
+Section: Tweaks
+Description: Do not disturb when face down.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Shush
+
+Package: com.shade.splyce
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Filename: debs/com.shade.splyce_0.5_iphoneos-arm.deb
+Size: 9760
+MD5sum: 3041da577411d6a20d2c4dd6a5ddd4a9
+SHA1: a53b7ddac83972b81ea4512479ca033dafdbaeec
+SHA256: 6c0e534c81422ad4880e0615fd5a1d41f0069574f7d3223a66af4c5b006fd89f
+Section: Tweaks
+Description: SmartClose for iOS 9
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.splyce
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader
+Filename: debs/com.shade.splyce_0.6_iphoneos-arm.deb
+Size: 9778
+MD5sum: 501df5886e4a50719f7cdced4527678d
+SHA1: 19e4e0a705d10fe7822ba05c4bbdc68410b59eff
+SHA256: 3b0ff4ef73ccc55a9d9d300239ccc5fee1dcc0bc835c014992b2aeef9205867f
+Section: Tweaks
+Description: SmartClose for iOS 9
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.splyce
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader
+Filename: debs/com.shade.splyce_0.7_iphoneos-arm.deb
+Size: 8966
+MD5sum: 63a9c92a42bc53123f91fde718ba2d9e
+SHA1: 6628cde47439095d4cd8bd4aa154d8cf724767af
+SHA256: cbdf2ad28ba4fa974436d0b9bfdb69feed4597013732d8855d167f9c9de27e4f
+Section: Tweaks
+Description: SmartClose for iOS 9
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.splyce
+Version: 0.8
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Filename: debs/com.shade.splyce_0.8_iphoneos-arm.deb
+Size: 9636
+MD5sum: 1821a9958ec7710824009b31719a088f
+SHA1: b687baf0d7d497dc7a290d37d439a221a9fb451b
+SHA256: 33ceb2adc1fa8d9b266cdfbac01a85a2bd8dee07d5116225ca3e038e2b2ced2d
+Section: Tweaks
+Description: SmartClose for iOS 9, If you see this then my depictions are probably broken as Im prettifying them, v 0.8 adds app exemptions. This is last beta for sure.
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.splyce
+Version: 0.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Filename: debs/com.shade.splyce_0.9_iphoneos-arm.deb
+Size: 9452
+MD5sum: 5b7e61d4d09362c694c2c2328233932b
+SHA1: 61fdb49a7efa56ef5c723cb8013dc8af1f763b66
+SHA256: f18f7c79bd66a896b1b7e415908f422dcfbcaf827c621824db4ac135ef9a835a
+Section: Tweaks
+Description: SmartClose for iOS 9.
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.splyce
+Version: 0.9-5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 160
+Depends: mobilesubstrate, libactivator, preferenceloader, applist
+Filename: debs/com.shade.splyce_0.9-5_iphoneos-arm.deb
+Size: 9506
+MD5sum: 9b341b05870ecc7fdab941e87559fe18
+SHA1: 394111e56acc199046f96f8ed65431de38553644
+SHA256: 17edbde5aee60c7bfd57ac0c3a30778cda78c8ff459bfb2473a8a5f93922ab0f
+Section: Tweaks
+Description: SmartClose for iOS 9.
+Author: Shade Zepheri
+Name: Splyce
+
+Package: com.shade.stealmeme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.stealmeme_1.0_iphoneos-arm.deb
+Size: 6728
+MD5sum: 01c6c3904662c4d7be8387e2ed1d6eeb
+SHA1: 8c7fc5081ce03ccd3f3fc085e2de3c8c7caa1e9f
+SHA256: 73ece5119ed160ed663edbbb5949488622d2cef677db83f05e199c6a43bd6830
+Section: Tweaks
+Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
+Author: Shade Zepheri
+Name: StealMeme
+
+Package: com.shade.stealmeme
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shade.stealmeme_1.1_iphoneos-arm.deb
+Size: 6876
+MD5sum: ab977c6fae28d83c4a7db22c5a441496
+SHA1: 8f40e5e44693c2118cd851b66ab27467a87f884d
+SHA256: 68122d495854f83218440c410fac7cc4f2a52387948eda684c6f1ba25a0ced6c
+Section: Tweaks
+Description: Replace instances of "Save Image" with "Steal Meme" per Reddit Request
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: StealMeme
+
+Package: com.shade.swipeover
+Version: 0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 352
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.swipeover_0.1-2+debug_iphoneos-arm.deb
+Size: 52704
+MD5sum: 38013f66ffa2e1b98ba5a791963a2d80
+SHA1: ef04a2106a86ad835b7d640cb6efd0790087c42e
+SHA256: 506b70a43d78e46a4e4dfa6bc1e34889153722460ac44fe73e306d2523304660
+Section: Tweaks
+Description: SwipeOver for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
+Name: SwipeOver
+
+Package: com.shade.swipeover
+Version: 0.1-58+debug
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 244
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.swipeover_0.1-58+debug_iphoneos-arm.deb
+Size: 47662
+MD5sum: e71fdc40a2159b6c45d2f44bf4eaa7ed
+SHA1: 683b78a3885f5f3cbb89203a4b9aebb64cd97be2
+SHA256: d6f91f54f67cb031e724cc3b86a9afb4ddee1e4e20b0e697648518f53d1b60b6
+Section: Tweaks
+Description: SwipeOver for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
+Name: SwipeOver
+
+Package: com.shade.swipeover
+Version: 1.0.0~rc1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate, com.shade.multiplexercore
+Filename: debs/com.shade.swipeover_1.0.0~rc1_iphoneos-arm.deb
+Size: 30950
+MD5sum: c3ecab64d1fecc35090e3dd788847b08
+SHA1: cf48f357720ed7da15ff0ba2a3d16e38e9b4902a
+SHA256: 3b5617cd360f6421932b9b05e1e6a14b71ed25c5f62eeeb7c67610128eafedea
+Section: Tweaks
+Description: SwipeOver for Multiplexer.
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.swipeover
+Name: SwipeOver
+
+Package: com.shade.vitality
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 7036
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.shade.vitality_0.2_iphoneos-arm.deb
+Size: 6831492
+MD5sum: 9c326a6185a17bda2430f8b7cd674f07
+SHA1: 7e7fcfc7a0ad77f7337d06c0d6fc478c75e57bdf
+SHA256: b4f5003f604cd2cb4178a1d1972eaf39b09c2f732fd99c571af96fc71de48c20
+Section: Tweaks
+Description: Animated Wallpapers
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Vitality
+
+Package: com.shade.vitality
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 6964
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.shade.vitality_0.3_iphoneos-arm.deb
+Size: 6817816
+MD5sum: 04b4a7e5b179479dfa55fa490d614089
+SHA1: ffb7636e4c66a6c48dee608e030de1e04f9ffded
+SHA256: 5690e8318c15588cef85168824475f3797a25b4083acf4aede0ca0e35aa2bd05
+Section: Tweaks
+Description: Animated Wallpapers
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Vitality
+
+Package: com.shade.vitality
+Version: 0.3-1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 6980
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/com.shade.vitality_0.3-1_iphoneos-arm.deb
+Size: 6818910
+MD5sum: c719ac0bfd5a8a62a6a8e4f93585cc79
+SHA1: 38873459af19034f7c79efcbf9f81d2b8c46e9b6
+SHA256: 76505883eb73b9077a82d4ad1c50b944d984fdb2f1648e3b1936f08ae8c75f49
+Section: Tweaks
+Description: Animated Wallpapers
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Vitality
+
+Package: com.shade.zypen
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 800
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.1_iphoneos-arm.deb
+Size: 211094
+MD5sum: d4785ff6a3e153cc368bf7d5b89772da
+SHA1: d49d159cbcd729e2547303bb88a21174b536eb75
+SHA256: d70f3b431d204562efc8ac3ba4fef3c571badbee468f0d4b59df598c384b203a
+Section: Tweaks
+Description: ReachApp for iOS 9.
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.2_iphoneos-arm.deb
+Size: 212644
+MD5sum: 3e777d23c8d813a513f1d0519c0571b3
+SHA1: fb399f57b711ef9604e357f15dfc9c93a9ab525b
+SHA256: a053141f2198c1187356cc4b804f3ba64475c2c9369a209a88b4c178ef7fbe4e
+Section: Tweaks
+Description: ReachApp for iOS 9.
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.2.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.2.5_iphoneos-arm.deb
+Size: 212964
+MD5sum: 78d7dd572cc7cf34d0401bc0740cd2c4
+SHA1: 0eb0d72015014a480d05f76c34e75a11b9ddc5f8
+SHA256: 6a89db8bad4f1215ddfa33a88dfdc97c17b1aee8e1d4a6cc8e2314c916738df6
+Section: Tweaks
+Description: ReachApp for iOS 9.
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.3_iphoneos-arm.deb
+Size: 213826
+MD5sum: 472b2e65e4f0dbd4261138b55ff5af51
+SHA1: 1aef1a0db44b42dd09eaab78728f26afea869f48
+SHA256: 298919be8f4938e6e54eb88378d257f4f726f0b9a83938f94fecda2b365df5b3
+Section: Tweaks
+Description: ReachApp for iOS 9.
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 872
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.4_iphoneos-arm.deb
+Size: 212854
+MD5sum: 32d60e6b959f46587a4114e12673de3a
+SHA1: 669c0e07bca1a7789ca74c33975924b54a4680cf
+SHA256: e4d832c1b3557654bd4fe4d89d6433c09bddb8f12161e160887479418eff81cb
+Section: Tweaks
+Description: ReachApp for iOS 9.
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 1860
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.5_iphoneos-arm.deb
+Size: 431420
+MD5sum: 3412747ab7700253d8a61f3f33fb4fd0
+SHA1: f721d0f8c7062f682bdad9012f07556dcca3ff50
+SHA256: 1b0215a16b93e9c5c94757e899fafb3be11f4a448e610de6db472bbc84a02561
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.5.4
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2132
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.5.4_iphoneos-arm.deb
+Size: 452566
+MD5sum: 15579a16940376e06f3eb93b1f055cb5
+SHA1: cadbbf4624e9492935d37209774804e6d027e1f9
+SHA256: 4761219ce9ebd5a797cd9eec8ae3347daf5c867df30cc3539f31be1a79a61f4f
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2132
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.6_iphoneos-arm.deb
+Size: 453490
+MD5sum: 6e4bb97401cf2d757c148ce83d4f3867
+SHA1: 2f164b449651398a00d25b46ed18455b8f8a41e9
+SHA256: 25ffd0b3d835697325a0382194808b095a1086577a4c49b834ad89e92b569552
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.6.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2148
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.6.2_iphoneos-arm.deb
+Size: 458998
+MD5sum: 5c3d61c00854153f37ecd4604a7fb83e
+SHA1: 3f0832d8bece5d491a2e2a2d1a84df9f9a2ddb48
+SHA256: 22e8f707273b12c081f7d1d35d6a8eec77bd5c77c127be284d661a6812326149
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.6.3
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2148
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.6.3_iphoneos-arm.deb
+Size: 458716
+MD5sum: 4bcf5bf49144d735c06df1a19ba0b5e9
+SHA1: b3110d89cbfaad4bed878d721efff9c6c22d653c
+SHA256: 021762c25e481ce5d0b3837f587d4d49defe7bd1da85ba42a58db3d2a84925dd
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.7
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2164
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.7_iphoneos-arm.deb
+Size: 463970
+MD5sum: e795685fc6fdb64d9269491d1fddaf46
+SHA1: 0e8b4a7fc1d8446377e08b3e1d662e356ad62cca
+SHA256: a42ed219296cda6ea3303bf5432bdfc4ca2fe3fa96b74d9480a6312c24565878
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.7.2
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2148
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.7.2_iphoneos-arm.deb
+Size: 460008
+MD5sum: c95687047088ca66ffc9fb3755cedffc
+SHA1: 16a1ea17b359fc6e7c4a0fa6407a29e43b58ae78
+SHA256: 1049b581baae98b3c1dfc67fd611ed62b7fcceba1c91ce6d1f5b2de808538c54
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.7.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2164
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.7.9_iphoneos-arm.deb
+Size: 468276
+MD5sum: c6dc5cdadf4808023f03e1d470c75c9c
+SHA1: b24111657f90d35fa457bfe8e642f71d4330cab5
+SHA256: c3ff93cc199906d1529bf50a14937bcebfa83fded8150d19b77cdaf47453c7ae
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.8
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2164
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.8_iphoneos-arm.deb
+Size: 468904
+MD5sum: bbbc8148aa310f374b9129e3fe7bf672
+SHA1: af0f91d8aa3d126f15d93af2df7301b05aff1faa
+SHA256: 3fa4347720b0630b119441c91bc23b7f63a4cffa6a14819777d7817c0ffa47f6
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.9
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2180
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.9_iphoneos-arm.deb
+Size: 470248
+MD5sum: 275c654fdbab728c3cf0abe07488eda6
+SHA1: ebaf033a8c150960e1299aafc89c6d78f87e810e
+SHA256: 5a7030aee75b74734b16496a70bdf65bb38d27ad5381165506b777bb6e0efe2c
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: com.shade.zypen
+Version: 0.9.1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri
+Installed-Size: 2180
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/com.shade.zypen_0.9.1_iphoneos-arm.deb
+Size: 469980
+MD5sum: f404c6552d5807e100d3b9934179a685
+SHA1: e732cf748968a8eafa31773e45cea6a0aa900767
+SHA256: 09aa2500976a750f43f5a531586d90faf6aee67ee6f63794d041c5c4dfa875c9
+Section: Tweaks
+Description: 1/2 of Multiplexer
+Author: Shade Zepheri
+Name: Zypen
+
+Package: libstatusbar9
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Replaces: libstatusbar
+Provides: libstatusbar
+Filename: debs/libstatusbar9_0.6_iphoneos-arm.deb
+Size: 46218
+MD5sum: 10373989e42f8c485490a8ca880aac30
+SHA1: c60953396c8e7223a78f4217915e07de56639c88
+SHA256: 1dfbb9dec1fceef78b90cfcceda8d218a6295992c41f9d71e8c5fb2ddbe04111
+Section: Tweaks
+Description: Improved libstatusbar
+Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
+Name: libstatusbar (Shade Zepheri)
+
+Package: libstatusbar9
+Version: 0.6.5
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 176
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Replaces: libstatusbar
+Provides: libstatusbar
+Filename: debs/libstatusbar9_0.6.5_iphoneos-arm.deb
+Size: 30180
+MD5sum: 869a296f82d46738d099d27d1791c384
+SHA1: 70c056aa413a7892998fb56bcb7781bf275e74e3
+SHA256: 253469d9e45b4f6255fd85d73a30d15559fa86fc5dd692aa37023302f4668bc3
+Section: Tweaks
+Description: Improved libstatusbar
+Author: phoenix3200 & Elijah Frederickson & Shade Zepheri <ziroalpha@gmail.com>
+Name: libstatusbar (Shade Zepheri)
+

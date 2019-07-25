@@ -47,12 +47,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "0.3.1",
+                    "text": "0.3.2",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Last Updated",
-                    "text": "July 22, 2019",
+                    "text": "July 24, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -77,6 +77,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [{
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#121212}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Fix another 3D Touch crash</li>\n<li>Fix theming on iPad and iPX docks</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "0.3.1",
                     "useBoldText": true,
