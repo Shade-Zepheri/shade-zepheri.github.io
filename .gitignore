@@ -1,4 +1,4 @@
 # Windows thumbnail cache files
 Thumbs.db
 .DS_Store
-Makefile
+Update.sh
