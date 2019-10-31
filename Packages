@@ -1582,14 +1582,18 @@ Maintainer: Shade Zepheri <ziroalpha@gmail.com>
 Installed-Size: 7124
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
 Filename: debs/com.shade.vitality_0.4_iphoneos-arm.deb
-Size: 6826236
-MD5sum: 74edc389bb32d27afec933d51e374247
-SHA1: f98d12d2a1b494e164f8f9918536069035c01752
-SHA256: 5a8be67329b684b91798ff43939379d5a49f46fff2b38aaa11fba49fd9bd228d
+Size: 6826416
+MD5sum: 09c537dca3925b92a5eb4b1e6bb51df7
+SHA1: 603ae6facc7c5f895f30f78f6fa80b3fdd09aa8a
+SHA256: 673e647994016b084308420e6bdfafe1af62574b9fa2a5921008df70ad2af032
 Section: Tweaks
 Description: Animated Wallpapers
+Tag: compatible::ios10, compatible::ios11, compatible::ios12
 Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.vitality
+Icon: file:///Library/PreferenceBundles/Vitality.bundle/icon@2x.png
 Name: Vitality
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.vitality/sileo.json
 
 Package: com.shade.zypen
 Version: 0.1

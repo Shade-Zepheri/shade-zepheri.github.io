@@ -7,8 +7,8 @@ Architectures: iphoneos-arm
 Components: main
 Description: Shade’s Cydia Repository
 MD5Sum:
-    416121d076b25c122fdcb89293dce3ca 67537 Packages
-    3d75555bca011ca43a2471f44b5608dc 12707 Packages.bz2
+    7b6c5830d4d2b2b765c4f3a59a2dca08 67831 Packages
+    964b95e3baca808ab6abea39eb12f615 12763 Packages.bz2
 SHA256:
-    cd5fb9b59a6c17f13b00888850360daa757be92e4b6979b5a4712c717970ed96 67537 Packages
-    79730fa7795227f455c56e63c94fae4d3d680c0f98ce1b759ebb1093a97da520 12707 Packages.bz2
+    0426cfb4f35fca5f98f86dfd769036209a4b6b38726bedda7cab69ecd01146ed 67831 Packages
+    8e5c7ca5ee8b5aeecb61d08abec9ceb9b8bbf4f201a46cc9507d124209e88d9e 12763 Packages.bz2
