@@ -1,5 +1,5 @@
 {
-    "version": "0.3-1",
+    "version": "0.4",
     "compatibility": {
         "miniOS": "9.0"
     },
@@ -13,5 +13,5 @@
         "In Beta, Email me issues.",
         "How to use: You take your gif file and place it in '/var/mobile/Library/Vitality/YOURBUNDLE.bundle/wallpaper.gif', renaming the gif to 'wallpaper.gif'."
     ],
-    "changelog": "Minor rewrite and fixes."
+    "changelog": "A12 and iOS 12.4 support."
 }

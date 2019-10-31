@@ -1,0 +1,109 @@
+{
+    "minVersion": "0.3",
+    "tintColor": "#F9A825",
+    "class": "DepictionTabView",
+    "tabs": [{
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [{
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#F9A825}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><p>A free dark mode for iOS 12, which unlike other existing options, uses the native dark mode methods and efficient integration.</p><p>Enable Noire from Settings panel, with no respring required!</p>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.4",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Last Updated",
+                    "text": "October 30, 2019",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "License",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Compatibility",
+                    "text": "iOS 9.0 to 12.4",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Support",
+                    "action": "mailto:ziroalpha@gmail.com?subject=Vitality%20Support",
+                    "openExternal": true
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.4",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#F9A825}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Support for A12 and iOS 12.4</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3-1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#F9A825}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Minor rewrite which allows gif to play on LS</li>\n<li>Fixed prefs sometimes not applying</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#F9A825}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Fixed not showing on the HS sometimes</li>\n<li>Fixed gifs not playing at full speed</li>\n<li>No longer needs respring to apply changes</li>\n<li>Made the prefs page prettier</li>\n<li>Major internal changes (rewrote the whole thing)</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#F9A825}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Initial release</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}

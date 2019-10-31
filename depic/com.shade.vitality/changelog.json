@@ -10,6 +10,10 @@
         {
             "version": "0.3-1",
             "change": "Minor rewrite which allows gif to play on LS. Fixed prefs sometimes not applying."
+        },
+        {
+            "version": "0.4",
+            "change": "Support for A12 and iOS 12.4."
         }
     ]
 }
