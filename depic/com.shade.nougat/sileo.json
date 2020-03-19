@@ -31,12 +31,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "0.7",
+                    "text": "0.8",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Last Updated",
-                    "text": "May 7, 2019",
+                    "text": "Mar 18, 2020",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -46,7 +46,7 @@
                 },
                 {
                     "title": "Compatibility",
-                    "text": "iOS 9.0 to 12.1.2",
+                    "text": "iOS 10.0 to 13.4",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -61,6 +61,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [{
+                    "class": "DepictionSubheaderView",
+                    "title": "0.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Major update, please excuse any minor bugs since this is mainly to test overall stability, release candidates should hopefully be on the horizon now</li>\n<li>Finally got around to adding notifications</li>\n<li>Added iOS 13 support</li>\n<li>Give option to sync with system appearance setting on iOS 13</li>\n<li>User guide now included (outdated already)</li>\n<li>Unfortunately, iOS 9 support has been dropped in order for notifications to be added</li>\n<li>Probably forgot a bunch of stuff but a lot has been changed internally</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "0.7",
                     "useBoldText": true,

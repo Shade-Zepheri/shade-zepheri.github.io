@@ -3,5 +3,5 @@
     "url": "https://github.com/Shade-Zepheri/Nougat",
     "about": "Requests to bring Android features to iOS have always been vocal in the Jailbreak community. This project aims to be as accurate as possible to the original NC in Android.",
     "features": "Adds the Android notification drawer to iOS. Swipe down once to reveal the quick toggles page and swipe down once more to reveal the full panel.",
-    "compatibility": "9.0-11.3"
+    "compatibility": "10.0-13.4"
 }
