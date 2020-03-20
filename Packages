@@ -1186,6 +1186,26 @@ Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
 Name: Nougat
 Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
 
+Package: com.shade.nougat
+Version: 1.0~rc1
+Architecture: iphoneos-arm
+Maintainer: Shade Zepheri <ziroalpha@gmail.com>
+Installed-Size: 8824
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common, com.a3tweaks.flipswitch
+Filename: debs/com.shade.nougat_1.0~rc1_iphoneos-arm.deb
+Size: 930640
+MD5sum: ca3e2c6b5f8578f967f528252d38cac8
+SHA1: d9b0baea939143d5c28463173710e2c9a5ee84f5
+SHA256: e375c224da5ca4e79ea0130484ee91244c428b9c6cb034875cdce83d778107f6
+Section: Tweaks
+Description: Android NC for iOS
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Depiction: https://shade-zepheri.github.io/depic/index.html?p=com.shade.nougat
+Icon: file:///Library/PreferenceBundles/Nougat.bundle/icon@2x.png
+Name: Nougat
+Sileodepiction: https://shade-zepheri.github.io/depic/com.shade.nougat/sileo.json
+
 Package: com.shade.octane
 Version: 1.0
 Architecture: iphoneos-arm

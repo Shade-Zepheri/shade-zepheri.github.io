@@ -26,6 +26,10 @@
         {
             "version": "0.8",
             "change": "Major update, please excuse any minor bugs since this is mainly to test overall stability, release candidates should hopefully be on the horizon now. Finally got around to adding notifications. Added iOS 13 support. Give option to sync with system appearance setting on iOS 13. User guide now included (outdated already). Unfortunately, iOS 9 support has been dropped in order for notifications to be added. Probably forgot a bunch of stuff but a lot has been changed internally."
+        },
+        {
+            "version": "1.0~rc1",
+            "change": "Yay the first release candidate! Took me almost 4 years to get to this point, so happy to finally almost completing this project. Fixed animation bugs. Fix gesture not working on some iOS 13 devices. Disable the segment control when using system appearance setting. Fix all sorts of notification/media related crashes. Fix panel width on some devices. Fix screen recording notification label. Launch now playing app when tapping on media cell."
         }
     ]
 }

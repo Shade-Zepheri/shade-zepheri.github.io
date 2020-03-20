@@ -31,12 +31,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "0.8",
+                    "text": "1.0~rc1",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Last Updated",
-                    "text": "Mar 18, 2020",
+                    "text": "Mar 20, 2020",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -61,6 +61,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [{
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0~rc1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Yay the first release candidate! Took me almost 4 years to get to this point, so happy to finally almost completing this project</li>\n<li>Fixed animation bugs</li>\n<li>Fix gesture not working on some iOS 13 devices</li>\n<li>Disable the segment control when using system appearance setting</li>\n<li>Fix all sorts of notification/media related crashes</li>\n<li>Fix panel width on some devices</li>\n<li>Fix screen recording notification label</li>\n<li>Launch now playing app when tapping on media cell</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "0.8",
                     "useBoldText": true,

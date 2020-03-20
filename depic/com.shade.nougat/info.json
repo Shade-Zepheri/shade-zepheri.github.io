@@ -1,5 +1,5 @@
 {
-    "version": "0.8",
+    "version": "1.0~rc1",
     "compatibility": {
         "miniOS": "10.0"
     },
@@ -11,7 +11,8 @@
     ],
     "description": [
         "Android notification drawer for iOS.",
-        "In Beta, Email me issues. Contact me if you are interested in translating."
+        "Finally in the release candidate stage!! Let me know of any issues sort of issues, I want to make this tweak as polished as possible!",
+        "I Need translators! Its gonna take a lot of effort to translate this so please visit the link in the prefs panel!"
     ],
     "screenshots": [{
             "description": "Quick settings",
@@ -26,5 +27,5 @@
             "image": "settings.png"
         }
     ],
-    "changelog": "Major major update, read the changelog."
+    "changelog": "The first release candidate!! See changelog for changes."
 }
