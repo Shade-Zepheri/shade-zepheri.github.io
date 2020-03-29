@@ -1,5 +1,5 @@
 {
-    "version": "1.0~rc1",
+    "version": "1.0~rc2",
     "compatibility": {
         "miniOS": "10.0"
     },
@@ -27,5 +27,5 @@
             "image": "settings.png"
         }
     ],
-    "changelog": "The first release candidate!! See changelog for changes."
+    "changelog": "The second release candidate!! See changelog for changes."
 }

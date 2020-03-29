@@ -31,12 +31,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.0~rc1",
+                    "text": "1.0~rc2",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Last Updated",
-                    "text": "Mar 20, 2020",
+                    "text": "Mar 28, 2020",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -61,6 +61,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [{
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0~rc2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<style>a{color:#212121}p,h1,h2,h3,h4,h5,h6,ul,ol{margin-bottom:12px}</style><ul>\n<li>Notification timestamps now update automatically</li>\n<li>Segment controller disables when user uses system appeareance setting</li>\n<li>Added fallback text if device lacks a carrier</li>\n<li>Added settings panel to credit translators</li>\n<li>Fixed legacy settings migration, and added fix for broken migrations</li>\n<li>Fix long pressing toggles not working</li>\n<li>Fix navigation buttons not working</li>\n<li>Fix notification expanding breaking on rearrangement</li>\n<li>Fix settings header on iPads</li>\n<li>Fix user guide text cells not properly sizing</li>\n</ul>",
+                    "useSpacing": true,
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "1.0~rc1",
                     "useBoldText": true,

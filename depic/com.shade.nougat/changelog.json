@@ -30,6 +30,10 @@
         {
             "version": "1.0~rc1",
             "change": "Yay the first release candidate! Took me almost 4 years to get to this point, so happy to finally almost completing this project. Fixed animation bugs. Fix gesture not working on some iOS 13 devices. Disable the segment control when using system appearance setting. Fix all sorts of notification/media related crashes. Fix panel width on some devices. Fix screen recording notification label. Launch now playing app when tapping on media cell."
+        },
+        {
+            "version": "1.0~rc2",
+            "change": "Notification timestamps now update automatically. Segment controller disables when user uses system appeareance setting. Added fallback text if device lacks a carrier. Added settings panel to credit translators. Fixed legacy settings migration, and added fix for broken migrations. Fix long pressing toggles not working. Fix navigation buttons not working. Fix notification expanding breaking on rearrangement. Fix settings header on iPads. Fix user guide text cells not properly sizing."
         }
     ]
 }
